@@ -1,14 +1,14 @@
 {
   "status": 200,
   "data": {
-    "hash": "c483759e4b3f984722e38015203a18fcd421d8fc",
-    "date": "2020-08-30T00:00:00Z",
+    "hash": "2e2c9892ae60f1348504f581a280a608e7756be9",
+    "date": "2020-08-31T00:00:00Z",
     "featured": [
       {
         "regularPrice": 3100,
         "finalPrice": 2200,
         "isBundle": true,
-        "isSpecial": false,
+        "isSpecial": true,
         "giftable": false,
         "refundable": true,
         "panel": 1,
@@ -197,12 +197,12 @@
         "regularPrice": 1500,
         "finalPrice": 1500,
         "isBundle": false,
-        "isSpecial": false,
+        "isSpecial": true,
         "giftable": true,
         "refundable": true,
         "panel": 2,
         "sortPriority": -6,
-        "banner": "New!",
+        "banner": null,
         "items": [
           {
             "id": "cid_847_athena_commando_m_soy_2as3c",
@@ -296,7 +296,7 @@
         "regularPrice": 800,
         "finalPrice": 800,
         "isBundle": false,
-        "isSpecial": false,
+        "isSpecial": true,
         "giftable": true,
         "refundable": true,
         "panel": 3,
@@ -354,7 +354,7 @@
         "regularPrice": 800,
         "finalPrice": 800,
         "isBundle": false,
-        "isSpecial": false,
+        "isSpecial": true,
         "giftable": true,
         "refundable": true,
         "panel": 3,
@@ -407,9 +407,7 @@
             "added": "2020-08-27T13:49:31Z"
           }
         ]
-      }
-    ],
-    "daily": [
+      },
       {
         "regularPrice": 1500,
         "finalPrice": 1500,
@@ -417,36 +415,36 @@
         "isSpecial": false,
         "giftable": true,
         "refundable": true,
-        "panel": 1,
-        "sortPriority": 0,
+        "panel": 2,
+        "sortPriority": -6,
         "banner": "Selectable Styles!",
         "items": [
           {
-            "id": "cid_190_athena_commando_m_streetracerwhite",
+            "id": "cid_531_athena_commando_m_sleepytime",
             "type": "outfit",
             "backendType": "AthenaCharacter",
             "rarity": "epic",
             "displayRarity": "Epic",
             "backendRarity": "EFortRarity::Epic",
-            "name": "Overtaker",
+            "name": "Slumber",
             "shortDescription": "Outfit",
-            "description": "Take over the competition.",
-            "set": "Vanishing Point",
-            "setText": "Part of the Vanishing Point set.",
+            "description": "It's time to say goodnight.",
+            "set": "Dreamy Days",
+            "setText": "Part of the Dreamy Days set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_531_athena_commando_m_sleepytime/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_531_athena_commando_m_sleepytime/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_531_athena_commando_m_sleepytime/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -455,22 +453,22 @@
             "variants": [
               {
                 "channel": "Parts",
-                "type": "HEADGEAR",
+                "type": "STYLE",
                 "options": [
                   {
                     "tag": "Stage1",
-                    "name": "HELMET",
+                    "name": "NINJA",
                     "image": {
                       "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/variants/parts/stage1.png"
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_531_athena_commando_m_sleepytime/variants/parts/stage1.png"
                     }
                   },
                   {
                     "tag": "Stage2",
-                    "name": "NO HELMET",
+                    "name": "PILLOW",
                     "image": {
                       "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/variants/parts/stage2.png"
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_531_athena_commando_m_sleepytime/variants/parts/stage2.png"
                     }
                   }
                 ]
@@ -478,59 +476,231 @@
             ],
             "gameplayTags": [
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.StreetRacerWhite",
+              "Cosmetics.Set.SleepyTime",
               "Cosmetics.UserFacingFlags.HasVariants",
-              "Cosmetics.Filter.Season.5"
+              "Cosmetics.Filter.Season.10"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_190_Athena_Commando_M_StreetRacerWhite",
-            "definition": "hid_190_athena_commando_m_streetracerwhite",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_531_Athena_Commando_M_SleepyTime",
+            "definition": "hid_531_athena_commando_m_sleepytime",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_190_Athena_Commando_M_StreetRacerWhite",
-            "lastUpdate": "2019-11-20T12:50:19Z",
-            "added": "2019-11-20T12:50:19Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_531_Athena_Commando_M_Sleepytime",
+            "lastUpdate": "2019-11-20T12:48:10Z",
+            "added": "2019-11-20T12:48:10Z"
           },
           {
-            "id": "bid_090_streetracerwhitemale",
+            "id": "bid_357_sleepytime",
             "type": "backpack",
             "backendType": "AthenaBackpack",
             "rarity": "epic",
             "displayRarity": "Epic",
             "backendRarity": "EFortRarity::Epic",
-            "name": "Lane Splitter",
+            "name": "Dreamer",
             "shortDescription": "Back Bling",
-            "description": "Cut through the crowd.",
-            "set": "Vanishing Point",
-            "setText": "Part of the Vanishing Point set.",
+            "description": "Share the dream.",
+            "set": "Dreamy Days",
+            "setText": "Part of the Dreamy Days set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_090_streetracerwhitemale/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_090_streetracerwhitemale/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/icon.png"
               },
               "featured": null,
               "background": null,
               "coverArt": null,
               "decal": null
             },
-            "variants": null,
+            "variants": [
+              {
+                "channel": "Material",
+                "type": "COLOR",
+                "options": [
+                  {
+                    "tag": "Mat1",
+                    "name": "DEFAULT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/variants/material/mat1.png"
+                    }
+                  },
+                  {
+                    "tag": "Mat2",
+                    "name": "BLUE",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/variants/material/mat2.png"
+                    }
+                  }
+                ]
+              }
+            ],
             "gameplayTags": [
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.StreetRacerWhite",
-              "Cosmetics.Filter.Season.5"
+              "Cosmetics.Set.SleepyTime",
+              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Filter.Season.10"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_090_StreetRacerWhiteMale",
-            "lastUpdate": "2019-11-20T12:50:39Z",
-            "added": "2019-11-20T12:50:39Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_357_Sleepytime",
+            "lastUpdate": "2019-11-20T12:50:32Z",
+            "added": "2019-11-20T12:50:32Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 1200,
+        "finalPrice": 1200,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 4,
+        "sortPriority": -16,
+        "banner": "Selectable Styles!",
+        "items": [
+          {
+            "id": "cid_785_athena_commando_f_python",
+            "type": "outfit",
+            "backendType": "AthenaCharacter",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Scarlet Serpent",
+            "shortDescription": "Outfit",
+            "description": "Heartless combatant with a venomous soul.",
+            "set": "Serpent Strike",
+            "setText": "Part of the Serpent Strike set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_785_athena_commando_f_python/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_785_athena_commando_f_python/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_785_athena_commando_f_python/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "type": "STYLE",
+                "options": [
+                  {
+                    "tag": "Mat1",
+                    "name": "DEFAULT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_785_athena_commando_f_python/variants/material/mat1.png"
+                    }
+                  },
+                  {
+                    "tag": "Mat2",
+                    "name": "GOLDEN SERPENT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_785_athena_commando_f_python/variants/material/mat2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.SnakeSmack"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_785_Athena_Commando_F_Python",
+            "definition": "hid_785_athena_commando_f_python",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_785_Athena_Commando_F_Python",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          },
+          {
+            "id": "bid_540_python",
+            "type": "backpack",
+            "backendType": "AthenaBackpack",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Double Fang",
+            "shortDescription": "Back Bling",
+            "description": "Strike from all sides.",
+            "set": "Serpent Strike",
+            "setText": "Part of the Serpent Strike set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_540_python/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_540_python/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "type": "STYLE",
+                "options": [
+                  {
+                    "tag": "Mat1",
+                    "name": "DEFAULT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_540_python/variants/material/mat1.png"
+                    }
+                  },
+                  {
+                    "tag": "Mat2",
+                    "name": "GOLDEN DOUBLE FANG",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_540_python/variants/material/mat2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.Set.SnakeSmack"
+            ],
+            "displayAssetPath": null,
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_540_Python",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
           }
         ]
       },
@@ -542,35 +712,183 @@
         "giftable": true,
         "refundable": true,
         "panel": 3,
-        "sortPriority": 0,
-        "banner": null,
+        "sortPriority": -11,
+        "banner": "Selectable Styles!",
         "items": [
           {
-            "id": "glider_id_095_witch",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Magic Wings",
-            "shortDescription": "Glider",
-            "description": "Soaring and spellbound.",
-            "set": "Arcane Arts",
-            "setText": "Part of the Arcane Arts set.",
+            "id": "cid_778_athena_commando_m_gator",
+            "type": "outfit",
+            "backendType": "AthenaCharacter",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Swamp Stomper",
+            "shortDescription": "Outfit",
+            "description": "Gator-trained master swampsman.",
+            "set": "Gator Force",
+            "setText": "Part of the Gator Force set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_095_witch/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_778_athena_commando_m_gator/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_095_witch/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_778_athena_commando_m_gator/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_095_witch/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_778_athena_commando_m_gator/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "type": "STYLE",
+                "options": [
+                  {
+                    "tag": "Mat1",
+                    "name": "DEFAULT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_778_athena_commando_m_gator/variants/material/mat1.png"
+                    }
+                  },
+                  {
+                    "tag": "Mat2",
+                    "name": "DARK SWAMP STOMPER",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_778_athena_commando_m_gator/variants/material/mat2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.CrocCommand"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_778_Athena_Commando_M_Gator",
+            "definition": "hid_778_athena_commando_m_gator",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_778_Athena_Commando_M_Gator",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          },
+          {
+            "id": "bid_541_gator",
+            "type": "backpack",
+            "backendType": "AthenaBackpack",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Swampy Sack",
+            "shortDescription": "Back Bling",
+            "description": "Gator-tough swamp original.",
+            "set": "Gator Force",
+            "setText": "Part of the Gator Force set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "type": "STYLE",
+                "options": [
+                  {
+                    "tag": "Mat1",
+                    "name": "DEFAULT",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/variants/material/mat1.png"
+                    }
+                  },
+                  {
+                    "tag": "Mat2",
+                    "name": "MURKY SACK",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/variants/material/mat2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Set.CrocCommand"
+            ],
+            "displayAssetPath": null,
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_541_Gator",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 2,
+        "sortPriority": -7,
+        "banner": "Collect the Set!",
+        "items": [
+          {
+            "id": "pickaxe_id_272_sleepytime",
+            "type": "pickaxe",
+            "backendType": "AthenaPickaxe",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Nighty Night",
+            "shortDescription": "Harvesting Tool",
+            "description": "Spread some sweet dreams.",
+            "set": "Dreamy Days",
+            "setText": "Part of the Dreamy Days set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_272_sleepytime/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_272_sleepytime/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_272_sleepytime/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -579,16 +897,354 @@
             "variants": null,
             "gameplayTags": [
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.Witch",
-              "Cosmetics.Filter.Season.6"
+              "Cosmetics.Set.SleepyTime",
+              "Cosmetics.Filter.Season.10"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_095_Witch",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_272_SleepyTime",
+            "definition": "wid_harvest_pickaxe_sleepytime",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_272_SleepyTime",
+            "lastUpdate": "2019-11-20T12:50:44Z",
+            "added": "2019-11-20T12:50:44Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 2,
+        "sortPriority": -8,
+        "banner": "Collect the Set!",
+        "items": [
+          {
+            "id": "glider_id_174_sleepytime",
+            "type": "glider",
+            "backendType": "AthenaGlider",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Nite Flight",
+            "shortDescription": "Glider",
+            "description": "Zzzzzzz.",
+            "set": "Dreamy Days",
+            "setText": "Part of the Dreamy Days set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_174_sleepytime/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_174_sleepytime/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_174_sleepytime/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Set.SleepyTime",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Filter.Season.10"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_174_SleepyTime",
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_095_Witch",
-            "lastUpdate": "2019-11-20T12:51:06Z",
-            "added": "2019-11-20T12:51:06Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_174_SleepyTime",
+            "lastUpdate": "2019-11-20T12:51:00Z",
+            "added": "2019-11-20T12:51:00Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 4,
+        "sortPriority": -18,
+        "banner": "Selectable Styles!",
+        "items": [
+          {
+            "id": "glider_id_221_pythonfemale",
+            "type": "glider",
+            "backendType": "AthenaGlider",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Sky Serpent",
+            "shortDescription": "Glider",
+            "description": "Slither high on scaly wings.",
+            "set": "Serpent Strike",
+            "setText": "Part of the Serpent Strike set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_221_pythonfemale/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_221_pythonfemale/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_221_pythonfemale/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "type": "Color",
+                "options": [
+                  {
+                    "tag": "Particle1",
+                    "name": "Default",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_221_pythonfemale/variants/particle/particle1.png"
+                    }
+                  },
+                  {
+                    "tag": "Particle2",
+                    "name": "Silvery Sky Serpent",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_221_pythonfemale/variants/particle/particle2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.SnakeSmack",
+              "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_221_PythonFemale",
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_221_PythonFemale",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 3,
+        "sortPriority": -12,
+        "banner": "Selectable Styles!",
+        "items": [
+          {
+            "id": "pickaxe_id_404_gatormale",
+            "type": "pickaxe",
+            "backendType": "AthenaPickaxe",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Swamp Slicer",
+            "shortDescription": "Harvesting Tool",
+            "description": "Monstrously sharp to master the moistiest swamps.",
+            "set": "Gator Force",
+            "setText": "Part of the Gator Force set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_404_gatormale/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_404_gatormale/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_404_gatormale/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "type": "Style",
+                "options": [
+                  {
+                    "tag": "Particle1",
+                    "name": "Default",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_404_gatormale/variants/particle/particle1.png"
+                    }
+                  },
+                  {
+                    "tag": "Particle2",
+                    "name": "Swamp Stormer",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_404_gatormale/variants/particle/particle2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.CrocCommand",
+              "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_404_GatorMale",
+            "definition": "wid_harvest_pickaxe_gatormale",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_404_GatorMale",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 500,
+        "finalPrice": 500,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 2,
+        "sortPriority": -9,
+        "banner": "Animated!",
+        "items": [
+          {
+            "id": "wrap_137_sleepytime",
+            "type": "wrap",
+            "backendType": "AthenaItemWrap",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Dreamy",
+            "shortDescription": "Wrap",
+            "description": "Show your style.",
+            "set": "Dreamy Days",
+            "setText": "Part of the Dreamy Days set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_137_sleepytime/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_137_sleepytime/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_137_sleepytime/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Set.SleepyTime",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.UserFacingFlags.Wrap.Animated",
+              "Cosmetics.Filter.Season.10"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_137_SleepyTime",
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_137_SleepyTime",
+            "lastUpdate": "2019-11-20T12:48:20Z",
+            "added": "2019-11-20T12:48:20Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 1,
+        "sortPriority": -1,
+        "banner": null,
+        "items": [
+          {
+            "id": "cid_545_athena_commando_f_sushininja",
+            "type": "outfit",
+            "backendType": "AthenaCharacter",
+            "rarity": "uncommon",
+            "displayRarity": "Uncommon",
+            "backendRarity": "EFortRarity::Uncommon",
+            "name": "Red Jade",
+            "shortDescription": "Outfit",
+            "description": "Summon your fighting spirit.",
+            "set": null,
+            "setText": null,
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_545_athena_commando_f_sushininja/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_545_athena_commando_f_sushininja/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_545_athena_commando_f_sushininja/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Filter.Season.10"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_545_Athena_Commando_F_SushiNinja",
+            "definition": "hid_545_athena_commando_f_sushininja",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_545_Athena_Commando_F_SushiNinja",
+            "lastUpdate": "2019-11-20T12:49:49Z",
+            "added": "2019-11-20T12:49:49Z"
           }
         ]
       },
@@ -600,19 +1256,262 @@
         "giftable": true,
         "refundable": true,
         "panel": 4,
+        "sortPriority": -17,
+        "banner": "Selectable Styles!",
+        "items": [
+          {
+            "id": "pickaxe_id_413_pythonfemale1h",
+            "type": "pickaxe",
+            "backendType": "AthenaPickaxe",
+            "rarity": "uncommon",
+            "displayRarity": "Uncommon",
+            "backendRarity": "EFortRarity::Uncommon",
+            "name": "Fearless Fangs",
+            "shortDescription": "Harvesting Tool",
+            "description": "Never hesitate to strike.",
+            "set": "Serpent Strike",
+            "setText": "Part of the Serpent Strike set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_413_pythonfemale1h/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_413_pythonfemale1h/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_413_pythonfemale1h/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "type": "Color",
+                "options": [
+                  {
+                    "tag": "Particle1",
+                    "name": "Default",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_413_pythonfemale1h/variants/particle/particle1.png"
+                    }
+                  },
+                  {
+                    "tag": "Particle2",
+                    "name": "Gold",
+                    "image": {
+                      "hash": "",
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_413_pythonfemale1h/variants/particle/particle2.png"
+                    }
+                  }
+                ]
+              }
+            ],
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.SnakeSmack",
+              "Cosmetics.Pickaxe.DualWield",
+              "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_413_PythonFemale1H",
+            "definition": "wid_harvest_pickaxe_pythonfemale1h",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_413_PythonFemale1H",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 300,
+        "finalPrice": 300,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 3,
+        "sortPriority": -13,
+        "banner": "Collect the Set!",
+        "items": [
+          {
+            "id": "wrap_243_gator",
+            "type": "wrap",
+            "backendType": "AthenaItemWrap",
+            "rarity": "uncommon",
+            "displayRarity": "Uncommon",
+            "backendRarity": "EFortRarity::Uncommon",
+            "name": "Swamp Scale",
+            "shortDescription": "Wrap",
+            "description": "Show your style.",
+            "set": "Gator Force",
+            "setText": "Part of the Gator Force set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_243_gator/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_243_gator/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_243_gator/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.13",
+              "Cosmetics.Set.CrocCommand",
+              "Cosmetics.Source.ItemShop"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_243_Gator",
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_243_Gator",
+            "lastUpdate": "2020-06-17T08:48:17Z",
+            "added": "2020-06-17T08:48:17Z"
+          }
+        ]
+      }
+    ],
+    "daily": [
+      {
+        "regularPrice": 2000,
+        "finalPrice": 2000,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 1,
         "sortPriority": 0,
         "banner": null,
         "items": [
           {
-            "id": "eid_infinitedab",
+            "id": "cid_108_athena_commando_m_fishhead",
+            "type": "outfit",
+            "backendType": "AthenaCharacter",
+            "rarity": "legendary",
+            "displayRarity": "Legendary",
+            "backendRarity": "EFortRarity::Legendary",
+            "name": "Leviathan",
+            "shortDescription": "Outfit",
+            "description": "Call me fishman.",
+            "set": "Space Explorers",
+            "setText": "Part of the Space Explorers set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_108_athena_commando_m_fishhead/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_108_athena_commando_m_fishhead/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_108_athena_commando_m_fishhead/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.SpaceExplorers",
+              "Cosmetics.Filter.Season.3"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_108_Athena_Commando_M_Fishhead",
+            "definition": "hid_108_athena_commando_m_fishhead",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_108_Athena_Commando_M_Fishhead",
+            "lastUpdate": "2019-11-20T12:48:06Z",
+            "added": "2019-11-20T12:48:06Z"
+          },
+          {
+            "id": "bid_042_fishhead",
+            "type": "backpack",
+            "backendType": "AthenaBackpack",
+            "rarity": "legendary",
+            "displayRarity": "Legendary",
+            "backendRarity": "EFortRarity::Legendary",
+            "name": "Fish Tank",
+            "shortDescription": "Back Bling",
+            "description": "Do not tap on glass!",
+            "set": "Space Explorers",
+            "setText": "Part of the Space Explorers set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_042_fishhead/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_042_fishhead/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.SpaceExplorers",
+              "Cosmetics.Filter.Season.3"
+            ],
+            "displayAssetPath": null,
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_042_Fishhead",
+            "lastUpdate": "2019-11-20T12:50:41Z",
+            "added": "2019-11-20T12:50:41Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 800,
+        "finalPrice": 800,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 4,
+        "sortPriority": 0,
+        "banner": null,
+        "items": [
+          {
+            "id": "eid_zombie",
             "type": "emote",
             "backendType": "AthenaDance",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Infinite Dab",
+            "rarity": "epic",
+            "displayRarity": "Epic",
+            "backendRarity": "EFortRarity::Epic",
+            "name": "Reanimated",
             "shortDescription": "Emote",
-            "description": "Can't stop, won't stop.",
+            "description": "From beyond the rave!",
             "set": null,
             "setText": null,
             "series": null,
@@ -620,11 +1519,11 @@
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_infinitedab/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_zombie/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_infinitedab/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_zombie/icon.png"
               },
               "featured": null,
               "background": null,
@@ -635,13 +1534,13 @@
             "gameplayTags": [
               "Cosmetics.EmoteType.Dance",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.4"
+              "Cosmetics.Filter.Season.3"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_InfiniteDab",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_Zombie",
             "lastUpdate": "2019-11-20T12:48:10Z",
             "added": "2019-11-20T12:48:10Z"
           }
@@ -654,20 +1553,20 @@
         "isSpecial": false,
         "giftable": true,
         "refundable": true,
-        "panel": 5,
+        "panel": 3,
         "sortPriority": 0,
-        "banner": null,
+        "banner": "New!",
         "items": [
           {
-            "id": "eid_og_runningman",
-            "type": "emote",
-            "backendType": "AthenaDance",
+            "id": "wrap_277_neonjellyfish",
+            "type": "wrap",
+            "backendType": "AthenaItemWrap",
             "rarity": "rare",
             "displayRarity": "Rare",
             "backendRarity": "EFortRarity::Rare",
-            "name": "Old School",
-            "shortDescription": "Emote",
-            "description": "Never out of style.",
+            "name": "Violet Tentacles",
+            "shortDescription": "Wrap",
+            "description": "Show your style.",
             "set": null,
             "setText": null,
             "series": null,
@@ -675,30 +1574,34 @@
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_og_runningman/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_277_neonjellyfish/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_og_runningman/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_277_neonjellyfish/icon.png"
               },
-              "featured": null,
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_277_neonjellyfish/featured.png"
+              },
               "background": null,
               "coverArt": null,
               "decal": null
             },
             "variants": null,
             "gameplayTags": [
-              "Cosmetics.EmoteType.Dance",
+              "Cosmetics.Filter.Season.14",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
+              "Cosmetics.UserFacingFlags.Wrap.Animated",
+              "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
             ],
-            "displayAssetPath": null,
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_277_NeonJellyfish",
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_OG_RunningMan",
-            "lastUpdate": "2019-11-20T12:49:42Z",
-            "added": "2019-11-20T12:49:42Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_277_NeonJellyfish",
+            "lastUpdate": "2020-08-27T06:07:50Z",
+            "added": "2020-08-27T06:07:50Z"
           }
         ]
       },
@@ -714,32 +1617,29 @@
         "banner": null,
         "items": [
           {
-            "id": "cid_797_athena_commando_f_taco",
+            "id": "cid_013_athena_commando_f",
             "type": "outfit",
             "backendType": "AthenaCharacter",
             "rarity": "uncommon",
             "displayRarity": "Uncommon",
             "backendRarity": "EFortRarity::Uncommon",
-            "name": "Lada",
+            "name": "Renegade",
             "shortDescription": "Outfit",
-            "description": "Spicy and saucy.",
-            "set": "Taco Time",
-            "setText": "Part of the Taco Time set.",
+            "description": "Uncommon renegade outfit.",
+            "set": null,
+            "setText": null,
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_797_athena_commando_f_taco/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_797_athena_commando_f_taco/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/icon.png"
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_797_athena_commando_f_taco/featured.png"
-              },
+              "featured": null,
               "background": null,
               "coverArt": null,
               "decal": null
@@ -747,16 +1647,15 @@
             "variants": null,
             "gameplayTags": [
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.Set.BurritoDay"
+              "Cosmetics.Filter.Season.1"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_797_Athena_Commando_F_Taco",
-            "definition": "hid_797_athena_commando_f_taco",
+            "displayAssetPath": null,
+            "definition": "hid_013_athena_commando_f",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_797_Athena_Commando_F_Taco",
-            "lastUpdate": "2020-06-30T06:09:08Z",
-            "added": "2020-06-30T06:09:08Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_013_Athena_Commando_F",
+            "lastUpdate": "2019-11-20T12:50:30Z",
+            "added": "2019-11-20T12:50:30Z"
           }
         ]
       },
@@ -772,15 +1671,15 @@
         "banner": null,
         "items": [
           {
-            "id": "eid_lookatthis",
+            "id": "eid_dabounce",
             "type": "emote",
             "backendType": "AthenaDance",
             "rarity": "uncommon",
             "displayRarity": "Uncommon",
             "backendRarity": "EFortRarity::Uncommon",
-            "name": "Behold!",
+            "name": "Get Loose",
             "shortDescription": "Emote",
-            "description": "Look at this!",
+            "description": "Ready for whatever comes your way.",
             "set": null,
             "setText": null,
             "series": null,
@@ -788,11 +1687,11 @@
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_lookatthis/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_dabounce/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_lookatthis/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_dabounce/icon.png"
               },
               "featured": null,
               "background": null,
@@ -803,15 +1702,70 @@
             "gameplayTags": [
               "Cosmetics.EmoteType.Dance",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.6"
+              "Cosmetics.Filter.Season.13"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_LookAtThis",
-            "lastUpdate": "2019-11-20T12:49:43Z",
-            "added": "2019-11-20T12:49:43Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_DaBounce",
+            "lastUpdate": "2020-06-30T06:09:08Z",
+            "added": "2020-06-30T06:09:08Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 200,
+        "finalPrice": 200,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 5,
+        "sortPriority": 0,
+        "banner": null,
+        "items": [
+          {
+            "id": "eid_raisetheroof",
+            "type": "emote",
+            "backendType": "AthenaDance",
+            "rarity": "uncommon",
+            "displayRarity": "Uncommon",
+            "backendRarity": "EFortRarity::Uncommon",
+            "name": "Raise The Roof",
+            "shortDescription": "Emote",
+            "description": "Go ahead, we won't judge.",
+            "set": null,
+            "setText": null,
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_raisetheroof/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_raisetheroof/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.EmoteType.Dance",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Filter.Season.11"
+            ],
+            "displayAssetPath": null,
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_RaiseTheRoof",
+            "lastUpdate": "2020-01-15T09:35:51Z",
+            "added": "2020-01-15T09:35:51Z"
           }
         ]
       }

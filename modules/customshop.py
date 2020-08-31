@@ -1,5 +1,4 @@
 import io
-from datetime import datetime
 
 import aiofiles
 import aiohttp

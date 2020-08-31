@@ -1,18 +1,17 @@
+import io
+import json
 import time
 import traceback
+from datetime import datetime
 
+import aiofiles
+import discord
 import sanic
 import sanic.response
+from PIL import Image
+from discord.ext import commands
 
 from modules import shop
-import aiofiles
-import aiohttp
-import json
-from datetime import datetime
-import io
-import discord
-from discord.ext import commands
-from PIL import Image
 
 
 async def handler(req):
@@ -26,14 +25,15 @@ async def generaterequest(Store: dict, client: commands.Bot):
         json.dumps(Store, indent=2))
     newimage = await shop.GenerateShopImage(client, Store["data"])
     newimage.save("cdn/current/shop.png", optimize=True)
-    newimage.save(f"cdn/unique/shop_{datetime.utcnow().__format__('%A, %B %d, %Y')}.png", optimize=True)
+    uniqueimage = time.time()
+    newimage.save(f"cdn/unique/shop_{uniqueimage}.png", optimize=True)
     buffered = io.BytesIO()
     newimage.save(buffered, format="PNG")
     buffered.seek(0)
     data = {
         "shopurl": "https://api.peely.de/cdn/current/shop.png",
-        "uniqueurl": f"https://api.peely.de/cdn/unique/shop_{datetime.utcnow().__format__('%A, %B %d, %Y')}.png",
-        "time": str(time.time())
+        "uniqueurl": f"https://api.peely.de/cdn/unique/shop_{uniqueimage}.png",
+        "time": str(datetime.utcnow().__format__('%A, %B %d, %Y'))
     }
     try:
         file = discord.File(f"cdn/current/shop.png")

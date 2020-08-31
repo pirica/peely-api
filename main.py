@@ -1,5 +1,6 @@
 import asyncio
 import json
+import traceback
 
 import aiofiles
 import aiohttp
@@ -14,14 +15,16 @@ from API.v1.news.creative import handler as creative_news
 from API.v1.news.stw import handler as stw_news
 from API.v1.notices import handler as notices
 from API.v1.playlists import handler as playlists
-from API.v1.tournaments import handler as tournaments
-from API.v1.shop import handler as shop
 from API.v1.shop import generaterequest as generateshop
+from API.v1.shop import handler as shop
 from API.v1.shop.custom import handler as customshop
+from API.v1.tournaments import handler as tournaments
+from API.cdn import handler as cdn
 
 client = commands.Bot(command_prefix=">")
 app = sanic.app.Sanic('api')
 
+app.add_route(cdn, "/cdn/<folder>/<name>")
 app.add_route(news, "/v1/news")
 app.add_route(br_news, "/v1/br/news")
 app.add_route(creative_news, "/v1/creative/news")
@@ -54,7 +57,6 @@ async def check_changes():
                 old = json.loads(await (await aiofiles.open(f'Cache/data/shop.json', mode='r')).read())
                 if new != old:
                     await generateshop(new, client)
-
 
 @app.route('/')
 async def home(req):
