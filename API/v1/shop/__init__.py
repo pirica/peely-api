@@ -31,7 +31,7 @@ async def generaterequest(Store: dict, client: commands.Bot):
     newimage.save(buffered, format="PNG")
     buffered.seek(0)
     data = {
-        "shopurl": "https://api.peely.de/cdn/current/shop.png",
+        "url": "https://api.peely.de/cdn/current/shop.png",
         "uniqueurl": f"https://api.peely.de/cdn/unique/shop_{uniqueimage}.png",
         "time": str(datetime.utcnow().__format__('%A, %B %d, %Y'))
     }
