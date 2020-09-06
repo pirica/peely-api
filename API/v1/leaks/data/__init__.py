@@ -1,7 +1,6 @@
 import json
 
 import aiofiles
-import aiohttp
 import sanic
 import sanic.response
 

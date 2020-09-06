@@ -17,7 +17,7 @@ from modules import leaks
 
 
 async def handler(req):
-    return sanic.response.json(json.loads(await (await aiofiles.open(f'Cache/data/resp_shop.json', mode='r')).read()))
+    return sanic.response.json(json.loads(await (await aiofiles.open(f'Cache/data/resp_leaks.json', mode='r')).read()))
 
 
 async def generateleaks(data: dict, client: commands.Bot):

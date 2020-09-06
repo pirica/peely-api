@@ -11,6 +11,7 @@ from discord.ext import commands, tasks
 from API.cdn import handler as cdn
 from API.v1.comics import handler as comics
 from API.v1.leaks import generateleaks as generateleaks
+from API.v1.leaks import handler as leaks
 from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
 from API.v1.news.br import handler as br_news
@@ -25,6 +26,7 @@ from API.v1.tournaments import handler as tournaments
 
 client = commands.Bot(command_prefix=">")
 app = sanic.app.Sanic('api')
+app.config.FORWARDED_SECRET = "api"
 
 app.add_route(cdn, "/cdn/<folder>/<name>")
 app.add_route(news, "/v1/news")
@@ -33,13 +35,13 @@ app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
 app.add_route(notices, "/v1/notices")
 app.add_route(leaksdata, "/v1/leaks/data")
+app.add_route(leaks, "/v1/leaks")
 app.add_route(tournaments, "/v1/tournaments")
 app.add_route(tournaments, "/v1/tournament")
 app.add_route(playlists, "/v1/playlists")
 app.add_route(comics, "/v1/comics")
 app.add_route(shop, "/v1/shop")
 app.add_route(customshop, "/v1/shop/custom")
-
 
 @client.event
 async def on_ready():
@@ -162,7 +164,7 @@ async def favicon(req):
 
 
 loop = asyncio.get_event_loop()
-loop.create_task(app.create_server(host="0.0.0.0", port=80, return_asyncio_server=True, access_log=False))
+loop.create_task(app.create_server(host="0.0.0.0", port=1001, return_asyncio_server=True, access_log=False))
 loop.create_task(client.run("NzQ5NjI5MTM1ODQzODg1MDc3.X0uwiQ.s15nVHqKS34JLWulEdhZsWTKN14"))
 try:
     loop.run_forever()

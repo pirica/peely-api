@@ -11,7 +11,7 @@ from modules import customshop
 
 
 async def handler(req):
-    background = "http://peely.de/api/background.jpg"
+    background = "https://peely.de/api/background.jpg"
     text = "Fortnite Item Shop"
     lang = "en"
     for i in req.query_args:

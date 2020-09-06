@@ -44,7 +44,7 @@ def GetBlendColor(Rarity):
     return blendColor
 
 
-async def GenerateShopImage(Store: dict, background_user: str = "http://peely.de/api/background.jpg",
+async def GenerateShopImage(Store: dict, background_user: str = "https://peely.de/api/background.jpg",
                             text: str = "Fortnite Item Shop"):
     # Featured items
     FeaturedItems = [Item for Item in Store["featured"] for Item in Item["items"]]
