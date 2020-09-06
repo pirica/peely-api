@@ -44,9 +44,8 @@ def GetBlendColor(Rarity):
     return blendColor
 
 
-async def GenerateShopImage(Store, background_user: str = "http://peely.de/api/background.jpg",
+async def GenerateShopImage(Store: dict, background_user: str = "http://peely.de/api/background.jpg",
                             text: str = "Fortnite Item Shop"):
-    # print(Store)
     # Featured items
     FeaturedItems = [Item for Item in Store["featured"] for Item in Item["items"]]
     FeaturedIDs = [ID["id"] for ID in FeaturedItems]
@@ -179,7 +178,6 @@ async def GenerateShopImage(Store, background_user: str = "http://peely.de/api/b
 async def GenerateCard(Item):
     card = Image.new("RGBA", (300, 545))
     Draw = ImageDraw.Draw(card)
-
     Name = Item["name"]
     Rarity = Item["rarity"]
     blendColor = GetBlendColor(Rarity)
@@ -196,10 +194,10 @@ async def GenerateCard(Item):
 
     try:
         layer = Image.open(
-            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_top_{Rarity}.png", mode='rb')).read()))
+            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_inside_{Rarity}.png", mode='rb')).read()))
     except:
         layer = Image.open(
-            io.BytesIO(await (await aiofiles.open("assets/Images/card_top_common.png", mode='rb')).read()))
+            io.BytesIO(await (await aiofiles.open("assets/Images/card_inside_common.png", mode='rb')).read()))
     card.paste(layer)
 
     # Download the Item icon
@@ -246,10 +244,10 @@ async def GenerateCard(Item):
         pass
 
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{Rarity.capitalize()} {Category.capitalize()}")[0]
+    textWidth = BurbankBigCondensed.getsize(f"{Item['shortDescription']}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 385), f"{Rarity.capitalize()} {Category.capitalize()}", blendColor, font=BurbankBigCondensed)
+    Draw.text((Middle, 385), f"{Item['shortDescription']}", blendColor, font=BurbankBigCondensed)
 
     FontSize = 56
     while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(Name)[0] > 265:

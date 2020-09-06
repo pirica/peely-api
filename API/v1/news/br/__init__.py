@@ -1,9 +1,15 @@
+import io
 import json
+import random
+import traceback
+import textwrap
 
 import aiofiles
 import aiohttp
 import sanic
 import sanic.response
+import glob
+from PIL import Image, ImageDraw, ImageFont
 
 
 async def handler(req):
@@ -26,14 +32,17 @@ async def handler(req):
         'status': 200,
         'message': 'Everything should work fine',
         'data': {
+            'image': "error",
             'motds': [],
             'messages': [],
             'platform_motds': {}
         }
     }
+
     try:
-        if data['news']['motds']:
-            for motd in data['news']['motds']:
+        nobrmotds = False
+        if data['battleroyalenews']['news']['motds']:
+            for motd in data['battleroyalenews']['news']['motds']:
                 response['data']['motds'].append({
                     'image': motd['image'],
                     'tileImage': motd['tileImage'],
@@ -42,8 +51,12 @@ async def handler(req):
                     'id': motd['id'],
                     'spotlight': motd['spotlight']
                 })
-    except KeyError as ex:
-        print(ex)
+        else:
+            nobrmotds = True
+    except:
+        traceback.print_exc()
+        nobrmotds = True
+
     try:
         if data['news']['messages']:
             for message in data['news']['messages']:
@@ -69,8 +82,41 @@ async def handler(req):
                     'id': platform_motds['message']['id'],
                     'spotlight': platform_motds['message']['spotlight']
                 })
-    except KeyError as ex:
-        print(ex)
+    except:
+        traceback.print_exc()
+
+    try:
+        if nobrmotds is True:
+            for newmotd in response['data']['platform_motds']['windows']:
+                response['data']['motds'].append({
+                    'image': newmotd['image'],
+                    'tileImage': newmotd['tileImage'],
+                    'title': newmotd['title'],
+                    'body': newmotd['body'],
+                    'id': newmotd['id'],
+                    'spotlight': newmotd['spotlight']
+                })
+    except:
+        traceback.print_exc()
+
+    try:
+        imgs=[]
+        for i in response["data"]["motds"]:
+            img = Image.new("RGBA", (1024, 512))
+            async with aiohttp.ClientSession() as cs:
+                async with cs.get(i['tileImage']) as temp:
+                    img.paste(Image.open(io.BytesIO(await temp.read())))
+            draw = ImageDraw.Draw(img)
+            draw.text((img.width - img.width + 25, 365), f"{i['title']}", (255, 255, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
+            draw.text((img.width - img.width + 25, 415), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
+            imgs.append(img)
+
+        id = random.randint(1111111111111, 99999999999999999999)
+        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        response['data']['image'] = f"https://api.peely.de/cdn/unique/br_news_{id}.gif"
+    except:
+        traceback.print_exc()
+
     await (await aiofiles.open(f'Cache/content-{lang}.json', mode='w+', encoding='utf8')).write(
         json.dumps(await req.json(), indent=3))
     return sanic.response.json(response)

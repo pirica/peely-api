@@ -1,5 +1,6 @@
 import io
 import json
+import random
 import time
 import traceback
 from datetime import datetime
@@ -23,9 +24,9 @@ async def generaterequest(Store: dict, client: commands.Bot):
     start = time.time()
     await (await aiofiles.open('Cache/data/shop.json', mode='w+')).write(
         json.dumps(Store, indent=2))
-    newimage = await shop.GenerateShopImage(client, Store["data"])
+    newimage = await shop.GenerateShopImage(Store["data"])
     newimage.save("cdn/current/shop.png", optimize=True)
-    uniqueimage = time.time()
+    uniqueimage = time.time() + random.randint(1111, 9999)
     newimage.save(f"cdn/unique/shop_{uniqueimage}.png", optimize=True)
     buffered = io.BytesIO()
     newimage.save(buffered, format="PNG")

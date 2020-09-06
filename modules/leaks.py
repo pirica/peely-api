@@ -111,10 +111,10 @@ async def GenerateCard(Item):
         card.paste(layer, layer)
 
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{displayRarity.capitalize()} {displayCategory.capitalize()}")[0]
+    textWidth = BurbankBigCondensed.getsize(f"{displayCategory}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 370), f"{displayRarity.capitalize()} {displayCategory.capitalize()}", blendColor,
+    Draw.text((Middle, 370), f"{displayCategory}", blendColor,
               font=BurbankBigCondensed)
 
     FontSize = 56

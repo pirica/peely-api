@@ -38,8 +38,8 @@ async def handler(req):
                     'title': message['title'],
                     'body': message['body'],
                 })
-    except KeyError as ex:
-        print(ex)
+    except:
+        pass
 
     try:
         if data["emergencynotice"]["news"]["region_messages"]:
@@ -53,8 +53,8 @@ async def handler(req):
                     'hidden': region_message['message']['hidden'],
                     'gamemodes': region_message['message']['gamemodes'],
                 })
-    except KeyError as ex:
-        print(ex)
+    except:
+        pass
 
     try:
         if data["emergencynotice"]["news"]['platform_messages']:
@@ -70,8 +70,8 @@ async def handler(req):
                     'id': platform_message['message']['id'],
                     'spotlight': platform_message['message']['spotlight']
                 })
-    except KeyError as ex:
-        print(ex)
+    except:
+        pass
 
     await (await aiofiles.open(f'Cache/content-{lang}.json', mode='w+', encoding='utf8')).write(
         json.dumps(await req.json(), indent=3))

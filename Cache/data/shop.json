@@ -1,8 +1,8 @@
 {
   "status": 200,
   "data": {
-    "hash": "b48e8eb4e07fda0f81dffb89a6279dd85ee48d95",
-    "date": "2020-09-01T00:00:00Z",
+    "hash": "e55bd4197a8b4a731ea16bfb5a4fbfb8c1610f63",
+    "date": "2020-09-06T00:00:00Z",
     "featured": [
       {
         "regularPrice": 2000,
@@ -13,34 +13,134 @@
         "refundable": true,
         "panel": 3,
         "sortPriority": -11,
-        "banner": "Selectable Styles!",
+        "banner": null,
         "items": [
           {
-            "id": "cid_031_athena_commando_m_retro",
+            "id": "cid_573_athena_commando_m_haunt",
             "type": "outfit",
             "backendType": "AthenaCharacter",
             "rarity": "legendary",
             "displayRarity": "Legendary",
             "backendRarity": "EFortRarity::Legendary",
-            "name": "Raptor",
+            "name": "Zero",
             "shortDescription": "Outfit",
-            "description": "Royale Air Force test pilot.",
-            "set": null,
-            "setText": null,
+            "description": "Everything and nothing.",
+            "set": "Zero Point",
+            "setText": "Part of the Zero Point set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_573_athena_commando_m_haunt/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_573_athena_commando_m_haunt/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_573_athena_commando_m_haunt/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.ZeroPoint",
+              "Cosmetics.Filter.Season.11"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_573_Athena_Commando_M_Haunt",
+            "definition": "hid_573_athena_commando_m_haunt",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_573_Athena_Commando_M_Haunt",
+            "lastUpdate": "2019-11-20T12:51:14Z",
+            "added": "2019-11-20T12:51:14Z"
+          },
+          {
+            "id": "bid_373_hauntlensflare",
+            "type": "backpack",
+            "backendType": "AthenaBackpack",
+            "rarity": "legendary",
+            "displayRarity": "Legendary",
+            "backendRarity": "EFortRarity::Legendary",
+            "name": "Black Hole",
+            "shortDescription": "Back Bling",
+            "description": "One singularity sensation.",
+            "set": "Zero Point",
+            "setText": "Part of the Zero Point set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_373_hauntlensflare/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_373_hauntlensflare/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Set.ZeroPoint",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Filter.Season.11"
+            ],
+            "displayAssetPath": null,
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_373_HauntLensFlare",
+            "lastUpdate": "2019-11-20T12:51:14Z",
+            "added": "2019-11-20T12:51:14Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 1200,
+        "finalPrice": 1200,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 1,
+        "sortPriority": -1,
+        "banner": "New!",
+        "items": [
+          {
+            "id": "pickaxe_id_446_seasalt",
+            "type": "pickaxe",
+            "backendType": "AthenaPickaxe",
+            "rarity": "marvel",
+            "displayRarity": "MARVEL SERIES",
+            "backendRarity": "EFortRarity::Epic",
+            "name": "Hulk Smashers",
+            "shortDescription": "Harvesting Tool",
+            "description": "Hulk Smash!",
+            "set": null,
+            "setText": null,
+            "series": "MARVEL SERIES",
+            "backendSeries": "MarvelSeries",
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -48,376 +148,49 @@
             },
             "variants": [
               {
-                "channel": "Material",
-                "type": "STYLE",
+                "channel": "Mesh",
+                "type": "Style",
                 "options": [
                   {
-                    "tag": "Mat1",
-                    "name": "DEFAULT",
+                    "tag": "Stage1",
+                    "name": "Hulk Smashers",
                     "image": {
                       "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/variants/material/mat1.png"
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/variants/mesh/stage1.png"
                     }
                   },
                   {
-                    "tag": "Mat2",
-                    "name": "GLOW",
+                    "tag": "Stage2",
+                    "name": "Hulkbuster",
                     "image": {
                       "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/variants/material/mat2.png"
+                      "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/variants/mesh/stage2.png"
                     }
                   }
                 ]
               }
             ],
             "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Pickaxe.DualWield",
+              "Cosmetics.Filter.Season.13",
               "Cosmetics.UserFacingFlags.HasVariants",
-              "Cosmetics.Filter.Season.1"
+              "Cosmetics.Source.ItemShop"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_SMaleHID031",
-            "definition": "hid_031_athena_commando_m_retro",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_446_SeaSalt",
+            "definition": "wid_harvest_pickaxe_seasalt",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_031_Athena_Commando_M_Retro",
-            "lastUpdate": "2019-11-20T12:50:30Z",
-            "added": "2019-11-20T12:50:30Z"
-          },
-          {
-            "id": "bid_005_raptor",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "legendary",
-            "displayRarity": "Legendary",
-            "backendRarity": "EFortRarity::Legendary",
-            "name": "Raptor Satchel",
-            "shortDescription": "Back Bling",
-            "description": "Royale Air Force standard issue.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_005_raptor/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_005_raptor/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.3"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_005_Raptor",
-            "lastUpdate": "2019-11-20T12:48:04Z",
-            "added": "2019-11-20T12:48:04Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_446_SeaSalt",
+            "lastUpdate": "2020-08-05T08:09:19Z",
+            "added": "2020-08-05T08:09:19Z"
           }
         ]
       },
       {
-        "regularPrice": 2000,
-        "finalPrice": 2000,
+        "regularPrice": 1200,
+        "finalPrice": 1200,
         "isBundle": false,
         "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -12,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_412_athena_commando_f_raptor",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "legendary",
-            "displayRarity": "Legendary",
-            "backendRarity": "EFortRarity::Legendary",
-            "name": "Velocity",
-            "shortDescription": "Outfit",
-            "description": "Royale Air Force flying ace.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_412_athena_commando_f_raptor/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_412_athena_commando_f_raptor/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_412_athena_commando_f_raptor/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_412_Athena_Commando_F_Raptor",
-            "definition": "hid_412_athena_commando_f_raptor",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_412_Athena_Commando_F_Raptor",
-            "lastUpdate": "2019-11-20T12:50:00Z",
-            "added": "2019-11-20T12:50:00Z"
-          },
-          {
-            "id": "bid_269_raptorfemale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "legendary",
-            "displayRarity": "Legendary",
-            "backendRarity": "EFortRarity::Legendary",
-            "name": "Bomber bag",
-            "shortDescription": "Back Bling",
-            "description": "High flying.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_269_raptorfemale/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_269_raptorfemale/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_269_RaptorFemale",
-            "lastUpdate": "2019-11-20T12:50:34Z",
-            "added": "2019-11-20T12:50:34Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 3100,
-        "finalPrice": 2200,
-        "isBundle": true,
-        "isSpecial": true,
-        "giftable": false,
-        "refundable": true,
-        "panel": 1,
-        "sortPriority": -1,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_847_athena_commando_m_soy_2as3c",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer",
-            "shortDescription": "Outfit",
-            "description": "Reflective rider of the cosmic currents.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.QuestsMetaData.Outfit.Soy",
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_847_Athena_Commando_M_Soy_2AS3C",
-            "definition": "hid_847_athena_commando_m_soy",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_847_Athena_Commando_M_Soy_2AS3C",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          },
-          {
-            "id": "bid_605_soy_y0dw7",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Herald's Star",
-            "shortDescription": "Back Bling",
-            "description": "A galaxy of potential in one tiny package.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_605_soy_y0dw7/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_605_soy_y0dw7/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_605_Soy_Y0DW7",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          },
-          {
-            "id": "glider_id_238_soy_rwo5d",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer's Surfboard",
-            "shortDescription": "Glider",
-            "description": "The only way to surf a solar flare.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_238_Soy_RWO5D",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_238_Soy_RWO5D",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          },
-          {
-            "id": "pickaxe_id_462_soy_4cw52",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer Pickaxe",
-            "shortDescription": "Harvesting Tool",
-            "description": "The Pickaxe Cosmic.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_462_Soy_4CW52",
-            "definition": "wid_harvest_pickaxe_soy",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_462_Soy_4CW52",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": true,
         "giftable": true,
         "refundable": true,
         "panel": 2,
@@ -425,301 +198,31 @@
         "banner": null,
         "items": [
           {
-            "id": "cid_847_athena_commando_m_soy_2as3c",
+            "id": "cid_616_athena_commando_f_cavalrybandit",
             "type": "outfit",
             "backendType": "AthenaCharacter",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Hush",
             "shortDescription": "Outfit",
-            "description": "Reflective rider of the cosmic currents.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_847_athena_commando_m_soy_2as3c/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.QuestsMetaData.Outfit.Soy",
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_847_Athena_Commando_M_Soy_2AS3C",
-            "definition": "hid_847_athena_commando_m_soy",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_847_Athena_Commando_M_Soy_2AS3C",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          },
-          {
-            "id": "bid_605_soy_y0dw7",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Herald's Star",
-            "shortDescription": "Back Bling",
-            "description": "A galaxy of potential in one tiny package.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_605_soy_y0dw7/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_605_soy_y0dw7/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_605_Soy_Y0DW7",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": true,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -12,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "pickaxe_id_462_soy_4cw52",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer Pickaxe",
-            "shortDescription": "Harvesting Tool",
-            "description": "The Pickaxe Cosmic.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_462_soy_4cw52/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_462_Soy_4CW52",
-            "definition": "wid_harvest_pickaxe_soy",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_462_Soy_4CW52",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": true,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -11,
-        "banner": "Surfing Glider!",
-        "items": [
-          {
-            "id": "glider_id_238_soy_rwo5d",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "marvel",
-            "displayRarity": "MARVEL SERIES",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Silver Surfer's Surfboard",
-            "shortDescription": "Glider",
-            "description": "The only way to surf a solar flare.",
-            "set": "Silver Surfer",
-            "setText": "Part of the Silver Surfer set.",
-            "series": "MARVEL SERIES",
-            "backendSeries": "MarvelSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_238_soy_rwo5d/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.14",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.NativeMultiply"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_238_Soy_RWO5D",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_238_Soy_RWO5D",
-            "lastUpdate": "2020-08-27T13:49:31Z",
-            "added": "2020-08-27T13:49:31Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -14,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "pickaxe_id_020_keg",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "slurp",
-            "displayRarity": "Slurp Series",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Party Animal",
-            "shortDescription": "Harvesting Tool",
-            "description": "Red plastic cups not included.",
-            "set": "Slurp Squad",
-            "setText": "Part of the Slurp Squad set.",
-            "series": "Slurp Series",
-            "backendSeries": "SlurpSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_020_keg/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_020_keg/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.Goo",
-              "Cosmetics.Filter.Season.1"
-            ],
-            "displayAssetPath": null,
-            "definition": "wid_harvest_pickaxe_keg_athena",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_020_Keg",
-            "lastUpdate": "2019-11-20T12:50:59Z",
-            "added": "2019-11-20T12:50:59Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1200,
-        "finalPrice": 1200,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -13,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "glider_id_147_raptor",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Assault Bomber",
-            "shortDescription": "Glider",
-            "description": "Bomb's away!",
-            "set": null,
-            "setText": null,
+            "description": "Silence the opposition.",
+            "set": "Silent Stalkers",
+            "setText": "Part of the Silent Stalkers set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_147_raptor/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_616_athena_commando_f_cavalrybandit/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_147_raptor/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_616_athena_commando_f_cavalrybandit/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_147_raptor/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_616_athena_commando_f_cavalrybandit/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -727,22 +230,124 @@
             },
             "variants": null,
             "gameplayTags": [
+              "Cosmetics.Filter.Season.11",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
+              "Cosmetics.Set.QuietWatcher"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_147_Raptor",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_616_Athena_Commando_F_CavalryBandit",
+            "definition": "hid_616_athena_commando_f_cavalrybandit",
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_616_Athena_Commando_F_CavalryBandit",
+            "lastUpdate": "2019-11-20T12:51:18Z",
+            "added": "2019-11-20T12:51:18Z"
+          },
+          {
+            "id": "bid_412_cavalrybandit",
+            "type": "backpack",
+            "backendType": "AthenaBackpack",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Black Stripe",
+            "shortDescription": "Back Bling",
+            "description": "High contrast angularity.",
+            "set": "Silent Stalkers",
+            "setText": "Part of the Silent Stalkers set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/icon.png"
+              },
+              "featured": null,
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.11",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Set.QuietWatcher"
+            ],
+            "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_147_Raptor",
-            "lastUpdate": "2019-11-20T12:51:02Z",
-            "added": "2019-11-20T12:51:02Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_412_CavalryBandit",
+            "lastUpdate": "2019-11-20T12:51:15Z",
+            "added": "2019-11-20T12:51:15Z"
           }
         ]
       },
       {
-        "regularPrice": 1200,
-        "finalPrice": 1200,
+        "regularPrice": 500,
+        "finalPrice": 500,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": true,
+        "refundable": true,
+        "panel": 3,
+        "sortPriority": -12,
+        "banner": "Animated!",
+        "items": [
+          {
+            "id": "wrap_154_haunt",
+            "type": "wrap",
+            "backendType": "AthenaItemWrap",
+            "rarity": "rare",
+            "displayRarity": "Rare",
+            "backendRarity": "EFortRarity::Rare",
+            "name": "Zero Point",
+            "shortDescription": "Wrap",
+            "description": "Show your style.",
+            "set": "Zero Point",
+            "setText": "Part of the Zero Point set.",
+            "series": null,
+            "backendSeries": null,
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_154_haunt/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_154_haunt/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_154_haunt/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Set.ZeroPoint",
+              "Cosmetics.Source.ItemShop",
+              "Cosmetics.UserFacingFlags.Wrap.Animated",
+              "Cosmetics.Filter.Season.11"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_154_Haunt",
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_154_Haunt",
+            "lastUpdate": "2019-11-20T12:51:14Z",
+            "added": "2019-11-20T12:51:14Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 500,
+        "finalPrice": 500,
         "isBundle": false,
         "isSpecial": false,
         "giftable": true,
@@ -752,31 +357,31 @@
         "banner": "Collect the Set!",
         "items": [
           {
-            "id": "pickaxe_id_346_neongraffiti",
+            "id": "pickaxe_id_319_cavalrybanditfemale1h",
             "type": "pickaxe",
             "backendType": "AthenaPickaxe",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Street Shine",
+            "rarity": "uncommon",
+            "displayRarity": "Uncommon",
+            "backendRarity": "EFortRarity::Uncommon",
+            "name": "Silent Strike",
             "shortDescription": "Harvesting Tool",
-            "description": "This way to superior swiping.",
-            "set": "Aerosol Assassins",
-            "setText": "Part of the Aerosol Assassins set.",
+            "description": "Whisper quiet, razor sharp.",
+            "set": "Silent Stalkers",
+            "setText": "Part of the Silent Stalkers set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_346_neongraffiti/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_319_cavalrybanditfemale1h/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_346_neongraffiti/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_319_cavalrybanditfemale1h/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_346_neongraffiti/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_319_cavalrybanditfemale1h/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -784,334 +389,58 @@
             },
             "variants": null,
             "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.AerosolAssassins",
-              "Cosmetics.Filter.Season.11"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_346_NeonGraffiti",
-            "definition": "wid_harvest_pickaxe_neongraffiti",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_346_NeonGraffiti",
-            "lastUpdate": "2020-01-15T09:35:53Z",
-            "added": "2020-01-15T09:35:53Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1200,
-        "finalPrice": 1200,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -6,
-        "banner": "Reactive!",
-        "items": [
-          {
-            "id": "cid_665_athena_commando_f_neongraffiti",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Komplex",
-            "shortDescription": "Outfit",
-            "description": "The world's waiting, make your mark.\r\nReactive: Glows at night.",
-            "set": "Aerosol Assassins",
-            "setText": "Part of the Aerosol Assassins set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_665_athena_commando_f_neongraffiti/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_665_athena_commando_f_neongraffiti/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_665_athena_commando_f_neongraffiti/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
+              "Cosmetics.Pickaxe.DualWield",
               "Cosmetics.Filter.Season.11",
-              "Cosmetics.Set.AerosolAssassins",
-              "Cosmetics.UserFacingFlags.Reactive"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_665_Athena_Commando_F_NeonGraffiti",
-            "definition": "hid_665_athena_commando_f_neongraffiti",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_665_Athena_Commando_F_NeonGraffiti",
-            "lastUpdate": "2020-01-15T09:35:51Z",
-            "added": "2020-01-15T09:35:51Z"
-          },
-          {
-            "id": "bid_455_neongraffitifemale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Purple Jam",
-            "shortDescription": "Back Bling",
-            "description": "Sticky style.",
-            "set": "Aerosol Assassins",
-            "setText": "Part of the Aerosol Assassins set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_455_neongraffitifemale/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_455_neongraffitifemale/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.11",
-              "Cosmetics.Set.AerosolAssassins",
-              "Cosmetics.UserFacingFlags.Reactive"
+              "Cosmetics.Set.QuietWatcher"
             ],
-            "displayAssetPath": null,
-            "definition": null,
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_319_CavalryBanditFemale1H",
+            "definition": "wid_harvest_pickaxe_cavalrybanditfemale1h",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_455_NeonGraffitiFemale",
-            "lastUpdate": "2020-01-15T09:35:49Z",
-            "added": "2020-01-15T09:35:49Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_319_CavalryBanditFemale1H",
+            "lastUpdate": "2019-11-20T12:51:26Z",
+            "added": "2019-11-20T12:51:26Z"
           }
         ]
       },
       {
-        "regularPrice": 500,
-        "finalPrice": 500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -9,
-        "banner": "Animated!",
-        "items": [
-          {
-            "id": "wrap_193_neongraffiti",
-            "type": "wrap",
-            "backendType": "AthenaItemWrap",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Paint Splash",
-            "shortDescription": "Wrap",
-            "description": "Show your style.",
-            "set": "Aerosol Assassins",
-            "setText": "Part of the Aerosol Assassins set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_193_neongraffiti/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_193_neongraffiti/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_193_neongraffiti/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Set.AerosolAssassins",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.UserFacingFlags.Wrap.Animated",
-              "Cosmetics.Filter.Season.11"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_193_NeonGraffiti",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_193_NeonGraffiti",
-            "lastUpdate": "2020-01-15T09:35:53Z",
-            "added": "2020-01-15T09:35:53Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 1,
-        "sortPriority": -2,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_733_athena_commando_m_bannerred",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "uncommon",
-            "displayRarity": "Uncommon",
-            "backendRarity": "EFortRarity::Uncommon",
-            "name": "Crimson Elite",
-            "shortDescription": "Outfit",
-            "description": "A true legend on the rise.",
-            "set": "Nightfire",
-            "setText": "Part of the Nightfire set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_733_athena_commando_m_bannerred/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_733_athena_commando_m_bannerred/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_733_athena_commando_m_bannerred/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.12",
-              "Cosmetics.Set.LateShot"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_733_Athena_Commando_M_BannerRed",
-            "definition": "hid_733_athena_commando_m_bannerred",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_733_Athena_Commando_M_BannerRed",
-            "lastUpdate": "2020-03-17T11:00:47Z",
-            "added": "2020-03-17T11:00:47Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 1,
-        "sortPriority": -1,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_734_athena_commando_f_bannerred",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "uncommon",
-            "displayRarity": "Uncommon",
-            "backendRarity": "EFortRarity::Uncommon",
-            "name": "Scarlet Commander",
-            "shortDescription": "Outfit",
-            "description": "Unknown and unforgettable.",
-            "set": "Nightfire",
-            "setText": "Part of the Nightfire set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.12",
-              "Cosmetics.Set.LateShot"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_734_Athena_Commando_F_BannerRed",
-            "definition": "hid_734_athena_commando_f_bannerred",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_734_Athena_Commando_F_BannerRed",
-            "lastUpdate": "2020-03-17T11:00:47Z",
-            "added": "2020-03-17T11:00:47Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 500,
-        "finalPrice": 500,
+        "regularPrice": 300,
+        "finalPrice": 300,
         "isBundle": false,
         "isSpecial": false,
         "giftable": true,
         "refundable": true,
         "panel": 2,
         "sortPriority": -8,
-        "banner": "Reactive!",
+        "banner": "Collect the Set!",
         "items": [
           {
-            "id": "glider_id_180_neongraffiti",
-            "type": "glider",
-            "backendType": "AthenaGlider",
+            "id": "wrap_174_cavalry",
+            "type": "wrap",
+            "backendType": "AthenaItemWrap",
             "rarity": "uncommon",
             "displayRarity": "Uncommon",
             "backendRarity": "EFortRarity::Uncommon",
-            "name": "Xile",
-            "shortDescription": "Glider",
-            "description": "Make your own way.",
-            "set": "Aerosol Assassins",
-            "setText": "Part of the Aerosol Assassins set.",
+            "name": "Weathered Black",
+            "shortDescription": "Wrap",
+            "description": "Show your style.",
+            "set": "Silent Stalkers",
+            "setText": "Part of the Silent Stalkers set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_180_neongraffiti/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_174_cavalry/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_180_neongraffiti/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_174_cavalry/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_180_neongraffiti/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_174_cavalry/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -1119,18 +448,17 @@
             },
             "variants": null,
             "gameplayTags": [
-              "Cosmetics.Set.AerosolAssassins",
+              "Cosmetics.Filter.Season.11",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.UserFacingFlags.Reactive",
-              "Cosmetics.Filter.Season.12"
+              "Cosmetics.Set.QuietWatcher"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_180_NeonGraffiti",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_174_Cavalry",
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_180_NeonGraffiti",
-            "lastUpdate": "2020-01-15T09:35:52Z",
-            "added": "2020-01-15T09:35:52Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_174_Cavalry",
+            "lastUpdate": "2019-11-20T12:51:23Z",
+            "added": "2019-11-20T12:51:23Z"
           }
         ]
       }
@@ -1148,31 +476,31 @@
         "banner": null,
         "items": [
           {
-            "id": "cid_344_athena_commando_m_icecream",
+            "id": "cid_135_athena_commando_f_jailbird",
             "type": "outfit",
             "backendType": "AthenaCharacter",
             "rarity": "epic",
             "displayRarity": "Epic",
             "backendRarity": "EFortRarity::Epic",
-            "name": "Lil Whip",
+            "name": "Rapscallion",
             "shortDescription": "Outfit",
-            "description": "Whipped up, and ready to serve.",
-            "set": "Two Scoops",
-            "setText": "Part of the Two Scoops set.",
+            "description": "Bail out of the Battle Bus.",
+            "set": "Jailbird",
+            "setText": "Part of the Jailbird set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_344_athena_commando_m_icecream/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_135_athena_commando_f_jailbird/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_344_athena_commando_m_icecream/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_135_athena_commando_f_jailbird/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_344_athena_commando_m_icecream/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_135_athena_commando_f_jailbird/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -1180,40 +508,41 @@
             },
             "variants": null,
             "gameplayTags": [
+              "Cosmetics.Set.Jailbird",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.IceCream",
-              "Cosmetics.Filter.Season.7"
+              "Phoebe.Cosmetic.Minus.Zone2",
+              "Cosmetics.Filter.Season.4"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_344_Athena_Commando_M_IceCream",
-            "definition": "hid_344_athena_commando_m_icecream",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_135_Athena_Commando_F_Jailbird",
+            "definition": "hid_135_athena_commando_f_jailbird",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_344_Athena_Commando_M_IceCream",
-            "lastUpdate": "2019-11-20T12:48:08Z",
-            "added": "2019-11-20T12:48:08Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_135_Athena_Commando_F_Jailbird",
+            "lastUpdate": "2019-11-20T12:50:23Z",
+            "added": "2019-11-20T12:50:23Z"
           },
           {
-            "id": "bid_213_icecream",
+            "id": "bid_054_jailbirdfemale",
             "type": "backpack",
             "backendType": "AthenaBackpack",
             "rarity": "epic",
             "displayRarity": "Epic",
             "backendRarity": "EFortRarity::Epic",
-            "name": "Sno Cone",
+            "name": "Burgle Bag",
             "shortDescription": "Back Bling",
-            "description": "A neverending treat.",
-            "set": "Two Scoops",
-            "setText": "Part of the Two Scoops set.",
+            "description": "Tools of the trade.",
+            "set": "Jailbird",
+            "setText": "Part of the Jailbird set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_213_icecream/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_054_jailbirdfemale/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_213_icecream/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_054_jailbirdfemale/icon.png"
               },
               "featured": null,
               "background": null,
@@ -1222,18 +551,18 @@
             },
             "variants": null,
             "gameplayTags": [
+              "Cosmetics.Set.Jailbird",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.IceCream",
-              "Cosmetics.UserFacingFlags.Reactive",
-              "Cosmetics.Filter.Season.7"
+              "Phoebe.Cosmetic.Minus.Zone2",
+              "Cosmetics.Filter.Season.4"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_213_IceCream",
-            "lastUpdate": "2019-11-20T12:50:36Z",
-            "added": "2019-11-20T12:50:36Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_054_JailbirdFemale",
+            "lastUpdate": "2019-11-20T12:50:41Z",
+            "added": "2019-11-20T12:50:41Z"
           }
         ]
       },
@@ -1244,100 +573,77 @@
         "isSpecial": false,
         "giftable": true,
         "refundable": true,
-        "panel": 3,
+        "panel": 2,
         "sortPriority": 0,
-        "banner": "Selectable Styles!",
+        "banner": null,
         "items": [
           {
-            "id": "cid_810_athena_commando_m_militaryfashionsummer",
+            "id": "cid_297_athena_commando_f_math",
             "type": "outfit",
             "backendType": "AthenaCharacter",
             "rarity": "rare",
             "displayRarity": "Rare",
             "backendRarity": "EFortRarity::Rare",
-            "name": "Shore Leave",
+            "name": "Maven",
             "shortDescription": "Outfit",
-            "description": "Hit the beach and make some waves.",
-            "set": null,
-            "setText": null,
+            "description": "Victory is the common denominator.",
+            "set": "Calculator Crew",
+            "setText": "Part of the Calculator Crew set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_810_athena_commando_m_militaryfashionsummer/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_297_athena_commando_f_math/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_810_athena_commando_m_militaryfashionsummer/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_297_athena_commando_f_math/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_810_athena_commando_m_militaryfashionsummer/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/cid_297_athena_commando_f_math/featured.png"
               },
               "background": null,
               "coverArt": null,
               "decal": null
             },
-            "variants": [
-              {
-                "channel": "Parts",
-                "type": "STYLE",
-                "options": [
-                  {
-                    "tag": "Stage1",
-                    "name": "DEFAULT",
-                    "image": {
-                      "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_810_athena_commando_m_militaryfashionsummer/variants/parts/stage1.png"
-                    }
-                  },
-                  {
-                    "tag": "Stage2",
-                    "name": "HOODED",
-                    "image": {
-                      "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_810_athena_commando_m_militaryfashionsummer/variants/parts/stage2.png"
-                    }
-                  }
-                ]
-              }
-            ],
+            "variants": null,
             "gameplayTags": [
-              "Cosmetics.UserFacingFlags.HasVariants",
+              "Cosmetics.Set.Math",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13"
+              "Cosmetics.Filter.Season.7"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_810_Athena_Commando_M_MilitaryFashionSummer",
-            "definition": "hid_810_athena_commando_m_militaryfashionsummer",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_297_Athena_Commando_F_Math",
+            "definition": "hid_297_athena_commando_f_math",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_810_Athena_Commando_M_MilitaryFashionSummer",
-            "lastUpdate": "2020-07-21T08:17:24Z",
-            "added": "2020-07-21T08:17:24Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_297_Athena_Commando_F_Math",
+            "lastUpdate": "2019-11-20T12:50:09Z",
+            "added": "2019-11-20T12:50:09Z"
           },
           {
-            "id": "bid_563_militaryfashionsummer",
+            "id": "bid_170_mathfemale",
             "type": "backpack",
             "backendType": "AthenaBackpack",
             "rarity": "rare",
             "displayRarity": "Rare",
             "backendRarity": "EFortRarity::Rare",
-            "name": "Dune Tripper",
+            "name": "Techie",
             "shortDescription": "Back Bling",
-            "description": "There's even a little pouch for sunscreen.",
-            "set": null,
-            "setText": null,
+            "description": "Boot up.",
+            "set": "Calculator Crew",
+            "setText": "Part of the Calculator Crew set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_563_militaryfashionsummer/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_170_mathfemale/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_563_militaryfashionsummer/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/bid_170_mathfemale/icon.png"
               },
               "featured": null,
               "background": null,
@@ -1346,16 +652,17 @@
             },
             "variants": null,
             "gameplayTags": [
+              "Cosmetics.Set.Math",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13"
+              "Cosmetics.Filter.Season.7"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_563_MilitaryFashionSummer",
-            "lastUpdate": "2020-07-21T08:17:24Z",
-            "added": "2020-07-21T08:17:24Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_170_MathFemale",
+            "lastUpdate": "2019-11-20T12:50:37Z",
+            "added": "2019-11-20T12:50:37Z"
           }
         ]
       },
@@ -1371,31 +678,31 @@
         "banner": null,
         "items": [
           {
-            "id": "eid_mathdance",
+            "id": "eid_onearmfloss",
             "type": "emote",
             "backendType": "AthenaDance",
             "rarity": "rare",
             "displayRarity": "Rare",
             "backendRarity": "EFortRarity::Rare",
-            "name": "Advanced Math",
+            "name": "No Sweat",
             "shortDescription": "Emote",
-            "description": "Break it down and show your work.",
-            "set": null,
-            "setText": null,
+            "description": "With one hand tied behind your back.",
+            "set": "Final Showdown",
+            "setText": "Part of the Final Showdown set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_mathdance/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_onearmfloss/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_mathdance/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_onearmfloss/icon.png"
               },
               "featured": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_mathdance/featured.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_onearmfloss/featured.png"
               },
               "background": null,
               "coverArt": null,
@@ -1404,16 +711,17 @@
             "variants": null,
             "gameplayTags": [
               "Cosmetics.EmoteType.Dance",
+              "Cosmetics.Set.TeamShowdown",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.12"
+              "Cosmetics.Filter.Season.9"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_EID_MathDance",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_EID_OneArmFloss",
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_MathDance",
-            "lastUpdate": "2020-02-21T16:27:07Z",
-            "added": "2020-02-21T16:27:07Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_OneArmFloss",
+            "lastUpdate": "2019-11-20T12:49:43Z",
+            "added": "2019-11-20T12:49:43Z"
           }
         ]
       },
@@ -1426,18 +734,18 @@
         "refundable": true,
         "panel": 4,
         "sortPriority": 0,
-        "banner": "Traversal!",
+        "banner": null,
         "items": [
           {
-            "id": "eid_billybounce",
+            "id": "eid_hotpink",
             "type": "emote",
             "backendType": "AthenaDance",
             "rarity": "rare",
             "displayRarity": "Rare",
             "backendRarity": "EFortRarity::Rare",
-            "name": "Billy Bounce",
+            "name": "Say So",
             "shortDescription": "Emote",
-            "description": "You do you.",
+            "description": "Roll with the changes.",
             "set": null,
             "setText": null,
             "series": null,
@@ -1445,11 +753,11 @@
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_billybounce/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_hotpink/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_billybounce/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_hotpink/icon.png"
               },
               "featured": null,
               "background": null,
@@ -1460,74 +768,70 @@
             "gameplayTags": [
               "Cosmetics.EmoteType.Dance",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.UserFacingFlags.Emote.Traversal",
-              "Cosmetics.Filter.Season.9"
+              "Cosmetics.Filter.Season.14"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_BillyBounce",
-            "lastUpdate": "2019-11-20T12:49:45Z",
-            "added": "2019-11-20T12:49:45Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_HotPink",
+            "lastUpdate": "2020-08-27T06:07:50Z",
+            "added": "2020-08-27T06:07:50Z"
           }
         ]
       },
       {
-        "regularPrice": 300,
-        "finalPrice": 300,
+        "regularPrice": 500,
+        "finalPrice": 500,
         "isBundle": false,
         "isSpecial": false,
         "giftable": true,
         "refundable": true,
-        "panel": 2,
+        "panel": 3,
         "sortPriority": 0,
-        "banner": "New!",
+        "banner": null,
         "items": [
           {
-            "id": "wrap_257_wafflecone",
-            "type": "wrap",
-            "backendType": "AthenaItemWrap",
+            "id": "pickaxe_id_014_wintercamo",
+            "type": "pickaxe",
+            "backendType": "AthenaPickaxe",
             "rarity": "uncommon",
             "displayRarity": "Uncommon",
             "backendRarity": "EFortRarity::Uncommon",
-            "name": "Ms. Whip",
-            "shortDescription": "Wrap",
-            "description": "Crunchy and creamy.",
-            "set": "Ms. Whip",
-            "setText": "Part of the Ms. Whip set.",
+            "name": "Ice Breaker",
+            "shortDescription": "Harvesting Tool",
+            "description": "A great way to meet your fellow combatants.",
+            "set": "Arctic Command",
+            "setText": "Part of the Arctic Command set.",
             "series": null,
             "backendSeries": null,
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_257_wafflecone/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_014_wintercamo/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_257_wafflecone/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_014_wintercamo/icon.png"
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_257_wafflecone/featured.png"
-              },
+              "featured": null,
               "background": null,
               "coverArt": null,
               "decal": null
             },
             "variants": null,
             "gameplayTags": [
-              "Cosmetics.Filter.Season.13",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.LadyTreat"
+              "Cosmetics.Set.ArcticCommand",
+              "Cosmetics.Filter.Season.1"
             ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_257_WaffleCone",
-            "definition": null,
+            "displayAssetPath": null,
+            "definition": "wid_harvest_pickaxe_wintercamo_athena",
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_257_WaffleCone",
-            "lastUpdate": "2020-06-30T06:09:08Z",
-            "added": "2020-06-30T06:09:08Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_014_WinterCamo",
+            "lastUpdate": "2019-11-20T12:50:59Z",
+            "added": "2019-11-20T12:50:59Z"
           }
         ]
       },
@@ -1543,15 +847,15 @@
         "banner": null,
         "items": [
           {
-            "id": "eid_phew",
+            "id": "eid_breakyou",
             "type": "emote",
             "backendType": "AthenaDance",
             "rarity": "uncommon",
             "displayRarity": "Uncommon",
             "backendRarity": "EFortRarity::Uncommon",
-            "name": "Phew!",
+            "name": "Breaking Point",
             "shortDescription": "Emote",
-            "description": "I was almost worried for a second.",
+            "description": "Give 'em a break.",
             "set": null,
             "setText": null,
             "series": null,
@@ -1559,11 +863,11 @@
             "images": {
               "smallIcon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_phew/smallicon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_breakyou/smallicon.png"
               },
               "icon": {
                 "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_phew/icon.png"
+                "url": "https://fortnite-api.com/images/cosmetics/br/eid_breakyou/icon.png"
               },
               "featured": null,
               "background": null,
@@ -1574,15 +878,17 @@
             "gameplayTags": [
               "Cosmetics.EmoteType.Dance",
               "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.12"
+              "Phoebe.Cosmetic.Minus.Zone2",
+              "Phoebe.Cosmetic.Minus.Zone1",
+              "Cosmetics.Filter.Season.3"
             ],
             "displayAssetPath": null,
             "definition": null,
             "requiredItemId": null,
             "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_Phew",
-            "lastUpdate": "2020-02-21T16:27:07Z",
-            "added": "2020-02-21T16:27:07Z"
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_BreakYou",
+            "lastUpdate": "2019-11-20T12:49:45Z",
+            "added": "2019-11-20T12:49:45Z"
           }
         ]
       }

@@ -1,10 +1,16 @@
 import json
-import traceback
+
 
 import aiofiles
 import aiohttp
 import sanic
 import sanic.response
+
+import io
+import random
+import textwrap
+import traceback
+from PIL import ImageFont, Image, ImageDraw
 
 
 async def handler(req):
@@ -26,6 +32,7 @@ async def handler(req):
         'status': 200,
         'message': 'Everything should work fine',
         'data': {
+            'image': "error",
             'motds': [],
             'messages': [],
             'platform_motds': {},
@@ -61,9 +68,9 @@ async def handler(req):
     try:
         if data['creativenews']['news']['platform_motds']:
             for platform in data['creativenews']['news']['platform_motds']:
-                response['platform_motds'][platform['platform']] = []
+                response['data']['platform_motds'][platform['platform']] = []
             for platform_motds in data['creativenews']['news']['platform_motds']:
-                response['platform_motds'][platform_motds['platform']].append({
+                response['data']['platform_motds'][platform_motds['platform']].append({
                     'image': platform_motds['message']['image'],
                     'tileImage': platform_motds['message']['tileImage'],
                     'title': platform_motds['message']['title'],
@@ -86,6 +93,24 @@ async def handler(req):
                     })
                 except:
                     continue
+    except:
+        traceback.print_exc()
+
+    try:
+        imgs=[]
+        for i in response["data"]["motds"]:
+            img = Image.new("RGBA", (1024, 512))
+            async with aiohttp.ClientSession() as cs:
+                async with cs.get(i['tileImage']) as temp:
+                    img.paste(Image.open(io.BytesIO(await temp.read())))
+            draw = ImageDraw.Draw(img)
+            draw.text((img.width - img.width + 25, 365), f"{i['title']}", (255, 255, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
+            draw.text((img.width - img.width + 25, 415), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
+            imgs.append(img)
+
+        id = random.randint(1111111111111, 99999999999999999999)
+        img.save(fp=f"cdn/unique/creative_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        response['data']['image'] = f"https://api.peely.de/cdn/unique/creative_news_{id}.gif"
     except:
         traceback.print_exc()
 

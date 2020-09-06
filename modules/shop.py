@@ -45,7 +45,7 @@ def GetBlendColor(Rarity):
     return blendColor
 
 
-async def GenerateShopImage(client, Store):
+async def GenerateShopImage(Store):
     # Featured items
     FeaturedItems = [Item for Item in Store["featured"] for Item in Item["items"]]
     FeaturedIDs = [ID["id"] for ID in FeaturedItems]
@@ -86,10 +86,6 @@ async def GenerateShopImage(client, Store):
         D_Height = (545 * D_Lines)
         D_Width = (300 * D_ImagesPerLine)
 
-    # Count free items
-    FreeItems = len([Item["finalPrice"] for Item in Store["featured"] if Item["finalPrice"] == 0]) + len(
-        [Item["finalPrice"] for Item in Store["daily"] if Item["finalPrice"] == 0])
-
     # Open Background
     Background = Image.open(
         io.BytesIO(await (await aiofiles.open("assets/Images/Backgrounds/Shop.png", mode='rb')).read())).resize(
@@ -126,7 +122,7 @@ async def GenerateShopImage(client, Store):
 
     # Paste Featured
     for Item in Store["featured"]:
-        card = await GenerateStoreCard(Item, client)
+        card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
         Price += Item["finalPrice"]
         if Item["banner"]:
@@ -142,7 +138,7 @@ async def GenerateShopImage(client, Store):
     currentHeight = 510
     # Paste Daily
     for Item in Store["daily"]:
-        card = await GenerateStoreCard(Item, client)
+        card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
         Price += Item["finalPrice"]
         if Item["banner"]:
@@ -169,13 +165,13 @@ async def GenerateShopImage(client, Store):
     return Background
 
 
-async def GenerateCard(Item, client):
+async def GenerateCard(Item):
     card = Image.new("RGBA", (300, 545))
     Draw = ImageDraw.Draw(card)
 
     Name = Item["name"]
     Rarity = Item["rarity"]
-    blendColor = GetBlendColor(Rarity)
+    blendColor = GetBlendColor(Rarity.lower())
     Category = Item["type"]
     if Item["images"]["featured"]:
         Icon = Item["images"]["featured"]["url"]
@@ -189,10 +185,10 @@ async def GenerateCard(Item, client):
 
     try:
         layer = Image.open(
-            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_top_{Rarity}.png", mode='rb')).read()))
+            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_inside_{Rarity}.png", mode='rb')).read()))
     except:
         layer = Image.open(
-            io.BytesIO(await (await aiofiles.open("assets/Images/card_top_common.png", mode='rb')).read()))
+            io.BytesIO(await (await aiofiles.open("assets/Images/card_inside_common.png", mode='rb')).read()))
     card.paste(layer)
 
     # Download the Item icon
@@ -227,22 +223,12 @@ async def GenerateCard(Item, client):
         card.paste(layer, layer)
     except:
         pass
-    try:
-        layer = Image.open(
-            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_bottom_{Rarity}.png", mode='rb')).read()))
-    except:
-        layer = Image.open(
-            io.BytesIO(await (await aiofiles.open("assets/Images/card_bottom_common.png", mode='rb')).read()))
-    try:
-        card.paste(layer, layer)
-    except:
-        pass
 
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{Rarity.capitalize()} {Category.capitalize()}")[0]
+    textWidth = BurbankBigCondensed.getsize(f"{Item['shortDescription']}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 385), f"{Rarity.capitalize()} {Category.capitalize()}", blendColor, font=BurbankBigCondensed)
+    Draw.text((Middle, 385), f"{Item['shortDescription']}", blendColor, font=BurbankBigCondensed)
 
     FontSize = 56
     while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(Name)[0] > 265:
@@ -259,8 +245,8 @@ async def GenerateCard(Item, client):
     return card
 
 
-async def GenerateStoreCard(Item, client):
-    card = await GenerateCard(Item["items"][0], client)
+async def GenerateStoreCard(Item):
+    card = await GenerateCard(Item["items"][0])
     Draw = ImageDraw.Draw(card)
     blendColor = GetBlendColor(Item["items"][0]["rarity"])
     Name = Item["items"][0]["name"]
