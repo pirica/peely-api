@@ -25,7 +25,7 @@ async def handler(req):
                     data = (json.loads(await (await aiofiles.open(f'Cache/content-{lang}.json', mode='r')).read()))[
                         'battleroyalenews']
                 except:
-                    return sanic.response.json({'status': 500, 'message': 'Intern Server error'})
+                    return sanic.response.json({'status': 500, 'message': 'Intern Server error'}, status=500)
             else:
                 data = (await req.json())['battleroyalenews']
     response = {
@@ -102,13 +102,15 @@ async def handler(req):
     try:
         imgs=[]
         for i in response["data"]["motds"]:
-            img = Image.new("RGBA", (1024, 512))
+            img = Image.new("RGBA", (1920, 1080))
             async with aiohttp.ClientSession() as cs:
-                async with cs.get(i['tileImage']) as temp:
+                async with cs.get(i['image']) as temp:
                     img.paste(Image.open(io.BytesIO(await temp.read())))
             draw = ImageDraw.Draw(img)
-            draw.text((img.width - img.width + 25, 365), f"{i['title']}", (255, 255, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
-            draw.text((img.width - img.width + 25, 415), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
+            draw.text((img.width - img.width + 25, 835), f"{i['title']}", (255, 255, 255),
+                      font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 60))
+            draw.text((img.width - img.width + 25, 900), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255),
+                      font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
             imgs.append(img)
 
         id = random.randint(1111111111111, 99999999999999999999)

@@ -6,6 +6,7 @@ import aiofiles
 import aiohttp
 import sanic
 import sanic.response
+from sanic.log import logger
 from discord.ext import commands, tasks
 
 from API.cdn import handler as cdn
@@ -23,6 +24,8 @@ from API.v1.shop import generaterequest as generateshop
 from API.v1.shop import handler as shop
 from API.v1.shop.custom import handler as customshop
 from API.v1.tournaments import handler as tournaments
+from API.v1.blogposts.normal import handler as normalblogposts
+from API.v1.blogposts.competitive import handler as competitiveblogposts
 
 client = commands.Bot(command_prefix=">")
 app = sanic.app.Sanic('api')
@@ -30,6 +33,8 @@ app.config.FORWARDED_SECRET = "api"
 
 app.add_route(cdn, "/cdn/<folder>/<name>")
 app.add_route(news, "/v1/news")
+app.add_route(competitiveblogposts, "/v1/blogposts/competitive")
+app.add_route(normalblogposts, "/v1/blogposts/normal")
 app.add_route(br_news, "/v1/br/news")
 app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
@@ -42,6 +47,7 @@ app.add_route(playlists, "/v1/playlists")
 app.add_route(comics, "/v1/comics")
 app.add_route(shop, "/v1/shop")
 app.add_route(customshop, "/v1/shop/custom")
+
 
 @client.event
 async def on_ready():
@@ -155,7 +161,7 @@ async def check_leaks_changes():
 
 @app.route('/')
 async def home(req):
-    return sanic.response.text('Soon')
+    return sanic.response.redirect("https://docs.api.peely.de")
 
 
 @app.route('/favicon.ico')

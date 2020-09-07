@@ -23,7 +23,7 @@ async def handler(req):
                     data = (json.loads(await (await aiofiles.open(f'Cache/content-{lang}.json', mode='r')).read()))[
                         'savetheworldnews']
                 except:
-                    return sanic.response.json({'status': 500, 'message': 'Intern Server error'})
+                    return sanic.response.json({'status': 500, 'message': 'Intern Server error'}, status=500)
             else:
                 data = (await req.json())['savetheworldnews']
     response = {
