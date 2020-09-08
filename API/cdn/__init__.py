@@ -1,8 +1,7 @@
-import json
-import os
-from datetime import datetime
 import io
+import json
 import math
+import os
 import random
 import time
 
@@ -23,7 +22,8 @@ async def handler(req, folder, name):
 
     if lang != "en":
         if str(name).lower().startswith("shop"):
-            currentshop = str((json.loads(await (await aiofiles.open(f'Cache/data/resp_shop.json', mode='r')).read()))['uniqueurl']).split("shop_")[1].split(".png")[0]
+            currentshop = str((json.loads(await (await aiofiles.open(f'Cache/data/resp_shop.json', mode='r')).read()))[
+                                  'uniqueurl']).split("shop_")[1].split(".png")[0]
             if os.path.exists(f"cdn/unique/shop_{lang}_{currentshop}.png") is True:
                 return await sanic.response.file(f"cdn/unique/shop_{lang}_{currentshop}.png")
             async with aiohttp.ClientSession() as session:
@@ -38,7 +38,9 @@ async def handler(req, folder, name):
                     return await sanic.response.file(f"cdn/unique/shop_{lang}_{currentshop}.png")
 
         if str(name).lower().startswith("leaks"):
-            currentleaks = str((json.loads(await (await aiofiles.open(f'Cache/data/resp_leaks.json', mode='r')).read()))['uniqueurl']).split("leaks_")[1].split(".png")[0]
+            currentleaks = str(
+                (json.loads(await (await aiofiles.open(f'Cache/data/resp_leaks.json', mode='r')).read()))[
+                    'uniqueurl']).split("leaks_")[1].split(".png")[0]
             if os.path.exists(f"cdn/unique/leaks_{lang}_{currentleaks}.png") is True:
                 return await sanic.response.file(f"cdn/unique/leaks_{lang}_{currentleaks}.png")
             async with aiohttp.ClientSession() as session:

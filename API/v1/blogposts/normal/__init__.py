@@ -17,7 +17,8 @@ async def handler(req):
                 f'https://www.epicgames.com/fortnite/api/blog/getPosts?category=&postsPerPage=9999&offset=0&locale={lang}&rootPageSlug=blog') as req:
             if req.status != 200:
                 try:
-                    data = (json.loads(await (await aiofiles.open(f'Cache/blogbosts_normal_{lang}.json', mode='r')).read()))
+                    data = (
+                        json.loads(await (await aiofiles.open(f'Cache/blogbosts_normal_{lang}.json', mode='r')).read()))
                 except:
                     traceback.print_exc()
                     return sanic.response.json({'status': 500, 'message': 'Intern Server error'}, status=500)

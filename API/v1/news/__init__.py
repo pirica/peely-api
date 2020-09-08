@@ -1,15 +1,15 @@
+import io
 import json
+import random
+import textwrap
 import traceback
 
 import aiofiles
 import aiohttp
 import sanic
 import sanic.response
-import io
-import random
-import textwrap
-import traceback
 from PIL import ImageFont, Image, ImageDraw
+
 
 async def handler(req):
     lang = 'en'
@@ -62,9 +62,9 @@ async def handler(req):
                     'spotlight': motd['spotlight']
                 })
         else:
-            nobrmotds=True
+            nobrmotds = True
     except:
-        nobrmotds=True
+        nobrmotds = True
     try:
         if data['battleroyalenews']['news']['messages']:
             for message in data['battleroyalenews']['news']['messages']:
@@ -107,7 +107,7 @@ async def handler(req):
         pass
 
     try:
-        imgs=[]
+        imgs = []
         for i in response["data"]["br"]["motds"]:
             img = Image.new("RGBA", (1920, 1080))
             async with aiohttp.ClientSession() as cs:
@@ -121,7 +121,8 @@ async def handler(req):
             imgs.append(img)
 
         id = random.randint(1111111111111, 99999999999999999999)
-        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
+                 loop=0)
         response['data']['br']['image'] = f"https://api.peely.de/cdn/unique/br_news_{id}.gif"
     except:
         traceback.print_exc()
@@ -183,7 +184,7 @@ async def handler(req):
         pass
 
     try:
-        imgs=[]
+        imgs = []
         for i in response["data"]["creative"]["motds"]:
             img = Image.new("RGBA", (1920, 1080))
             async with aiohttp.ClientSession() as cs:
@@ -197,7 +198,8 @@ async def handler(req):
             imgs.append(img)
 
         id = random.randint(1111111111111, 99999999999999999999)
-        img.save(fp=f"cdn/unique/creative_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        img.save(fp=f"cdn/unique/creative_news_{id}.gif", format='GIF', append_images=imgs, save_all=True,
+                 duration=4500, loop=0)
         response['data']['creative']['image'] = f"https://api.peely.de/cdn/unique/creative_news_{id}.gif"
     except:
         traceback.print_exc()
@@ -216,19 +218,22 @@ async def handler(req):
         print(ex)
 
     try:
-        imgs=[]
+        imgs = []
         for i in response["data"]["stw"]["messages"]:
             img = Image.new("RGBA", (1024, 512))
             async with aiohttp.ClientSession() as cs:
                 async with cs.get(i['image']) as temp:
                     img.paste(Image.open(io.BytesIO(await temp.read())))
             draw = ImageDraw.Draw(img)
-            draw.text((img.width - img.width + 25, 365), f"{i['title']}", (255, 255, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
-            draw.text((img.width - img.width + 25, 415), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255), font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
+            draw.text((img.width - img.width + 25, 365), f"{i['title']}", (255, 255, 255),
+                      font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
+            draw.text((img.width - img.width + 25, 415), f"{textwrap.fill(i['body'], 70)}", (51, 237, 255),
+                      font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
             imgs.append(img)
 
         id = random.randint(1111111111111, 99999999999999999999)
-        img.save(fp=f"cdn/unique/stw_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        img.save(fp=f"cdn/unique/stw_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
+                 loop=0)
         response['data']['stw']['image'] = f"https://api.peely.de/cdn/unique/stw_news_{id}.gif"
     except:
         traceback.print_exc()

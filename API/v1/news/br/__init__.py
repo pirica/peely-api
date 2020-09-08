@@ -1,14 +1,13 @@
 import io
 import json
 import random
-import traceback
 import textwrap
+import traceback
 
 import aiofiles
 import aiohttp
 import sanic
 import sanic.response
-import glob
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -100,7 +99,7 @@ async def handler(req):
         traceback.print_exc()
 
     try:
-        imgs=[]
+        imgs = []
         for i in response["data"]["motds"]:
             img = Image.new("RGBA", (1920, 1080))
             async with aiohttp.ClientSession() as cs:
@@ -114,7 +113,8 @@ async def handler(req):
             imgs.append(img)
 
         id = random.randint(1111111111111, 99999999999999999999)
-        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=3200, loop=0)
+        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
+                 loop=0)
         response['data']['image'] = f"https://api.peely.de/cdn/unique/br_news_{id}.gif"
     except:
         traceback.print_exc()
