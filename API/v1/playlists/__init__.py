@@ -31,26 +31,34 @@ async def handler(req):
 
     try:
         if data['playlistinformation']['playlist_info']['playlists']:
-            for tournament in data['playlistinformation']['playlist_info']['playlists']:
+            for playlist in data['playlistinformation']['playlist_info']['playlists']:
                 try:
                     response['data']['playlists'].append({
-                        'playlist_id': tournament['playlist_name'],
-                        'image': tournament['image'],
-                        'description': tournament['description'],
+                        'playlist_name': playlist['display_name'],
+                        'playlist_id': playlist['playlist_name'],
+                        'image': playlist['image'],
+                        'description': playlist['description'],
                     })
                 except:
                     try:
                         response['data']['playlists'].append({
-                            'playlist_id': tournament['playlist_name'],
-                            'image': tournament['image']
+                            'playlist_id': playlist['playlist_name'],
+                            'image': playlist['image'],
+                            'description': playlist['description'],
                         })
                     except:
                         try:
                             response['data']['playlists'].append({
-                                'playlist_id': tournament['playlist_name']
+                                'playlist_id': playlist['playlist_name'],
+                                'image': playlist['image']
                             })
                         except:
-                            continue
+                            try:
+                                response['data']['playlists'].append({
+                                    'playlist_id': playlist['playlist_name']
+                                })
+                            except:
+                                continue
     except KeyError as ex:
         print(ex)
 

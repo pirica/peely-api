@@ -52,6 +52,13 @@ async def handler(req):
             except:
                 pass
             try:
+                temp['image'] = bloglist['image']
+            except:
+                try:
+                    temp['image'] = bloglist['trendingImage']
+                except:
+                    pass
+            try:
                 temp['date'] = bloglist['date']
             except:
                 pass
