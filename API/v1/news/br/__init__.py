@@ -26,7 +26,7 @@ async def handler(req):
                 except:
                     return sanic.response.json({'status': 500, 'message': 'Intern Server error'}, status=500)
             else:
-                data = (await req.json())['battleroyalenews']
+                data = (await req.json())['battleroyalenewsv2']
     response = {
         'status': 200,
         'message': 'Everything should work fine',
@@ -34,14 +34,12 @@ async def handler(req):
             'image': "error",
             'motds': [],
             'messages': [],
-            'platform_motds': {}
         }
     }
 
     try:
-        nobrmotds = False
-        if data['battleroyalenews']['news']['motds']:
-            for motd in data['battleroyalenews']['news']['motds']:
+        if data['news']['motds']:
+            for motd in data['news']['motds']:
                 response['data']['motds'].append({
                     'image': motd['image'],
                     'tileImage': motd['tileImage'],
@@ -50,11 +48,8 @@ async def handler(req):
                     'id': motd['id'],
                     'spotlight': motd['spotlight']
                 })
-        else:
-            nobrmotds = True
     except:
         traceback.print_exc()
-        nobrmotds = True
 
     try:
         if data['news']['messages']:
@@ -68,35 +63,6 @@ async def handler(req):
                 })
     except KeyError as ex:
         print(ex)
-    try:
-        if data['news']['platform_motds']:
-            for platform in data['news']['platform_motds']:
-                response['data']['platform_motds'][platform['platform']] = []
-            for platform_motds in data['news']['platform_motds']:
-                response['data']['platform_motds'][platform_motds['platform']].append({
-                    'image': platform_motds['message']['image'],
-                    'tileImage': platform_motds['message']['tileImage'],
-                    'title': platform_motds['message']['title'],
-                    'body': platform_motds['message']['body'],
-                    'id': platform_motds['message']['id'],
-                    'spotlight': platform_motds['message']['spotlight']
-                })
-    except:
-        traceback.print_exc()
-
-    try:
-        if nobrmotds is True:
-            for newmotd in response['data']['platform_motds']['windows']:
-                response['data']['motds'].append({
-                    'image': newmotd['image'],
-                    'tileImage': newmotd['tileImage'],
-                    'title': newmotd['title'],
-                    'body': newmotd['body'],
-                    'id': newmotd['id'],
-                    'spotlight': newmotd['spotlight']
-                })
-    except:
-        traceback.print_exc()
 
     try:
         imgs = []

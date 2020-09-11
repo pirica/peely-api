@@ -91,14 +91,15 @@ async def check_20():
                 except:
                     traceback.print_exc()
                 if oldbenleaks != newbenleaks:
-                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read())[
-                        "version"] != newbenleaks["currentVersion"]:
+                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read()) \
+                        ["version"] != newbenleaks["currentVersion"]:
                         print("benbot updated")
                         if newbenleaks['items']:
                             await (await aiofiles.open('Cache/data/versioncache.json', mode='w+')).write(
                                 json.dumps({"version": newbenleaks["currentVersion"]}, indent=2))
                             globaldata = {
                                 "status": 200,
+                                "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
                                 "data": {
                                     "items": [{
                                         "id": cosmetic["id"],
@@ -139,13 +140,14 @@ async def check_20():
                 except:
                     traceback.print_exc()
                 if oldfnleaks != newfnleaks:
-                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read())[
-                        "version"] != newfnleaks["data"]["build"]:
+                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read()) \
+                            ["version"] != newfnleaks["data"]["build"]:
                         print("FN API updated")
                         await (await aiofiles.open('Cache/data/versioncache.json', mode='w+')).write(
                             json.dumps({"version": newfnleaks["data"]["build"]}, indent=2))
                         globaldata = {
                             "status": 200,
+                            "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
                             "data": {
                                 "items": [
                                 ]

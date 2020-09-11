@@ -33,13 +33,12 @@ async def handler(req):
             'image': "error",
             'motds': [],
             'messages': [],
-            'platform_motds': {},
             'ads': []
         }
     }
     try:
-        if data['creativenews']['news']['motds']:
-            for motd in data['creativenews']['news']['motds']:
+        if data['creativenewsv2']['news']['motds']:
+            for motd in data['creativenewsv2']['news']['motds']:
                 response['data']['motds'].append({
                     'image': motd['image'],
                     'tileImage': motd['tileImage'],
@@ -51,30 +50,14 @@ async def handler(req):
     except:
         traceback.print_exc()
     try:
-        if data['creativenews']['news']['messages']:
-            for message in data['creativenews']['news']['messages']:
+        if data['creativenewsv2']['news']['messages']:
+            for message in data['creativenewsv2']['news']['messages']:
                 response['data']['messages'].append({
                     'image': message['image'],
                     'messagetype': message['messagetype'],
                     'title': message['title'],
                     'body': message['body'],
                     'spotlight': message['spotlight']
-                })
-    except:
-        traceback.print_exc()
-
-    try:
-        if data['creativenews']['news']['platform_motds']:
-            for platform in data['creativenews']['news']['platform_motds']:
-                response['data']['platform_motds'][platform['platform']] = []
-            for platform_motds in data['creativenews']['news']['platform_motds']:
-                response['data']['platform_motds'][platform_motds['platform']].append({
-                    'image': platform_motds['message']['image'],
-                    'tileImage': platform_motds['message']['tileImage'],
-                    'title': platform_motds['message']['title'],
-                    'body': platform_motds['message']['body'],
-                    'id': platform_motds['message']['id'],
-                    'spotlight': platform_motds['message']['spotlight']
                 })
     except:
         traceback.print_exc()

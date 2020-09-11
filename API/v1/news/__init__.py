@@ -34,13 +34,11 @@ async def handler(req):
                 'image': "error",
                 'motds': [],
                 'messages': [],
-                'platform_motds': {},
             },
             'creative': {
                 'image': "error",
                 'motds': [],
                 'messages': [],
-                'platform_motds': {},
                 'ads': [],
             },
             'stw': {
@@ -50,9 +48,8 @@ async def handler(req):
         }
     }
     try:
-        nobrmotds = False
-        if data['battleroyalenews']['news']['motds']:
-            for motd in data['battleroyalenews']['news']['motds']:
+        if data['battleroyalenewsv2']['news']['motds']:
+            for motd in data['battleroyalenewsv2']['news']['motds']:
                 response['data']['br']['motds'].append({
                     'image': motd['image'],
                     'tileImage': motd['tileImage'],
@@ -61,13 +58,12 @@ async def handler(req):
                     'id': motd['id'],
                     'spotlight': motd['spotlight']
                 })
-        else:
-            nobrmotds = True
     except:
-        nobrmotds = True
+        traceback.print_exc()
+
     try:
-        if data['battleroyalenews']['news']['messages']:
-            for message in data['battleroyalenews']['news']['messages']:
+        if data['battleroyalenewsv2']['news']['messages']:
+            for message in data['battleroyalenewsv2']['news']['messages']:
                 response['data']['br']['messages'].append({
                     'image': message['image'],
                     'messagetype': message['messagetype'],
@@ -77,34 +73,6 @@ async def handler(req):
                 })
     except KeyError as ex:
         print(ex)
-    try:
-        if data['battleroyalenews']['news']['platform_motds']:
-            for platform in data['battleroyalenews']['news']['platform_motds']:
-                response['data']['br']['platform_motds'][platform['platform']] = []
-            for platform_motds in data['battleroyalenews']['news']['platform_motds']:
-                response['data']['br']['platform_motds'][platform_motds['platform']].append({
-                    'image': platform_motds['message']['image'],
-                    'tileImage': platform_motds['message']['tileImage'],
-                    'title': platform_motds['message']['title'],
-                    'body': platform_motds['message']['body'],
-                    'id': platform_motds['message']['id'],
-                    'spotlight': platform_motds['message']['spotlight']
-                })
-    except KeyError as ex:
-        print(ex)
-    try:
-        if nobrmotds is True:
-            for newmotd in response['data']['br']['platform_motds']['windows']:
-                response['data']['br']['motds'].append({
-                    'image': newmotd['image'],
-                    'tileImage': newmotd['tileImage'],
-                    'title': newmotd['title'],
-                    'body': newmotd['body'],
-                    'id': newmotd['id'],
-                    'spotlight': newmotd['spotlight']
-                })
-    except:
-        pass
 
     try:
         imgs = []
@@ -128,8 +96,8 @@ async def handler(req):
         traceback.print_exc()
 
     try:
-        if data['creativenews']['news']['motds']:
-            for motd in data['creativenews']['news']['motds']:
+        if data['creativenewsv2']['news']['motds']:
+            for motd in data['creativenewsv2']['news']['motds']:
                 response['data']['creative']['motds'].append({
                     'image': motd['image'],
                     'tileImage': motd['tileImage'],
@@ -138,11 +106,11 @@ async def handler(req):
                     'id': motd['id'],
                     'spotlight': motd['spotlight']
                 })
-    except KeyError as ex:
-        print(ex)
+    except:
+        traceback.print_exc()
     try:
-        if data['creativenews']['news']['messages']:
-            for message in data['creativenews']['news']['messages']:
+        if data['creativenewsv2']['news']['messages']:
+            for message in data['creativenewsv2']['news']['messages']:
                 response['data']['creative']['messages'].append({
                     'image': message['image'],
                     'messagetype': message['messagetype'],
@@ -150,23 +118,8 @@ async def handler(req):
                     'body': message['body'],
                     'spotlight': message['spotlight']
                 })
-    except KeyError as ex:
-        print(ex)
-    try:
-        if data['creativenews']['news']['platform_motds']:
-            for platform in data['creativenews']['news']['platform_motds']:
-                response['data']['creative']['platform_motds'][platform['platform']] = []
-            for platform_motds in data['creativenews']['news']['platform_motds']:
-                response['data']['creative']['platform_motds'][platform_motds['platform']].append({
-                    'image': platform_motds['message']['image'],
-                    'tileImage': platform_motds['message']['tileImage'],
-                    'title': platform_motds['message']['title'],
-                    'body': platform_motds['message']['body'],
-                    'id': platform_motds['message']['id'],
-                    'spotlight': platform_motds['message']['spotlight']
-                })
-    except KeyError as ex:
-        print(ex)
+    except:
+        traceback.print_exc()
 
     try:
         if data['creativeAds']['ad_info']['ads']:
@@ -181,7 +134,7 @@ async def handler(req):
                 except:
                     continue
     except:
-        pass
+        traceback.print_exc()
 
     try:
         imgs = []
