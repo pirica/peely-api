@@ -2,6 +2,7 @@ import asyncio
 import json
 import traceback
 
+import modules.stats
 import aiofiles
 import aiohttp
 import sanic
@@ -9,6 +10,7 @@ import sanic.response
 from discord.ext import commands, tasks
 
 from API.cdn import handler as cdn
+from API.intern.stats import handler as stats
 from API.v1.blogposts.competitive import handler as competitiveblogposts
 from API.v1.blogposts.normal import handler as normalblogposts
 from API.v1.comics import handler as comics
@@ -16,8 +18,8 @@ from API.v1.ini import handler as ini
 from API.v1.ini.files import handler as inifile
 from API.v1.leaks import generateleaks as generateleaks
 from API.v1.leaks import handler as leaks
-from API.v1.leaks.data import handler as leaksdata
 from API.v1.leaks.custom import handler as leakscustom
+from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
 from API.v1.news.br import handler as br_news
 from API.v1.news.creative import handler as creative_news
@@ -35,6 +37,7 @@ client = commands.Bot(command_prefix=">")
 app = sanic.app.Sanic('api')
 app.config.FORWARDED_SECRET = "api"
 
+
 app.add_route(cdn, "/cdn/<folder>/<name>")
 app.add_route(inifile, "/v1/ini/files/<file>")
 app.add_route(ini, "/v1/ini/")
@@ -50,15 +53,16 @@ app.add_route(leaksdata, "/v1/leaks/data")
 app.add_route(leakscustom, "/v1/leaks/custom")
 app.add_route(leaks, "/v1/leaks")
 app.add_route(tournaments, "/v1/tournaments")
-app.add_route(tournaments, "/v1/tournament")
 app.add_route(playlists, "/v1/playlists")
 app.add_route(comics, "/v1/comics")
 app.add_route(shop, "/v1/shop")
 app.add_route(customshop, "/v1/shop/custom")
+app.add_route(stats, "/intern/stats")
 
 
 @client.event
 async def on_ready():
+    await modules.stats.rewrite()
     print("EVERYTHING READY")
     try:
         check_20.start()
@@ -66,10 +70,21 @@ async def on_ready():
         check_20.stop()
         check_20.start()
     try:
+        check_3.start()
+    except:
+        check_3.stop()
+        check_3.start()
+    try:
         check_120.start()
     except:
         check_120.stop()
         check_120.start()
+
+
+@tasks.loop(seconds=3)
+async def check_3():
+    await client.wait_until_ready()
+    await modules.stats.savestats()
 
 
 @tasks.loop(seconds=20)
@@ -94,7 +109,7 @@ async def check_20():
                     traceback.print_exc()
                 if oldbenleaks != newbenleaks:
                     if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read()) \
-                        ["version"] != newbenleaks["currentVersion"]:
+                            ["version"] != newbenleaks["currentVersion"]:
                         print("benbot updated")
                         if newbenleaks['items']:
                             await (await aiofiles.open('Cache/data/versioncache.json', mode='w+')).write(
@@ -219,7 +234,6 @@ async def check_120():
                                     await file.write(str(await data.text()))
                 await (await aiofiles.open('Cache/data/ini.json', mode='w+')).write(
                     json.dumps(templiste, indent=2))
-
 
 @app.route('/')
 async def home(req):

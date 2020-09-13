@@ -14,9 +14,11 @@ from PIL import Image
 from discord.ext import commands
 
 from modules import leaks
+from modules import stats
 
 
 async def handler(req):
+    await stats.updatestats(req)
     return sanic.response.json(json.loads(await (await aiofiles.open(f'Cache/data/resp_leaks.json', mode='r')).read()))
 
 

@@ -12,9 +12,11 @@ import sanic.response
 from PIL import Image
 
 from modules import shop, leaks
+from modules import stats
 
 
 async def handler(req, folder, name):
+    await stats.updatestats(req)
     lang = "en"
     for i in req.query_args:
         if i[0] == "lang":

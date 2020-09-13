@@ -1,9 +1,6 @@
 import io
-import json
 import math
-import os
 import traceback
-from datetime import datetime
 
 import aiofiles
 import aiohttp
@@ -60,7 +57,8 @@ async def GenerateCard(Item):
 
     try:
         layer = Image.open(
-            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_inside_{Rarity.lower()}.png", mode='rb')).read()))
+            io.BytesIO(
+                await (await aiofiles.open(f"assets/Images/card_inside_{Rarity.lower()}.png", mode='rb')).read()))
     except Exception as ex:
         print(ex, "1121212")
         layer = Image.open(
@@ -156,7 +154,9 @@ async def generate(Leaks: dict, background: str = "http://peely.de/api/backgroun
                 await f.close()
                 Background = Image.open(
                     io.BytesIO(await (
-                        await aiofiles.open("assets/cache/temp.png", mode='rb')).read())).resize((int(round(math.sqrt(len(files)) + 0.45) * 305 - 5), int((round(math.sqrt(len(files)) + 0.45) * 550 - 5))), Image.ANTIALIAS)
+                        await aiofiles.open("assets/cache/temp.png", mode='rb')).read())).resize((int(
+                    round(math.sqrt(len(files)) + 0.45) * 305 - 5), int(
+                    (round(math.sqrt(len(files)) + 0.45) * 550 - 5))), Image.ANTIALIAS)
 
     result.paste(Background)
     Draw = ImageDraw.Draw(result)
