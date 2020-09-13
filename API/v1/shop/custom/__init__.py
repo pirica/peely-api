@@ -36,8 +36,8 @@ async def handler(req):
     img = await customshop.GenerateShopImage(Store=data,
                                              background_user=background, text=text)
     rand = random.randint(1111111111111111111111111111111111111111, 99999999999999999999999999999999999999999999999999)
-    img.save(f"cdn/temp/{rand}.png")
+    img.save(f"cdn/unique/{rand}.png")
     buffered = io.BytesIO()
     img.save(buffered, format="PNG")
     buffered.seek(0)
-    return await sanic.response.file(f"cdn/temp/{rand}.png")
+    return await sanic.response.file(f"cdn/unique/{rand}.png")

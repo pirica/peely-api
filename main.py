@@ -17,6 +17,7 @@ from API.v1.ini.files import handler as inifile
 from API.v1.leaks import generateleaks as generateleaks
 from API.v1.leaks import handler as leaks
 from API.v1.leaks.data import handler as leaksdata
+from API.v1.leaks.custom import handler as leakscustom
 from API.v1.news import handler as news
 from API.v1.news.br import handler as br_news
 from API.v1.news.creative import handler as creative_news
@@ -46,6 +47,7 @@ app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
 app.add_route(notices, "/v1/notices")
 app.add_route(leaksdata, "/v1/leaks/data")
+app.add_route(leakscustom, "/v1/leaks/custom")
 app.add_route(leaks, "/v1/leaks")
 app.add_route(tournaments, "/v1/tournaments")
 app.add_route(tournaments, "/v1/tournament")

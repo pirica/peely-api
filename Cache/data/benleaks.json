@@ -1,33 +1,7 @@
 {
   "previousVersion": "++Fortnite+Release-14.00-CL-14211474-Windows",
-  "currentVersion": "++Fortnite+Release-14.10-CL-14276912-Windows",
+  "currentVersion": "++Fortnite+Release-14.10-CL-14288110-Windows",
   "items": [
-    {
-      "id": "EID_Elastic",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_Elastic",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Hero's Beacon",
-      "description": "Light the signal.",
-      "shortDescription": "Emote",
-      "backendType": "AthenaDance",
-      "rarity": "Legendary",
-      "backendRarity": "EFortRarity::Legendary",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.EmoteType.Dance",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.UserFacingFlags.BuiltInEmote",
-        "Cosmetics.Set.Endless"
-      ]
-    },
     {
       "id": "BID_606_BlackwidowFemale_Corrupt",
       "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_606_BlackwidowFemale_Corrupt",
@@ -59,387 +33,29 @@
       ]
     },
     {
-      "id": "BID_607_SniperHoodFemale_Corrupt",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_607_SniperHoodFemale_Corrupt",
+      "id": "EID_Elastic",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_Elastic",
       "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
+        "icon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
         "featured": null,
         "series": null
       },
-      "name": "Corrupted Sight Sling",
-      "description": "Expertly sighted... yet riddled with corruption.",
-      "shortDescription": "Back Bling",
-      "backendType": "AthenaBackpack",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
+      "name": "Hero's Beacon",
+      "description": "Light the signal.",
+      "shortDescription": "Emote",
+      "backendType": "AthenaDance",
+      "rarity": "Legendary",
+      "backendRarity": "EFortRarity::Legendary",
       "set": null,
       "setText": null,
       "series": null,
-      "variants": [
-        {
-          "channel": "Corruption",
-          "type": "Corruption",
-          "options": []
-        }
-      ],
+      "variants": null,
       "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Set.SpiderCrime",
-        "Cosmetics.UserFacingFlags.HasVariants"
-      ]
-    },
-    {
-      "id": "Pickaxe_ID_463_Elastic1H",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_463_Elastic1H",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
-        "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/featured.png",
-        "series": null
-      },
-      "name": "Phantasmic Pulse",
-      "description": "Channeling energy from a far-off star.",
-      "shortDescription": "Harvesting Tool",
-      "backendType": "AthenaPickaxe",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": [
-        {
-          "channel": "Mesh",
-          "type": "Style",
-          "options": []
-        },
-        {
-          "channel": "RichColor4",
-          "type": "Primary Color",
-          "options": []
-        },
-        {
-          "channel": "RichColor3",
-          "type": "Secondary Color",
-          "options": []
-        }
-      ],
-      "gameplayTags": [
+        "Cosmetics.EmoteType.Dance",
         "Cosmetics.Source.ItemShop",
-        "Cosmetics.Pickaxe.OneHanded",
         "Cosmetics.Filter.Season.14",
-        "Cosmetics.UserFacingFlags.HasVariants",
+        "Cosmetics.UserFacingFlags.BuiltInEmote",
         "Cosmetics.Set.Endless"
-      ]
-    },
-    {
-      "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Corrupted Shogun",
-      "description": "Suited for the ultimate corruption. ",
-      "shortDescription": "Outfit",
-      "backendType": "AthenaCharacter",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": [
-        {
-          "channel": "Corruption",
-          "type": "Corruption",
-          "options": []
-        }
-      ],
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Set.SpiderCrime",
-        "Cosmetics.UserFacingFlags.HasVariants"
-      ]
-    },
-    {
-      "id": "CID_853_Athena_Commando_F_SniperHoodCorrupt",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_853_Athena_Commando_F_SniperHoodCorrupt",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Corrupted Insight",
-      "description": "Target in sight and totally corrupted.",
-      "shortDescription": "Outfit",
-      "backendType": "AthenaCharacter",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": [
-        {
-          "channel": "Corruption",
-          "type": "Corruption",
-          "options": []
-        }
-      ],
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Set.SpiderCrime",
-        "Cosmetics.UserFacingFlags.HasVariants"
-      ]
-    },
-    {
-      "id": "CID_852_Athena_Commando_F_BlackWidowCorrupt",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_852_Athena_Commando_F_BlackWidowCorrupt",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Corrupted Arachne",
-      "description": "Weave a web of corruption... to victory.",
-      "shortDescription": "Outfit",
-      "backendType": "AthenaCharacter",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": [
-        {
-          "channel": "Corruption",
-          "type": "Corruption",
-          "options": []
-        }
-      ],
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Set.SpiderCrime",
-        "Cosmetics.UserFacingFlags.HasVariants"
-      ]
-    },
-    {
-      "id": "BID_608_SamuraiArmorUltra_Corrupt",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_608_SamuraiArmorUltra_Corrupt",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Corrupted Bladed Wings",
-      "description": "The edgy wings of corruption.",
-      "shortDescription": "Back Bling",
-      "backendType": "AthenaBackpack",
-      "rarity": "Epic",
-      "backendRarity": "EFortRarity::Epic",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": [
-        {
-          "channel": "Corruption",
-          "type": "Corruption",
-          "options": []
-        }
-      ],
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Set.SpiderCrime",
-        "Cosmetics.UserFacingFlags.HasVariants"
-      ]
-    },
-    {
-      "id": "Wrap_282_NeonSign",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_282_NeonSign",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
-        "featured": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/featured.png",
-        "series": null
-      },
-      "name": "Arcade Kid",
-      "description": "Show your style.",
-      "shortDescription": "Wrap",
-      "backendType": "AthenaItemWrap",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.UserFacingFlags.Wrap.Animated",
-        "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
-      ]
-    },
-    {
-      "id": "Wrap_281_LongShorts",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_281_LongShorts",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Point Patrol",
-      "description": "Show your style.",
-      "shortDescription": "Wrap",
-      "backendType": "AthenaItemWrap",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Source.Promo"
-      ]
-    },
-    {
-      "id": "Wrap_280_Gel",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_280_Gel",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
-        "featured": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/featured.png",
-        "series": null
-      },
-      "name": "Plasma Bubble",
-      "description": "Show your style.",
-      "shortDescription": "Wrap",
-      "backendType": "AthenaItemWrap",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.UserFacingFlags.Wrap.Animated",
-        "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
-      ]
-    },
-    {
-      "id": "EID_TwistEternity",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Last Forever",
-      "description": "Who said love don't last forever?",
-      "shortDescription": "Emote",
-      "backendType": "AthenaDance",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.EmoteType.Dance",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.UserFacingFlags.Synced",
-        "Cosmetics.Filter.Season.14"
-      ]
-    },
-    {
-      "id": "Pickaxe_ID_464_LongShortsMale",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_464_LongShortsMale",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Perfect Point",
-      "description": "Perfectly appointed.",
-      "shortDescription": "Harvesting Tool",
-      "backendType": "AthenaPickaxe",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.Filter.Season.14",
-        "Cosmetics.Source.Promo"
-      ]
-    },
-    {
-      "id": "MusicPack_060_TakeTheW",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_060_TakeTheW",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Sweet Victory ",
-      "description": "Press play and savor the wins. ",
-      "shortDescription": "Music",
-      "backendType": "AthenaMusicPack",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.Filter.Season.14"
-      ]
-    },
-    {
-      "id": "EID_TwistEternity_Sync_Follower",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity_Sync_Follower",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Last Forever",
-      "description": "Who said love don't last forever?",
-      "shortDescription": "Emote",
-      "backendType": "AthenaDance",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.EmoteType.Dance",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.UserFacingFlags.Synced"
-      ]
-    },
-    {
-      "id": "EID_TwistEternity_Sync",
-      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity_Sync",
-      "icons": {
-        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
-        "featured": null,
-        "series": null
-      },
-      "name": "Last Forever",
-      "description": "Who said love don't last forever?",
-      "shortDescription": "Emote",
-      "backendType": "AthenaDance",
-      "rarity": "Rare",
-      "backendRarity": "EFortRarity::Rare",
-      "set": null,
-      "setText": null,
-      "series": null,
-      "variants": null,
-      "gameplayTags": [
-        "Cosmetics.EmoteType.Dance",
-        "Cosmetics.Source.ItemShop",
-        "Cosmetics.UserFacingFlags.Synced"
       ]
     },
     {
@@ -491,6 +107,36 @@
       ]
     },
     {
+      "id": "BID_607_SniperHoodFemale_Corrupt",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_607_SniperHoodFemale_Corrupt",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Corrupted Sight Sling",
+      "description": "Expertly sighted... yet riddled with corruption.",
+      "shortDescription": "Back Bling",
+      "backendType": "AthenaBackpack",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Corruption",
+          "type": "Corruption",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Set.SpiderCrime",
+        "Cosmetics.UserFacingFlags.HasVariants"
+      ]
+    },
+    {
       "id": "Emoji_S14_Elastic_Fire",
       "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_Elastic_Fire",
       "icons": {
@@ -539,6 +185,73 @@
       ]
     },
     {
+      "id": "Wrap_282_NeonSign",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_282_NeonSign",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
+        "featured": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/featured.png",
+        "series": null
+      },
+      "name": "Arcade Kid",
+      "description": "Show your style.",
+      "shortDescription": "Wrap",
+      "backendType": "AthenaItemWrap",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.UserFacingFlags.Wrap.Animated",
+        "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
+      ]
+    },
+    {
+      "id": "Pickaxe_ID_463_Elastic1H",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_463_Elastic1H",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
+        "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/featured.png",
+        "series": null
+      },
+      "name": "Phantasmic Pulse",
+      "description": "Channeling energy from a far-off star.",
+      "shortDescription": "Harvesting Tool",
+      "backendType": "AthenaPickaxe",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Mesh",
+          "type": "Style",
+          "options": []
+        },
+        {
+          "channel": "RichColor4",
+          "type": "Primary Color",
+          "options": []
+        },
+        {
+          "channel": "RichColor3",
+          "type": "Secondary Color",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.Pickaxe.OneHanded",
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.UserFacingFlags.HasVariants",
+        "Cosmetics.Set.Endless"
+      ]
+    },
+    {
       "id": "Emoji_S14_Elastic_Cupcake",
       "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_Elastic_Cupcake",
       "icons": {
@@ -560,6 +273,36 @@
         "Cosmetics.EmoteType.Emoji",
         "Cosmetics.Filter.Season.14",
         "Cosmetics.Set.Endless"
+      ]
+    },
+    {
+      "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Corrupted Shogun",
+      "description": "Suited for the ultimate corruption. ",
+      "shortDescription": "Outfit",
+      "backendType": "AthenaCharacter",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Corruption",
+          "type": "Corruption",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Set.SpiderCrime",
+        "Cosmetics.UserFacingFlags.HasVariants"
       ]
     },
     {
@@ -587,6 +330,29 @@
       ]
     },
     {
+      "id": "Wrap_281_LongShorts",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_281_LongShorts",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Point Patrol",
+      "description": "Show your style.",
+      "shortDescription": "Wrap",
+      "backendType": "AthenaItemWrap",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Source.Promo"
+      ]
+    },
+    {
       "id": "Emoji_S14_Elastic_Fly",
       "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_Elastic_Fly",
       "icons": {
@@ -608,6 +374,56 @@
         "Cosmetics.EmoteType.Emoji",
         "Cosmetics.Filter.Season.14",
         "Cosmetics.Set.Endless"
+      ]
+    },
+    {
+      "id": "Wrap_280_Gel",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_280_Gel",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
+        "featured": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/featured.png",
+        "series": null
+      },
+      "name": "Plasma Bubble",
+      "description": "Show your style.",
+      "shortDescription": "Wrap",
+      "backendType": "AthenaItemWrap",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.UserFacingFlags.Wrap.Animated",
+        "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
+      ]
+    },
+    {
+      "id": "EID_TwistEternity",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Last Forever",
+      "description": "Who said love don't last forever?",
+      "shortDescription": "Emote",
+      "backendType": "AthenaDance",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.EmoteType.Dance",
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.UserFacingFlags.Synced",
+        "Cosmetics.Filter.Season.14"
       ]
     },
     {
@@ -731,6 +547,29 @@
       ]
     },
     {
+      "id": "Pickaxe_ID_464_LongShortsMale",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_464_LongShortsMale",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Perfect Point",
+      "description": "Perfectly appointed.",
+      "shortDescription": "Harvesting Tool",
+      "backendType": "AthenaPickaxe",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Source.Promo"
+      ]
+    },
+    {
       "id": "Emoji_S14_Elastic_GreenSkull",
       "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_Elastic_GreenSkull",
       "icons": {
@@ -752,6 +591,36 @@
         "Cosmetics.EmoteType.Emoji",
         "Cosmetics.Filter.Season.14",
         "Cosmetics.Set.Endless"
+      ]
+    },
+    {
+      "id": "CID_853_Athena_Commando_F_SniperHoodCorrupt",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_853_Athena_Commando_F_SniperHoodCorrupt",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Corrupted Insight",
+      "description": "Target in sight and totally corrupted.",
+      "shortDescription": "Outfit",
+      "backendType": "AthenaCharacter",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Corruption",
+          "type": "Corruption",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Set.SpiderCrime",
+        "Cosmetics.UserFacingFlags.HasVariants"
       ]
     },
     {
@@ -823,6 +692,66 @@
         "Cosmetics.EmoteType.Emoji",
         "Cosmetics.Filter.Season.14",
         "Cosmetics.Set.Endless"
+      ]
+    },
+    {
+      "id": "CID_852_Athena_Commando_F_BlackWidowCorrupt",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_852_Athena_Commando_F_BlackWidowCorrupt",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Corrupted Arachne",
+      "description": "Weave a web of corruption... to victory.",
+      "shortDescription": "Outfit",
+      "backendType": "AthenaCharacter",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Corruption",
+          "type": "Corruption",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Set.SpiderCrime",
+        "Cosmetics.UserFacingFlags.HasVariants"
+      ]
+    },
+    {
+      "id": "BID_608_SamuraiArmorUltra_Corrupt",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_608_SamuraiArmorUltra_Corrupt",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Corrupted Bladed Wings",
+      "description": "The edgy wings of corruption.",
+      "shortDescription": "Back Bling",
+      "backendType": "AthenaBackpack",
+      "rarity": "Epic",
+      "backendRarity": "EFortRarity::Epic",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": [
+        {
+          "channel": "Corruption",
+          "type": "Corruption",
+          "options": []
+        }
+      ],
+      "gameplayTags": [
+        "Cosmetics.Filter.Season.14",
+        "Cosmetics.Set.SpiderCrime",
+        "Cosmetics.UserFacingFlags.HasVariants"
       ]
     },
     {
@@ -906,6 +835,77 @@
       "gameplayTags": [
         "Cosmetics.Filter.Season.14",
         "Cosmetics.Source.ItemShop"
+      ]
+    },
+    {
+      "id": "MusicPack_060_TakeTheW",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_060_TakeTheW",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Sweet Victory ",
+      "description": "Press play and savor the wins. ",
+      "shortDescription": "Music",
+      "backendType": "AthenaMusicPack",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.Filter.Season.14"
+      ]
+    },
+    {
+      "id": "EID_TwistEternity_Sync_Follower",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity_Sync_Follower",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Last Forever",
+      "description": "Who said love don't last forever?",
+      "shortDescription": "Emote",
+      "backendType": "AthenaDance",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.EmoteType.Dance",
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.UserFacingFlags.Synced"
+      ]
+    },
+    {
+      "id": "EID_TwistEternity_Sync",
+      "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TwistEternity_Sync",
+      "icons": {
+        "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
+        "featured": null,
+        "series": null
+      },
+      "name": "Last Forever",
+      "description": "Who said love don't last forever?",
+      "shortDescription": "Emote",
+      "backendType": "AthenaDance",
+      "rarity": "Rare",
+      "backendRarity": "EFortRarity::Rare",
+      "set": null,
+      "setText": null,
+      "series": null,
+      "variants": null,
+      "gameplayTags": [
+        "Cosmetics.EmoteType.Dance",
+        "Cosmetics.Source.ItemShop",
+        "Cosmetics.UserFacingFlags.Synced"
       ]
     },
     {

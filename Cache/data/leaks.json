@@ -1,31 +1,8 @@
 {
   "status": 200,
+  "NOTE": "Some values can be different because the Data is compared. Use ID\u00b4s in your work",
   "data": {
     "items": [
-      {
-        "id": "EID_Elastic",
-        "name": "Hero's Beacon",
-        "description": "Light the signal.",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png"
-        }
-      },
       {
         "id": "BID_606_BlackwidowFemale_Corrupt",
         "name": "Corrupted Long Legs",
@@ -51,225 +28,9 @@
         }
       },
       {
-        "id": "BID_607_SniperHoodFemale_Corrupt",
-        "name": "Corrupted Sight Sling",
-        "description": "Expertly sighted... yet riddled with corruption.",
-        "type": {
-          "value": "Back Bling",
-          "displayValue": "Back Bling",
-          "backendValue": "AthenaBackpack"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png"
-        }
-      },
-      {
-        "id": "Pickaxe_ID_463_Elastic1H",
-        "name": "Phantasmic Pulse",
-        "description": "Channeling energy from a far-off star.",
-        "type": {
-          "value": "Harvesting Tool",
-          "displayValue": "Harvesting Tool",
-          "backendValue": "AthenaPickaxe"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png"
-        }
-      },
-      {
-        "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
-        "name": "Corrupted Shogun",
-        "description": "Suited for the ultimate corruption. ",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png"
-        }
-      },
-      {
-        "id": "CID_853_Athena_Commando_F_SniperHoodCorrupt",
-        "name": "Corrupted Insight",
-        "description": "Target in sight and totally corrupted.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png"
-        }
-      },
-      {
-        "id": "CID_852_Athena_Commando_F_BlackWidowCorrupt",
-        "name": "Corrupted Arachne",
-        "description": "Weave a web of corruption... to victory.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png"
-        }
-      },
-      {
-        "id": "BID_608_SamuraiArmorUltra_Corrupt",
-        "name": "Corrupted Bladed Wings",
-        "description": "The edgy wings of corruption.",
-        "type": {
-          "value": "Back Bling",
-          "displayValue": "Back Bling",
-          "backendValue": "AthenaBackpack"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_282_NeonSign",
-        "name": "Arcade Kid",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_281_LongShorts",
-        "name": "Point Patrol",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_280_Gel",
-        "name": "Plasma Bubble",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png"
-        }
-      },
-      {
-        "id": "EID_TwistEternity",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
+        "id": "EID_Elastic",
+        "name": "Hero's Beacon",
+        "description": "Light the signal.",
         "type": {
           "value": "Emote",
           "displayValue": "Emote",
@@ -279,111 +40,15 @@
           "text": null
         },
         "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
+          "smallIcon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png"
-        }
-      },
-      {
-        "id": "Pickaxe_ID_464_LongShortsMale",
-        "name": "Perfect Point",
-        "description": "Perfectly appointed.",
-        "type": {
-          "value": "Harvesting Tool",
-          "displayValue": "Harvesting Tool",
-          "backendValue": "AthenaPickaxe"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png"
-        }
-      },
-      {
-        "id": "MusicPack_060_TakeTheW",
-        "name": "Sweet Victory ",
-        "description": "Press play and savor the wins. ",
-        "type": {
-          "value": "Music",
-          "displayValue": "Music",
-          "backendValue": "AthenaMusicPack"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png"
-        }
-      },
-      {
-        "id": "EID_TwistEternity_Sync_Follower",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png"
-        }
-      },
-      {
-        "id": "EID_TwistEternity_Sync",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png"
+          "icon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png"
         }
       },
       {
@@ -435,6 +100,30 @@
         }
       },
       {
+        "id": "BID_607_SniperHoodFemale_Corrupt",
+        "name": "Corrupted Sight Sling",
+        "description": "Expertly sighted... yet riddled with corruption.",
+        "type": {
+          "value": "Back Bling",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_Fire",
         "name": "Red Cyclo",
         "description": "Express yourself on the battlefield. ",
@@ -483,6 +172,54 @@
         }
       },
       {
+        "id": "Wrap_282_NeonSign",
+        "name": "Arcade Kid",
+        "description": "Show your style.",
+        "type": {
+          "value": "Wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png"
+        }
+      },
+      {
+        "id": "Pickaxe_ID_463_Elastic1H",
+        "name": "Phantasmic Pulse",
+        "description": "Channeling energy from a far-off star.",
+        "type": {
+          "value": "Harvesting Tool",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_Cupcake",
         "name": "Cupcake",
         "description": "Express yourself on the battlefield. ",
@@ -504,6 +241,30 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Cupcake/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Cupcake/icon.png"
+        }
+      },
+      {
+        "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
+        "name": "Corrupted Shogun",
+        "description": "Suited for the ultimate corruption. ",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png"
         }
       },
       {
@@ -531,6 +292,30 @@
         }
       },
       {
+        "id": "Wrap_281_LongShorts",
+        "name": "Point Patrol",
+        "description": "Show your style.",
+        "type": {
+          "value": "Wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_Fly",
         "name": "The Fly",
         "description": "Express yourself on the battlefield. ",
@@ -552,6 +337,54 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png"
+        }
+      },
+      {
+        "id": "Wrap_280_Gel",
+        "name": "Plasma Bubble",
+        "description": "Show your style.",
+        "type": {
+          "value": "Wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png"
+        }
+      },
+      {
+        "id": "EID_TwistEternity",
+        "name": "Last Forever",
+        "description": "Who said love don't last forever?",
+        "type": {
+          "value": "Emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png"
         }
       },
       {
@@ -675,6 +508,30 @@
         }
       },
       {
+        "id": "Pickaxe_ID_464_LongShortsMale",
+        "name": "Perfect Point",
+        "description": "Perfectly appointed.",
+        "type": {
+          "value": "Harvesting Tool",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_GreenSkull",
         "name": "The Old One",
         "description": "Express yourself on the battlefield. ",
@@ -696,6 +553,30 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_GreenSkull/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_GreenSkull/icon.png"
+        }
+      },
+      {
+        "id": "CID_853_Athena_Commando_F_SniperHoodCorrupt",
+        "name": "Corrupted Insight",
+        "description": "Target in sight and totally corrupted.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png"
         }
       },
       {
@@ -771,6 +652,54 @@
         }
       },
       {
+        "id": "CID_852_Athena_Commando_F_BlackWidowCorrupt",
+        "name": "Corrupted Arachne",
+        "description": "Weave a web of corruption... to victory.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png"
+        }
+      },
+      {
+        "id": "BID_608_SamuraiArmorUltra_Corrupt",
+        "name": "Corrupted Bladed Wings",
+        "description": "The edgy wings of corruption.",
+        "type": {
+          "value": "Back Bling",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png"
+        }
+      },
+      {
         "id": "EID_HightowerTomato_NPC",
         "name": "Hover",
         "description": "Iron Man AI Hovers",
@@ -816,6 +745,78 @@
           "featured": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/featured.png",
           "icon": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/icon.png"
+        }
+      },
+      {
+        "id": "MusicPack_060_TakeTheW",
+        "name": "Sweet Victory ",
+        "description": "Press play and savor the wins. ",
+        "type": {
+          "value": "Music",
+          "displayValue": "Music",
+          "backendValue": "AthenaMusicPack"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png"
+        }
+      },
+      {
+        "id": "EID_TwistEternity_Sync_Follower",
+        "name": "Last Forever",
+        "description": "Who said love don't last forever?",
+        "type": {
+          "value": "Emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png"
+        }
+      },
+      {
+        "id": "EID_TwistEternity_Sync",
+        "name": "Last Forever",
+        "description": "Who said love don't last forever?",
+        "type": {
+          "value": "Emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png"
         }
       },
       {
