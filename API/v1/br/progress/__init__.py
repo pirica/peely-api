@@ -6,6 +6,7 @@ import sanic.response
 import random
 import modules.stats
 
+
 async def handler(req):
     await modules.stats.updatestats(req)
     color = (98, 211, 245)

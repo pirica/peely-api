@@ -1,5 +1,7 @@
 {
   "br/progress": 8,
   "br/playlist": 2,
-  "br/active_playlist": 6
+  "br/active_playlist": 7,
+  "playlists/loot": 5,
+  "br/progress/data": 1
 }

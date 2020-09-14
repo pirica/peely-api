@@ -1,8 +1,8 @@
 {
   "status": 200,
   "data": {
-    "hash": "6a5b2ba6c625cd9821ad7c41ba17a41884b3ce06",
-    "date": "2020-09-14T00:00:00Z",
+    "hash": "735f66547ae1dc7a9cdd3b3f916c4d617918331e",
+    "date": "2020-09-14T15:00:00Z",
     "featured": [
       {
         "regularPrice": 2000,
@@ -4933,6 +4933,63 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_Elastic_Water",
             "lastUpdate": "2020-09-10T08:11:37Z",
             "added": "2020-09-10T08:11:37Z"
+          }
+        ]
+      },
+      {
+        "regularPrice": 1200,
+        "finalPrice": 1200,
+        "isBundle": false,
+        "isSpecial": false,
+        "giftable": false,
+        "refundable": true,
+        "panel": -1,
+        "sortPriority": 0,
+        "banner": null,
+        "items": [
+          {
+            "id": "glider_id_240_maverick",
+            "type": "glider",
+            "backendType": "AthenaGlider",
+            "rarity": "starwars",
+            "displayRarity": "Star Wars Series",
+            "backendRarity": "EFortRarity::Epic",
+            "name": "Vanguard Squadron X-wing",
+            "shortDescription": "Glider",
+            "description": "Stay fearless to the finish.",
+            "set": null,
+            "setText": null,
+            "series": "Star Wars Series",
+            "backendSeries": "ColumbusSeries",
+            "images": {
+              "smallIcon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_240_maverick/smallicon.png"
+              },
+              "icon": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_240_maverick/icon.png"
+              },
+              "featured": {
+                "hash": "",
+                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_240_maverick/featured.png"
+              },
+              "background": null,
+              "coverArt": null,
+              "decal": null
+            },
+            "variants": null,
+            "gameplayTags": [
+              "Cosmetics.Filter.Season.14",
+              "Cosmetics.Source.ItemShop"
+            ],
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_240_Maverick",
+            "definition": null,
+            "requiredItemId": null,
+            "builtInEmoteId": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_240_Maverick",
+            "lastUpdate": "2020-09-14T12:44:50Z",
+            "added": "2020-09-14T12:44:50Z"
           }
         ]
       },

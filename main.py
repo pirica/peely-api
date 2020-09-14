@@ -23,6 +23,7 @@ from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
 from API.v1.br.news import handler as br_news
 from API.v1.br.progress import handler as progress
+from API.v1.br.progress.data import handler as progressdata
 from API.v1.br.active_playlist import handler as playlist_active
 from API.v1.creative.news import handler as creative_news
 from API.v1.stw.news import handler as stw_news
@@ -48,6 +49,7 @@ app.add_route(competitiveblogposts, "/v1/blogposts/competitive")
 app.add_route(normalblogposts, "/v1/blogposts/normal")
 app.add_route(br_news, "/v1/br/news")
 app.add_route(progress, "/v1/br/progress")
+app.add_route(progressdata, "/v1/br/progress/data")
 app.add_route(playlist_active, "/v1/br/active_playlist")
 app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
@@ -82,6 +84,11 @@ async def on_ready():
     except:
         check_120.stop()
         check_120.start()
+    try:
+        check_3600.start()
+    except:
+        check_3600.stop()
+        check_3600.start()
 
 
 @tasks.loop(seconds=3)
@@ -238,15 +245,21 @@ async def check_120():
                 await (await aiofiles.open('Cache/data/ini.json', mode='w+')).write(
                     json.dumps(templiste, indent=2))
 
+
+@tasks.loop(seconds=3600)
+async def check_3600():
     async with aiohttp.ClientSession() as cs:
         headers = {"Authorization": "2fce9bf4-dcb28a26-d7e48ccf-a12cccee"}
-        async with cs.get(
-                f'https://fortniteapi.io/v1/game/modes?lang=en',
-                headers=headers) as data:
-            if data.status == 200:
-                async with aiofiles.open(f"Cache/data/playlistdata.json", mode="w+",
-                                         encoding="utf8") as file:
-                    await file.write(str(await data.text()))
+        langs = ["en", "ar", "de", "es", "es-419", "fr", "it", "ja", "ko," "pl", "pt-BR", "ru", "tr", "zh-CN", "zh-Hant"]
+        for lang in langs:
+            async with cs.get(
+                    f'https://fortniteapi.io/v1/game/modes?lang={lang}',
+                    headers=headers) as data:
+                if data.status == 200:
+                    async with aiofiles.open(f"Cache/playlistdata_{lang}.json", mode="w+",
+                                             encoding="utf8") as file:
+                        await file.write(str(await data.text()))
+                await asyncio.sleep(60)
 
 
 @app.route('/')

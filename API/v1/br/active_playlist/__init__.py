@@ -12,7 +12,11 @@ import json
 
 async def handler(req):
     await modules.stats.updatestats(req)
-    playlist = json.loads(await (await aiofiles.open("Cache/data/playlistdata.json", mode='r', encoding="utf8")).read())
+    lang = 'en'
+    for i in req.query_args:
+        if i[0] == 'lang':
+            lang = str(i[1])
+    playlist = json.loads(await (await aiofiles.open(f"Cache/playlistdata_{lang}.json", mode='r', encoding="utf8")).read())
     templist = []
     for path in pathlib.Path("Cache/ini").iterdir():
         if path.is_file():
