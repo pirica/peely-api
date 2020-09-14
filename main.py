@@ -23,6 +23,7 @@ from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
 from API.v1.br.news import handler as br_news
 from API.v1.br.progress import handler as progress
+from API.v1.br.active_playlist import handler as playlist_active
 from API.v1.creative.news import handler as creative_news
 from API.v1.stw.news import handler as stw_news
 from API.v1.notices import handler as notices
@@ -38,7 +39,6 @@ client = commands.Bot(command_prefix=">")
 app = sanic.app.Sanic('api')
 app.config.FORWARDED_SECRET = "api"
 
-
 app.add_route(cdn, "/cdn/<folder>/<name>")
 app.add_route(inifile, "/v1/ini/files/<file>")
 app.add_route(ini, "/v1/ini/")
@@ -48,6 +48,7 @@ app.add_route(competitiveblogposts, "/v1/blogposts/competitive")
 app.add_route(normalblogposts, "/v1/blogposts/normal")
 app.add_route(br_news, "/v1/br/news")
 app.add_route(progress, "/v1/br/progress")
+app.add_route(playlist_active, "/v1/br/active_playlist")
 app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
 app.add_route(notices, "/v1/notices")
@@ -236,6 +237,17 @@ async def check_120():
                                     await file.write(str(await data.text()))
                 await (await aiofiles.open('Cache/data/ini.json', mode='w+')).write(
                     json.dumps(templiste, indent=2))
+
+    async with aiohttp.ClientSession() as cs:
+        headers = {"Authorization": "2fce9bf4-dcb28a26-d7e48ccf-a12cccee"}
+        async with cs.get(
+                f'https://fortniteapi.io/v1/game/modes?lang=en',
+                headers=headers) as data:
+            if data.status == 200:
+                async with aiofiles.open(f"Cache/data/playlistdata.json", mode="w+",
+                                         encoding="utf8") as file:
+                    await file.write(str(await data.text()))
+
 
 @app.route('/')
 async def home(req):
