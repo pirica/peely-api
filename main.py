@@ -21,9 +21,10 @@ from API.v1.leaks import handler as leaks
 from API.v1.leaks.custom import handler as leakscustom
 from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
-from API.v1.news.br import handler as br_news
-from API.v1.news.creative import handler as creative_news
-from API.v1.news.stw import handler as stw_news
+from API.v1.br.news import handler as br_news
+from API.v1.br.progress import handler as progress
+from API.v1.creative.news import handler as creative_news
+from API.v1.stw.news import handler as stw_news
 from API.v1.notices import handler as notices
 from API.v1.playlists import handler as playlists
 from API.v1.shop import generaterequest as generateshop
@@ -46,6 +47,7 @@ app.add_route(staging, "/v1/staging")
 app.add_route(competitiveblogposts, "/v1/blogposts/competitive")
 app.add_route(normalblogposts, "/v1/blogposts/normal")
 app.add_route(br_news, "/v1/br/news")
+app.add_route(progress, "/v1/br/progress")
 app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
 app.add_route(notices, "/v1/notices")
