@@ -13,7 +13,7 @@
           "backendValue": "AthenaBackpack"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -37,7 +37,7 @@
           "backendValue": "AthenaDance"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Legendary",
@@ -61,7 +61,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -85,7 +85,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -109,7 +109,7 @@
           "backendValue": "AthenaBackpack"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -133,7 +133,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -172,6 +172,30 @@
         }
       },
       {
+        "id": "CID_860_Athena_Commando_F_Elastic",
+        "name": "Dynamo Dancer",
+        "description": "Go where your will takes you.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png"
+        }
+      },
+      {
         "id": "Wrap_282_NeonSign",
         "name": "Arcade Kid",
         "description": "Show your style.",
@@ -196,6 +220,30 @@
         }
       },
       {
+        "id": "CID_861_Athena_Commando_F_Elastic_B",
+        "name": "Backlash",
+        "description": "Strike back.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png"
+        }
+      },
+      {
         "id": "Pickaxe_ID_463_Elastic1H",
         "name": "Phantasmic Pulse",
         "description": "Channeling energy from a far-off star.",
@@ -205,7 +253,7 @@
           "backendValue": "AthenaPickaxe"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Epic",
@@ -220,6 +268,54 @@
         }
       },
       {
+        "id": "CID_862_Athena_Commando_F_Elastic_C",
+        "name": "Firebrand",
+        "description": "Danger on the event horizon.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png"
+        }
+      },
+      {
+        "id": "CID_863_Athena_Commando_F_Elastic_D",
+        "name": "Polarity",
+        "description": "Follow the true star.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_Cupcake",
         "name": "Cupcake",
         "description": "Express yourself on the battlefield. ",
@@ -229,7 +325,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -244,6 +340,30 @@
         }
       },
       {
+        "id": "CID_856_Athena_Commando_M_Elastic_B",
+        "name": "Hypersonic",
+        "description": "First to the crime, every time.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png"
+        }
+      },
+      {
         "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
         "name": "Corrupted Shogun",
         "description": "Suited for the ultimate corruption. ",
@@ -253,7 +373,7 @@
           "backendValue": "AthenaCharacter"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -265,6 +385,30 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
           "other": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png"
+        }
+      },
+      {
+        "id": "CID_864_Athena_Commando_F_Elastic_E",
+        "name": "Joltara",
+        "description": "Champion of the solar winds.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png"
         }
       },
       {
@@ -289,6 +433,54 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/EID_HightowerDate_NPC/icon.png",
           "other": "https://benbotfn.tk/cdn/images/EID_HightowerDate_NPC/icon.png"
+        }
+      },
+      {
+        "id": "CID_857_Athena_Commando_M_Elastic_C",
+        "name": "Blastoff",
+        "description": "3... 2... 1... you know the rest.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png"
+        }
+      },
+      {
+        "id": "CID_855_Athena_Commando_M_Elastic",
+        "name": "Hunter",
+        "description": "Always find your target.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png"
         }
       },
       {
@@ -325,7 +517,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -337,6 +529,78 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png"
+        }
+      },
+      {
+        "id": "CID_859_Athena_Commando_M_Elastic_E",
+        "name": "The Mighty Volt",
+        "description": "High-voltage and ready to roll.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png"
+        }
+      },
+      {
+        "id": "Glider_ID_240_Maverick",
+        "name": "Vanguard Squadron X-wing",
+        "description": "Stay fearless to the finish.",
+        "type": {
+          "value": "Glider",
+          "displayValue": "Glider",
+          "backendValue": "AthenaGlider"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png"
+        }
+      },
+      {
+        "id": "CID_858_Athena_Commando_M_Elastic_D",
+        "name": "Wanderlust",
+        "description": "Unpredictably uncontainable.",
+        "type": {
+          "value": "Outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png"
         }
       },
       {
@@ -397,7 +661,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -421,7 +685,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -445,7 +709,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -469,7 +733,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -493,7 +757,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -533,7 +797,7 @@
       },
       {
         "id": "Emoji_S14_Elastic_GreenSkull",
-        "name": "The Old One",
+        "name": "Nightmare",
         "description": "Express yourself on the battlefield. ",
         "type": {
           "value": "Emoticon",
@@ -541,7 +805,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -565,7 +829,7 @@
           "backendValue": "AthenaCharacter"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -613,7 +877,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -637,7 +901,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -661,7 +925,7 @@
           "backendValue": "AthenaCharacter"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -676,6 +940,30 @@
         }
       },
       {
+        "id": "BID_609_ElasticCape",
+        "name": "Emoticape",
+        "description": "Express yourself on the battlecape.",
+        "type": {
+          "value": "Back Bling",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Legendary",
+          "displayValue": "Legendary",
+          "backendValue": "EFortRarity::Legendary"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png"
+        }
+      },
+      {
         "id": "BID_608_SamuraiArmorUltra_Corrupt",
         "name": "Corrupted Bladed Wings",
         "description": "The edgy wings of corruption.",
@@ -685,7 +973,7 @@
           "backendValue": "AthenaBackpack"
         },
         "set": {
-          "text": null
+          "text": "Part of the Web of Corruption  set."
         },
         "rarity": {
           "value": "Epic",
@@ -829,7 +1117,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -853,7 +1141,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -877,7 +1165,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -892,6 +1180,30 @@
         }
       },
       {
+        "id": "BID_610_ElasticHologram",
+        "name": "Holo-Back",
+        "description": "Holographic self-expression.",
+        "type": {
+          "value": "Back Bling",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "set": {
+          "text": "Part of the Boundless set."
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png",
+          "featured": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/featured.png",
+          "icon": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png"
+        }
+      },
+      {
         "id": "Emoji_S14_Elastic_Water",
         "name": "Blue Cyclo",
         "description": "Express yourself on the battlefield. ",
@@ -901,7 +1213,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -925,7 +1237,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -949,7 +1261,7 @@
           "backendValue": "AthenaEmoji"
         },
         "set": {
-          "text": null
+          "text": "Part of the Boundless set."
         },
         "rarity": {
           "value": "Uncommon",
@@ -961,6 +1273,30 @@
           "featured": null,
           "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Ducky/icon.png",
           "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Ducky/icon.png"
+        }
+      },
+      {
+        "id": "EID_TwistDaytona",
+        "name": "Rollie",
+        "description": "Dab of ranch not included.",
+        "type": {
+          "value": "Emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "set": {
+          "text": null
+        },
+        "rarity": {
+          "value": "Rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "images": {
+          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png",
+          "featured": null,
+          "icon": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png",
+          "other": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png"
         }
       }
     ]

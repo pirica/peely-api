@@ -45,7 +45,7 @@ def GetBlendColor(Rarity):
 
 
 async def GenerateShopImage(Store: dict, background_user: str = "https://peely.de/api/background.jpg",
-                            text: str = "Fortnite Item Shop"):
+                            text: str = "Fortnite Item Shop", featured: str="Featured", daily: str="Daily"):
     # Featured items
     FeaturedItems = [Item for Item in Store["featured"] for Item in Item["items"]]
     FeaturedIDs = [ID["id"] for ID in FeaturedItems]
@@ -159,10 +159,10 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
             currentHeight += 545
 
     # Draw Featured and Daily
-    FMiddle = GetMiddle(F_Width, Burbank.getsize("Featured")[0])
-    Draw.text((FMiddle + 20, 350), "Featured", (255, 255, 255), font=Burbank)
-    DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize("Daily")[0])
-    Draw.text((DMiddle + dailyStarts, 350), "Daily", (255, 255, 255), font=Burbank)
+    FMiddle = GetMiddle(F_Width, Burbank.getsize(featured)[0])
+    Draw.text((FMiddle + 20, 350), featured, (255, 255, 255), font=Burbank)
+    DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize(daily)[0])
+    Draw.text((DMiddle + dailyStarts, 350), daily, (255, 255, 255), font=Burbank)
     # # Draw date
     # now = datetime.now().strftime('%A %d %B %Y')
     # Middle = GetMiddle(Background.width, Burbank.getsize(now)[0])

@@ -92,6 +92,7 @@ async def generateleaks(data: dict, client: commands.Bot):
                         file = discord.File(f"cdn/current/leaks.png")
                         msg = await client.get_channel(id=707854587297792051).send("New leaks generated", file=file)
                         if msg.attachments[0]:
+                            data["discordurl"] = str(msg.attachments[0].url)
                             break
                     except:
                         continue

@@ -1,7 +1,23 @@
 {
-  "br/progress": 8,
-  "br/playlist": 2,
-  "br/active_playlist": 7,
-  "playlists/loot": 5,
-  "br/progress/data": 1
+  "staging": 19775,
+  "br/news": 27228,
+  "tournaments": 18958,
+  "ini": 6601,
+  "news": 3308,
+  "playlists": 7090,
+  "blogposts/normal": 26398,
+  "blogposts/competitive": 10721,
+  "notices": 26254,
+  "leaks": 16999,
+  "shop": 22204,
+  "stw/news": 4237,
+  "creative/news": 139,
+  "shop/custom": 44,
+  "br/progress": 97,
+  "comics": 2,
+  "br/active_playlist": 2151,
+  "leaks/custom": 2,
+  "br/progress/data": 12222,
+  "br/progress/": 1,
+  "leaks/data": 2
 }

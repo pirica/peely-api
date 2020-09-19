@@ -81,10 +81,10 @@ async def handler(req):
                       font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45))
             imgs.append(img)
 
-        id = random.randint(1111111111111, 99999999999999999999)
-        img.save(fp=f"cdn/unique/br_news_{id}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
+        img.save(fp=f"cdn/current/brnews_{lang}.gif", format='GIF', append_images=imgs, save_all=True,
+                 duration=4500,
                  loop=0)
-        response['data']['image'] = f"https://api.peely.de/cdn/unique/br_news_{id}.gif"
+        response['data']['image'] = f"https://api.peely.de/cdn/current/brnews_{lang}.gif"
     except:
         traceback.print_exc()
 

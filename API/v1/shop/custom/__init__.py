@@ -16,6 +16,8 @@ async def handler(req):
     background = "https://peely.de/api/background.jpg"
     text = "Fortnite Item Shop"
     lang = "en"
+    featured = "Featured"
+    daily = "Daily"
     for i in req.query_args:
         if i[0].lower() == "background":
             background = i[1]
@@ -23,6 +25,10 @@ async def handler(req):
             text = i[1]
         if i[0].lower() == "lang":
             lang = i[1].lower()
+        if i[0].lower() == "featured":
+            featured = i[1].lower()
+        if i[0].lower() == "daily":
+            daily = i[1].lower()
 
     if lang != "en":
         async with aiohttp.ClientSession() as session:
@@ -36,7 +42,7 @@ async def handler(req):
         data = dict(json.loads(
             await (await aiofiles.open('Cache/data/shop.json', mode='r')).read()))["data"]
     img = await customshop.GenerateShopImage(Store=data,
-                                             background_user=background, text=text)
+                                             background_user=background, text=text, featured=featured, daily=daily)
     rand = random.randint(1111111111111111111111111111111111111111, 99999999999999999999999999999999999999999999999999)
     img.save(f"cdn/unique/{rand}.png")
     buffered = io.BytesIO()
