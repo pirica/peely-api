@@ -4,1300 +4,1533 @@
   "data": {
     "items": [
       {
-        "id": "BID_606_BlackwidowFemale_Corrupt",
-        "name": "Corrupted Long Legs",
-        "description": "Stretch your corrupt legs.",
+        "id": "BID_613_MythFemale",
+        "name": "Steelfeather Shield",
+        "description": "The last of its kind.",
         "type": {
-          "value": "Back Bling",
+          "value": "backpack",
           "displayValue": "Back Bling",
           "backendValue": "AthenaBackpack"
         },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
         "rarity": {
-          "value": "Epic",
+          "value": "epic",
           "displayValue": "Epic",
           "backendValue": "EFortRarity::Epic"
         },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_606_BlackwidowFemale_Corrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_606_BlackwidowFemale_Corrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_606_BlackwidowFemale_Corrupt/icon.png"
-        }
-      },
-      {
-        "id": "EID_Elastic",
-        "name": "Hero's Beacon",
-        "description": "Light the signal.",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
+        "series": null,
         "set": {
-          "text": "Part of the Boundless set."
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
         },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_Elastic/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Taco",
-        "name": "Taco!",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Taco/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_613_mythfemale/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_613_mythfemale/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Taco/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Taco/icon.png"
-        }
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_613_mythfemale/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "TOON",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_613_mythfemale/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_613_MythFemale",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Butterfly",
-        "name": "Rainbowfly",
-        "description": "Express yourself on the battlefield. ",
+        "id": "BID_614_Myth",
+        "name": "Vanquisher's Oath",
+        "description": "Protected by an unbreakable vow.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Butterfly/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Butterfly/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Butterfly/icon.png"
-        }
-      },
-      {
-        "id": "BID_607_SniperHoodFemale_Corrupt",
-        "name": "Corrupted Sight Sling",
-        "description": "Expertly sighted... yet riddled with corruption.",
-        "type": {
-          "value": "Back Bling",
+          "value": "backpack",
           "displayValue": "Back Bling",
           "backendValue": "AthenaBackpack"
         },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
         "rarity": {
-          "value": "Epic",
+          "value": "epic",
           "displayValue": "Epic",
           "backendValue": "EFortRarity::Epic"
         },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_607_SniperHoodFemale_Corrupt/icon.png"
-        }
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "TOON",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_614_Myth",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Fire",
-        "name": "Red Cyclo",
-        "description": "Express yourself on the battlefield. ",
+        "id": "BID_616_Cavalry",
+        "name": "Slayer's Saddlebag",
+        "description": "Garlic-infused and crypt rated.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "backpack",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
         },
         "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fire/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fire/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fire/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_PS_PlusPack_11",
-        "name": "What?",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_PS_PlusPack_11/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_PS_PlusPack_11/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_PS_PlusPack_11/icon.png"
-        }
-      },
-      {
-        "id": "CID_860_Athena_Commando_F_Elastic",
-        "name": "Dynamo Dancer",
-        "description": "Go where your will takes you.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_860_Athena_Commando_F_Elastic/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_282_NeonSign",
-        "name": "Arcade Kid",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_282_NeonSign/icon.png"
-        }
-      },
-      {
-        "id": "CID_861_Athena_Commando_F_Elastic_B",
-        "name": "Backlash",
-        "description": "Strike back.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_861_Athena_Commando_F_Elastic_B/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_616_cavalry/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_616_cavalry/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_616_Cavalry",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Pickaxe_ID_463_Elastic1H",
-        "name": "Phantasmic Pulse",
-        "description": "Channeling energy from a far-off star.",
+        "id": "BID_617_StreetFashionGarnet",
+        "name": "Trendsetter",
+        "description": "What's on your playlist?",
         "type": {
-          "value": "Harvesting Tool",
-          "displayValue": "Harvesting Tool",
-          "backendValue": "AthenaPickaxe"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "backpack",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
         },
         "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_463_Elastic1H/icon.png"
-        }
-      },
-      {
-        "id": "CID_862_Athena_Commando_F_Elastic_C",
-        "name": "Firebrand",
-        "description": "Danger on the event horizon.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_862_Athena_Commando_F_Elastic_C/icon.png"
-        }
-      },
-      {
-        "id": "CID_863_Athena_Commando_F_Elastic_D",
-        "name": "Polarity",
-        "description": "Follow the true star.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_863_Athena_Commando_F_Elastic_D/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Cupcake",
-        "name": "Cupcake",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": {
+          "value": "City Center",
+          "text": "Part of the City Center set.",
+          "backendValue": "MetroHub"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Cupcake/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Cupcake/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Cupcake/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_617_streetfashiongarnet/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_617_streetfashiongarnet/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/bid_617_streetfashiongarnet/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.MetroHub"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_BID_617_StreetFashionGarnet",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_617_StreetFashionGarnet",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "CID_856_Athena_Commando_M_Elastic_B",
-        "name": "Hypersonic",
-        "description": "First to the crime, every time.",
+        "id": "BID_618_Birthday03",
+        "name": "Cake!",
+        "description": "We're three!",
         "type": {
-          "value": "Outfit",
+          "value": "backpack",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "rarity": {
+          "value": "rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_618_birthday03/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_618_birthday03/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": "F2fiB1k-W2w",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_618_Birthday03",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "BID_619_Turbo",
+        "name": "Octane RL",
+        "description": "Take your shot!",
+        "type": {
+          "value": "backpack",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "rarity": {
+          "value": "rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "series": null,
+        "set": {
+          "value": "Rocket League",
+          "text": "Part of the Rocket League set.",
+          "backendValue": "BlandAbolish"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_619_turbo/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_619_turbo/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "Color",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "Default",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_619_turbo/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "Orange",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/bid_619_turbo/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.BlandAbolish"
+        ],
+        "showcaseVideo": "h4hNk5HwZQw",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_619_Turbo",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "CID_866_Athena_Commando_F_Myth",
+        "name": "Antheia",
+        "description": "Guardian of forgotten lands.",
+        "type": {
+          "value": "outfit",
           "displayValue": "Outfit",
           "backendValue": "AthenaCharacter"
         },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
         "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_856_Athena_Commando_M_Elastic_B/icon.png"
-        }
-      },
-      {
-        "id": "CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt",
-        "name": "Corrupted Shogun",
-        "description": "Suited for the ultimate corruption. ",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
-        "rarity": {
-          "value": "Epic",
+          "value": "epic",
           "displayValue": "Epic",
           "backendValue": "EFortRarity::Epic"
         },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_854_Athena_Commando_M_SamuraiUltraArmorCorrupt/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_866_athena_commando_f_myth/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/cid_866_athena_commando_f_myth/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/cid_866_athena_commando_f_myth/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_866_athena_commando_f_myth/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "Illustrated Antheia",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_866_athena_commando_f_myth/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_866_Athena_Commando_F_Myth",
+        "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_866_Athena_Commando_F_Myth",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_866_Athena_Commando_F_Myth",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "CID_864_Athena_Commando_F_Elastic_E",
-        "name": "Joltara",
-        "description": "Champion of the solar winds.",
+        "id": "CID_867_Athena_Commando_M_Myth",
+        "name": "Morro",
+        "description": "Warrior from a long lost world.",
         "type": {
-          "value": "Outfit",
+          "value": "outfit",
           "displayValue": "Outfit",
           "backendValue": "AthenaCharacter"
         },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
         "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
+          "value": "epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_864_Athena_Commando_F_Elastic_E/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_867_athena_commando_m_myth/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/cid_867_athena_commando_m_myth/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/cid_867_athena_commando_m_myth/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_867_athena_commando_m_myth/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "Illustrated Morro",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_867_athena_commando_m_myth/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": "l1FjWucOf1I",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_867_Athena_Commando_M_Myth",
+        "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_867_Athena_Commando_M_Myth",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_867_Athena_Commando_M_Myth",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "EID_HightowerDate_NPC",
-        "name": null,
-        "description": null,
+        "id": "CID_869_Athena_Commando_F_Cavalry",
+        "name": "Victoria Saint",
+        "description": "Vampire-hunter of the Old West.",
         "type": {
-          "value": "Emote",
+          "value": "outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "rarity": {
+          "value": "rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "series": null,
+        "set": {
+          "value": null,
+          "text": null,
+          "backendValue": "DarkChaser"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_869_athena_commando_f_cavalry/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/cid_869_athena_commando_f_cavalry/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/cid_869_athena_commando_f_cavalry/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Parts",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Stage1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_869_athena_commando_f_cavalry/variants/parts/stage1.png"
+              },
+              {
+                "tag": "Stage2",
+                "name": "HAT OFF",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_869_athena_commando_f_cavalry/variants/parts/stage2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.DarkChaser"
+        ],
+        "showcaseVideo": "7nX24M5Ix6s",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_869_Athena_Commando_F_Cavalry",
+        "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_869_Athena_Commando_F_Cavalry",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_869_Athena_Commando_F_Cavalry",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "CID_871_Athena_Commando_F_StreetFashionGarnet",
+        "name": "Sagan",
+        "description": "Live the journey and lead the way.",
+        "type": {
+          "value": "outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "rarity": {
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": {
+          "value": "City Center",
+          "text": "Part of the City Center set.",
+          "backendValue": "MetroHub"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_871_athena_commando_f_streetfashiongarnet/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/cid_871_athena_commando_f_streetfashiongarnet/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/cid_871_athena_commando_f_streetfashiongarnet/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.MetroHub"
+        ],
+        "showcaseVideo": "o9IRaEydMBQ",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_871_Athena_Commando_F_StreetFashionGarnet",
+        "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_871_Athena_Commando_F_StreetFashionGarnet",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_871_Athena_Commando_F_StreetFashionGarnet",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "EID_HappyBirthday",
+        "name": "Take The Cake",
+        "description": "Enjoy the big blowout!",
+        "type": {
+          "value": "emote",
           "displayValue": "Emote",
           "backendValue": "AthenaDance"
         },
-        "set": {
-          "text": null
-        },
         "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_HightowerDate_NPC/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_happybirthday/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_happybirthday/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_HightowerDate_NPC/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_HightowerDate_NPC/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": "MXoPxYg9kGk",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_HappyBirthday",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "CID_857_Athena_Commando_M_Elastic_C",
-        "name": "Blastoff",
-        "description": "3... 2... 1... you know the rest.",
+        "id": "EID_KeeperDreamChorus",
+        "name": "I'm Diamond",
+        "description": "You know I glow up.",
         "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
         },
         "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
+          "value": "icon",
+          "displayValue": "Icon Series",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "Icon Series",
+          "image": "https://fortnite-api.com/images/cosmetics/br/series/creatorcollabseries.png",
+          "backendValue": "CreatorCollabSeries"
+        },
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamchorus/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamchorus/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_857_Athena_Commando_M_Elastic_C/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": "I5zYXJ1yiYE",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamChorus",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "CID_855_Athena_Commando_M_Elastic",
-        "name": "Hunter",
-        "description": "Always find your target.",
+        "id": "EID_KeeperDreamGlowstick",
+        "name": "Glow On",
+        "description": "Glow with the music and dance.",
         "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
         },
         "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
+          "value": "epic",
+          "displayValue": "Epic",
+          "backendValue": "EFortRarity::Epic"
         },
+        "series": null,
+        "set": null,
+        "introduction": null,
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamglowstick/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamglowstick/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_855_Athena_Commando_M_Elastic/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": null,
+        "showcaseVideo": "2lXqwGjTsTY",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamGlowstick",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Wrap_281_LongShorts",
-        "name": "Point Patrol",
-        "description": "Show your style.",
+        "id": "EID_KeeperDreamHook",
+        "name": "It's Dynamite!",
+        "description": "Light it up!",
         "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
+          "value": "emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
         },
         "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
+          "value": "icon",
+          "displayValue": "Icon Series",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "Icon Series",
+          "image": "https://fortnite-api.com/images/cosmetics/br/series/creatorcollabseries.png",
+          "backendValue": "CreatorCollabSeries"
+        },
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamhook/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamhook/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_281_LongShorts/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": "XsEWL_TsW-E",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamHook",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Fly",
-        "name": "The Fly",
-        "description": "Express yourself on the battlefield. ",
+        "id": "EID_RaceStart",
+        "name": "On Your Mark...",
+        "description": "Don't forget to stretch.",
         "type": {
-          "value": "Emoticon",
+          "value": "emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "rarity": {
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "3",
+          "text": "Introduced in Chapter 2, Season 3.",
+          "backendValue": 13
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_racestart/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_racestart/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.13"
+        ],
+        "showcaseVideo": "3YnezWYDNI8",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_RaceStart",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Emoji_S14_3rd_Birthday",
+        "name": "Cupcake!",
+        "description": "Express yourself on the battlefield.",
+        "type": {
+          "value": "emoji",
           "displayValue": "Emoticon",
           "backendValue": "AthenaEmoji"
         },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
         "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_3rd_birthday/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_3rd_birthday/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Fly/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Emoji",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_3rd_Birthday",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "CID_859_Athena_Commando_M_Elastic_E",
-        "name": "The Mighty Volt",
-        "description": "High-voltage and ready to roll.",
+        "id": "Emoji_S14_FNCS",
+        "name": "FNCS 2:4",
+        "description": "Champion Series CH2 - S4",
         "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "emoji",
+          "displayValue": "Emoticon",
+          "backendValue": "AthenaEmoji"
         },
         "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": {
+          "value": "Fortnite Champion Series",
+          "text": "Part of the Fortnite Champion Series set.",
+          "backendValue": "FNCS"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_fncs/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_fncs/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_859_Athena_Commando_M_Elastic_E/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Emoji",
+          "Cosmetics.Set.FNCS",
+          "Cosmetics.Source.FNCS",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_FNCS",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Glider_ID_240_Maverick",
-        "name": "Vanguard Squadron X-wing",
-        "description": "Stay fearless to the finish.",
+        "id": "Emoji_S14_RLxFN",
+        "name": "Rocket League",
+        "description": "Express yourself on the battlefield.",
         "type": {
-          "value": "Glider",
+          "value": "emoji",
+          "displayValue": "Emoticon",
+          "backendValue": "AthenaEmoji"
+        },
+        "rarity": {
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_rlxfn/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/emoji_s14_rlxfn/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Emoji",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/Emoji/Emoji_S14_RLxFN",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Glider_ID_243_Myth",
+        "name": "Dawn's Promise",
+        "description": "Chart a course for a new world.",
+        "type": {
+          "value": "glider",
           "displayValue": "Glider",
           "backendValue": "AthenaGlider"
         },
-        "set": {
-          "text": null
-        },
         "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Glider_ID_240_Maverick/icon.png"
-        }
-      },
-      {
-        "id": "CID_858_Athena_Commando_M_Elastic_D",
-        "name": "Wanderlust",
-        "description": "Unpredictably uncontainable.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_858_Athena_Commando_M_Elastic_D/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_280_Gel",
-        "name": "Plasma Bubble",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_280_Gel/icon.png"
-        }
-      },
-      {
-        "id": "EID_TwistEternity",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
+        "series": null,
         "set": {
-          "text": null
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
         },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_DogAndBones",
-        "name": "Bonedog",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_DogAndBones/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_DogAndBones/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_DogAndBones/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_243_myth/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_243_myth/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_243_myth/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/glider_id_243_myth/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "TOON",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/glider_id_243_myth/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": "bCA5nuYBb3Q",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_243_Myth",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_243_Myth",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Molecule",
-        "name": "Subatomic",
-        "description": "Express yourself on the battlefield. ",
+        "id": "MusicPack_061_RLxFN",
+        "name": "Breathing Underwater",
+        "description": "Don't Pause, Press Play.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Molecule/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Molecule/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Molecule/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Disguise",
-        "name": "Disguise",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Disguise/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Disguise/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Disguise/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Spider",
-        "name": "Mighty Spider",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Spider/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Spider/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Spider/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Flask",
-        "name": "Acrid",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Flask/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Flask/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Flask/icon.png"
-        }
-      },
-      {
-        "id": "Pickaxe_ID_464_LongShortsMale",
-        "name": "Perfect Point",
-        "description": "Perfectly appointed.",
-        "type": {
-          "value": "Harvesting Tool",
-          "displayValue": "Harvesting Tool",
-          "backendValue": "AthenaPickaxe"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
-          "displayValue": "Rare",
-          "backendValue": "EFortRarity::Rare"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_464_LongShortsMale/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_GreenSkull",
-        "name": "Nightmare",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_GreenSkull/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_GreenSkull/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_GreenSkull/icon.png"
-        }
-      },
-      {
-        "id": "CID_853_Athena_Commando_F_SniperHoodCorrupt",
-        "name": "Corrupted Insight",
-        "description": "Target in sight and totally corrupted.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_853_Athena_Commando_F_SniperHoodCorrupt/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_283_Plasticine",
-        "name": "Claymation",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_283_Plasticine/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_283_Plasticine/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_283_Plasticine/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_283_Plasticine/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_PinkArrow",
-        "name": "Cyclo Swirl",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_PinkArrow/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_PinkArrow/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_PinkArrow/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_FishBone",
-        "name": "Fish Funk",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_FishBone/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_FishBone/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_FishBone/icon.png"
-        }
-      },
-      {
-        "id": "CID_852_Athena_Commando_F_BlackWidowCorrupt",
-        "name": "Corrupted Arachne",
-        "description": "Weave a web of corruption... to victory.",
-        "type": {
-          "value": "Outfit",
-          "displayValue": "Outfit",
-          "backendValue": "AthenaCharacter"
-        },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/CID_852_Athena_Commando_F_BlackWidowCorrupt/icon.png"
-        }
-      },
-      {
-        "id": "BID_609_ElasticCape",
-        "name": "Emoticape",
-        "description": "Express yourself on the battlecape.",
-        "type": {
-          "value": "Back Bling",
-          "displayValue": "Back Bling",
-          "backendValue": "AthenaBackpack"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Legendary",
-          "displayValue": "Legendary",
-          "backendValue": "EFortRarity::Legendary"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_609_ElasticCape/icon.png"
-        }
-      },
-      {
-        "id": "BID_608_SamuraiArmorUltra_Corrupt",
-        "name": "Corrupted Bladed Wings",
-        "description": "The edgy wings of corruption.",
-        "type": {
-          "value": "Back Bling",
-          "displayValue": "Back Bling",
-          "backendValue": "AthenaBackpack"
-        },
-        "set": {
-          "text": "Part of the Web of Corruption  set."
-        },
-        "rarity": {
-          "value": "Epic",
-          "displayValue": "Epic",
-          "backendValue": "EFortRarity::Epic"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_608_SamuraiArmorUltra_Corrupt/icon.png"
-        }
-      },
-      {
-        "id": "EID_HightowerTomato_NPC",
-        "name": "Hover",
-        "description": "Iron Man AI Hovers",
-        "type": {
-          "value": "AI Iron Man Emote",
-          "displayValue": "AI Iron Man Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": "Part of the Iron Man set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_HightowerTomato_NPC/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_HightowerTomato_NPC/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_HightowerTomato_NPC/icon.png"
-        }
-      },
-      {
-        "id": "Wrap_279_FrostedDonut",
-        "name": "Danger Donut",
-        "description": "Show your style.",
-        "type": {
-          "value": "Wrap",
-          "displayValue": "Wrap",
-          "backendValue": "AthenaItemWrap"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Wrap_279_FrostedDonut/icon.png"
-        }
-      },
-      {
-        "id": "MusicPack_060_TakeTheW",
-        "name": "Sweet Victory ",
-        "description": "Press play and savor the wins. ",
-        "type": {
-          "value": "Music",
+          "value": "music",
           "displayValue": "Music",
           "backendValue": "AthenaMusicPack"
         },
-        "set": {
-          "text": null
-        },
         "rarity": {
-          "value": "Rare",
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/musicpack_061_rlxfn/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/musicpack_061_rlxfn/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/MusicPack_060_TakeTheW/icon.png"
-        }
+          "other": {
+            "coverart": "https://fortnite-api.com/images/cosmetics/br/musicpack_061_rlxfn/coverart.png"
+          }
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": "cnhAPMucirU",
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_061_RLxFN",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "EID_TwistEternity_Sync_Follower",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
+        "id": "Pickaxe_ID_466_CavalryFemale1H",
+        "name": "Stake & Stalker",
+        "description": "Nothing better for a night of hunting.",
         "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
+          "value": "pickaxe",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
         },
         "rarity": {
-          "value": "Rare",
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": {
+          "value": null,
+          "text": null,
+          "backendValue": "DarkChaser"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_466_cavalryfemale1h/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_466_cavalryfemale1h/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_466_cavalryfemale1h/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.DarkChaser"
+        ],
+        "showcaseVideo": "v27J-nfZJkI",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_466_CavalryFemale1H",
+        "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_CavalryFemale1H",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_466_CavalryFemale1H",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Pickaxe_ID_469_MythFemale",
+        "name": "Hunting Song",
+        "description": "It's a little sharp.",
+        "type": {
+          "value": "pickaxe",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
+        },
+        "rarity": {
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync_Follower/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_469_mythfemale/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_469_mythfemale/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_469_mythfemale/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_469_mythfemale/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "TOON",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_469_mythfemale/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": "idMqzSClPB0",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_469_MythFemale",
+        "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MythFemale",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_469_MythFemale",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "EID_TwistEternity_Sync",
-        "name": "Last Forever",
-        "description": "Who said love don't last forever?",
+        "id": "Pickaxe_ID_470_MythMale1H",
+        "name": "Destiny's Edge",
+        "description": "Embrace your destiny.",
         "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
+          "value": "pickaxe",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
         },
         "rarity": {
-          "value": "Rare",
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistEternity_Sync/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_470_mythmale1h/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_470_mythmale1h/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_470_mythmale1h/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Material",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Mat1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_470_mythmale1h/variants/material/mat1.png"
+              },
+              {
+                "tag": "Mat2",
+                "name": "TOON",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_470_mythmale1h/variants/material/mat2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": "UAz5dNt3dLM",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_470_MythMale1H",
+        "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MythMale1H",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_470_MythMale1H",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Web",
-        "name": "Web",
-        "description": "Express yourself on the battlefield. ",
+        "id": "Pickaxe_ID_471_StreetFashionGarnetFemale",
+        "name": "Tangerine Terror",
+        "description": "A little sweet and a lot sharp.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "pickaxe",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
         },
         "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": {
+          "value": "City Center",
+          "text": "Part of the City Center set.",
+          "backendValue": "MetroHub"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Web/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Web/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Web/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_471_streetfashiongarnetfemale/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_471_streetfashiongarnetfemale/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_471_streetfashiongarnetfemale/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.MetroHub"
+        ],
+        "showcaseVideo": "GwdWLr6gOXo",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_471_StreetFashionGarnetFemale",
+        "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_StreetFashionGarnetFemale",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_471_StreetFashionGarnetFemale",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Snail",
-        "name": "Snail",
-        "description": "Express yourself on the battlefield. ",
+        "id": "SPID_227_3rdBirthday",
+        "name": "The Big Three",
+        "description": "Leave your mark.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "spray",
+          "displayValue": "Spray",
+          "backendValue": "AthenaSpray"
         },
         "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Snail/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spid_227_3rdbirthday/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/spid_227_3rdbirthday/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Snail/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Snail/icon.png"
-        }
+          "other": {
+            "decal": "https://fortnite-api.com/images/cosmetics/br/spid_227_3rdbirthday/decal.png"
+          }
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Spray",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Sprays/SPID_227_3rdBirthday",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Bomb",
-        "name": "Big Bomb",
-        "description": "Express yourself on the battlefield. ",
+        "id": "SPID_228_RLxFN",
+        "name": "Rocket League",
+        "description": "Leave your mark.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "spray",
+          "displayValue": "Spray",
+          "backendValue": "AthenaSpray"
         },
         "rarity": {
-          "value": "Uncommon",
+          "value": "uncommon",
           "displayValue": "Uncommon",
           "backendValue": "EFortRarity::Uncommon"
         },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Bomb/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spid_228_rlxfn/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/spid_228_rlxfn/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Bomb/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Bomb/icon.png"
-        }
+          "other": {
+            "decal": "https://fortnite-api.com/images/cosmetics/br/spid_228_rlxfn/decal.png"
+          }
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Spray",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Sprays/SPID_228_RLxFN",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "BID_610_ElasticHologram",
-        "name": "Holo-Back",
-        "description": "Holographic self-expression.",
+        "id": "SPID_229_S14_FNCS",
+        "name": "FNCS 2:4",
+        "description": "Champion Series CH2 - S4",
         "type": {
-          "value": "Back Bling",
-          "displayValue": "Back Bling",
-          "backendValue": "AthenaBackpack"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "spray",
+          "displayValue": "Spray",
+          "backendValue": "AthenaSpray"
         },
         "rarity": {
-          "value": "Rare",
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": {
+          "value": "Fortnite Champion Series",
+          "text": "Part of the Fortnite Champion Series set.",
+          "backendValue": "FNCS"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spid_229_s14_fncs/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/spid_229_s14_fncs/icon.png",
+          "featured": null,
+          "other": {
+            "decal": "https://fortnite-api.com/images/cosmetics/br/spid_229_s14_fncs/decal.png"
+          }
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Spray",
+          "Cosmetics.Source.FNCS",
+          "Cosmetics.Set.FNCS",
+          "Cosmetics.Filter.Season.14"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Sprays/SPID_229_S14_FNCS",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Trails_ID_100_Turbo",
+        "name": "Holodata Drop",
+        "description": "Boost into action.",
+        "type": {
+          "value": "contrail",
+          "displayValue": "Contrail",
+          "backendValue": "AthenaSkyDiveContrail"
+        },
+        "rarity": {
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png",
-          "featured": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/featured.png",
-          "icon": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/BID_610_ElasticHologram/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Water",
-        "name": "Blue Cyclo",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
+        "series": null,
         "set": {
-          "text": "Part of the Boundless set."
+          "value": "Rocket League",
+          "text": "Part of the Rocket League set.",
+          "backendValue": "BlandAbolish"
         },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
         },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Water/icon.png",
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/trails_id_100_turbo/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/trails_id_100_turbo/icon.png",
           "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Water/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Water/icon.png"
-        }
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.BlandAbolish",
+          "Cosmetics.Source.Promo"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Contrails/Trails_ID_100_Turbo",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       },
       {
-        "id": "Emoji_S14_Elastic_Umbrella",
-        "name": "'Brella Fire",
-        "description": "Express yourself on the battlefield. ",
+        "id": "Wrap_284_Birthday2020",
+        "name": "Cakey",
+        "description": "Show your style.",
         "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
+          "value": "wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
         },
         "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Umbrella/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Umbrella/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Umbrella/icon.png"
-        }
-      },
-      {
-        "id": "Emoji_S14_Elastic_Ducky",
-        "name": "Super Ducky",
-        "description": "Express yourself on the battlefield. ",
-        "type": {
-          "value": "Emoticon",
-          "displayValue": "Emoticon",
-          "backendValue": "AthenaEmoji"
-        },
-        "set": {
-          "text": "Part of the Boundless set."
-        },
-        "rarity": {
-          "value": "Uncommon",
-          "displayValue": "Uncommon",
-          "backendValue": "EFortRarity::Uncommon"
-        },
-        "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Ducky/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Ducky/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/Emoji_S14_Elastic_Ducky/icon.png"
-        }
-      },
-      {
-        "id": "EID_TwistDaytona",
-        "name": "Rollie",
-        "description": "Dab of ranch not included.",
-        "type": {
-          "value": "Emote",
-          "displayValue": "Emote",
-          "backendValue": "AthenaDance"
-        },
-        "set": {
-          "text": null
-        },
-        "rarity": {
-          "value": "Rare",
+          "value": "rare",
           "displayValue": "Rare",
           "backendValue": "EFortRarity::Rare"
         },
+        "series": null,
+        "set": {
+          "value": "B-Day Blast",
+          "text": "Part of the B-Day Blast set.",
+          "backendValue": "BDayJam"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
         "images": {
-          "smallIcon": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png",
-          "featured": null,
-          "icon": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png",
-          "other": "https://benbotfn.tk/cdn/images/EID_TwistDaytona/icon.png"
-        }
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_284_birthday2020/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_284_birthday2020/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_284_birthday2020/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.Event.Birthday.2020",
+          "Cosmetics.Set.BDayJam",
+          "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
+        ],
+        "showcaseVideo": "Fh3cSiys5ek",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_284_Birthday2020",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_284_Birthday2020",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Wrap_286_Muzak",
+        "name": "The Beat",
+        "description": "Show your style.",
+        "type": {
+          "value": "wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
+        },
+        "rarity": {
+          "value": "rare",
+          "displayValue": "Rare",
+          "backendValue": "EFortRarity::Rare"
+        },
+        "series": null,
+        "set": null,
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_286_muzak/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_286_muzak/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_286_muzak/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.UserFacingFlags.Wrap.Animated",
+          "Cosmetics.UserFacingFlags.Reactive"
+        ],
+        "showcaseVideo": "qMkVhYR8scg",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_286_Muzak",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_286_Muzak",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
+      },
+      {
+        "id": "Wrap_287_MythToon",
+        "name": "Illustrated",
+        "description": "Show your style.",
+        "type": {
+          "value": "wrap",
+          "displayValue": "Wrap",
+          "backendValue": "AthenaItemWrap"
+        },
+        "rarity": {
+          "value": "uncommon",
+          "displayValue": "Uncommon",
+          "backendValue": "EFortRarity::Uncommon"
+        },
+        "series": null,
+        "set": {
+          "value": "Courageous Era",
+          "text": "Part of the Courageous Era set.",
+          "backendValue": "BraveryTime"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_287_mythtoon/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_287_mythtoon/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_287_mythtoon/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.BraveryTime"
+        ],
+        "showcaseVideo": "d7IOKi-JUkM",
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_287_MythToon",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_287_MythToon",
+        "added": "2020-09-23T08:28:55Z",
+        "shopHistory": null
       }
     ]
   }

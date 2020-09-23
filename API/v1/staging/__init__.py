@@ -6,11 +6,8 @@ import aiohttp
 import sanic
 import sanic.response
 
-from modules import stats
-
 
 async def handler(req):
-    await stats.updatestats(req)
     return sanic.response.json(json.loads(await (await aiofiles.open(f'Cache/devserver.json', mode='r')).read()))
 
 

@@ -13,11 +13,9 @@ from PIL import Image
 from discord.ext import commands
 
 from modules import shop
-from modules.stats import updatestats
 
 
 async def handler(req):
-    await updatestats(req)
     return sanic.response.json(json.loads(await (await aiofiles.open(f'Cache/data/resp_shop.json', mode='r')).read()))
 
 

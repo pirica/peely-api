@@ -6,11 +6,9 @@ import aiohttp
 import sanic
 import sanic.response
 
-from modules.stats import updatestats
 
 
 async def handler(req):
-    await updatestats(req)
     lang = 'en'
     for i in req.query_args:
         if i[0] == 'lang':

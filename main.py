@@ -2,7 +2,6 @@ import asyncio
 import json
 import traceback
 
-import modules.stats
 import aiofiles
 import aiohttp
 import sanic
@@ -10,7 +9,6 @@ import sanic.response
 from discord.ext import commands, tasks
 
 from API.cdn import handler as cdn
-from API.intern.stats import handler as stats
 from API.v1.blogposts.competitive import handler as competitiveblogposts
 from API.v1.blogposts.normal import handler as normalblogposts
 from API.v1.comics import handler as comics
@@ -19,7 +17,6 @@ from API.v1.ini.files import handler as inifile
 from API.v1.leaks import generateleaks as generateleaks
 from API.v1.leaks import handler as leaks
 from API.v1.leaks.custom import handler as leakscustom
-from API.v1.leaks.data import handler as leaksdata
 from API.v1.news import handler as news
 from API.v1.br.news import handler as br_news
 from API.v1.br.progress import handler as progress
@@ -36,7 +33,7 @@ from API.v1.staging import handler as staging
 from API.v1.staging import updatedevserver as updatestaging
 from API.v1.tournaments import handler as tournaments
 
-client = commands.Bot(command_prefix=">")
+client = commands.Bot(command_prefix="api!")
 app = sanic.app.Sanic('api')
 app.config.FORWARDED_SECRET = "api"
 
@@ -54,7 +51,6 @@ app.add_route(playlist_active, "/v1/br/active_playlist")
 app.add_route(creative_news, "/v1/creative/news")
 app.add_route(stw_news, "/v1/stw/news")
 app.add_route(notices, "/v1/notices")
-app.add_route(leaksdata, "/v1/leaks/data")
 app.add_route(leakscustom, "/v1/leaks/custom")
 app.add_route(leaks, "/v1/leaks")
 app.add_route(tournaments, "/v1/tournaments")
@@ -62,12 +58,10 @@ app.add_route(playlists, "/v1/playlists")
 app.add_route(comics, "/v1/comics")
 app.add_route(shop, "/v1/shop")
 app.add_route(customshop, "/v1/shop/custom")
-app.add_route(stats, "/intern/stats")
 
 
 @client.event
 async def on_ready():
-    await modules.stats.rewrite()
     print("EVERYTHING READY")
     try:
         check_20.start()
@@ -93,70 +87,13 @@ async def on_ready():
 
 @tasks.loop(seconds=3)
 async def check_3():
-    await client.wait_until_ready()
-    await modules.stats.savestats()
+    return
 
 
 @tasks.loop(seconds=20)
 async def check_20():
     await client.wait_until_ready()
-    async with aiohttp.ClientSession() as ses:
-        async with ses.get("https://fortnite-api.com/v1/shop/br") as responseshop:
-            if responseshop.status != 200:
-                return
-            else:
-                newshop = await responseshop.json()
-                oldshop = json.loads(await (await aiofiles.open(f'Cache/data/shop.json', mode='r')).read())
-                if newshop != oldshop:
-                    await generateshop(newshop, client)
-    async with aiohttp.ClientSession() as ses:
-        async with ses.get(f"https://benbotfn.tk/api/v1/newCosmetics") as responsebenfn:
-            if responsebenfn.status == 200:
-                oldbenleaks = json.loads(await (await aiofiles.open(f'Cache/data/benleaks.json', mode='r')).read())
-                try:
-                    newbenleaks = await responsebenfn.json()
-                except:
-                    traceback.print_exc()
-                if oldbenleaks != newbenleaks:
-                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read()) \
-                            ["version"] != newbenleaks["currentVersion"]:
-                        print("benbot updated")
-                        if newbenleaks['items']:
-                            await (await aiofiles.open('Cache/data/versioncache.json', mode='w+')).write(
-                                json.dumps({"version": newbenleaks["currentVersion"]}, indent=2))
-                            globaldata = {
-                                "status": 200,
-                                "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
-                                "data": {
-                                    "items": [{
-                                        "id": cosmetic["id"],
-                                        "name": cosmetic["name"],
-                                        "description": cosmetic["description"],
-                                        "type": {
-                                            "value": cosmetic["shortDescription"],
-                                            "displayValue": cosmetic["shortDescription"],
-                                            "backendValue": cosmetic["backendType"]
-                                        },
-                                        "set": {
-                                            "text": cosmetic["setText"],
-                                        },
-                                        "rarity": {
-                                            "value": cosmetic["backendRarity"].split("::")[1],
-                                            "displayValue": cosmetic["rarity"],
-                                            "backendValue": cosmetic["backendRarity"]
-                                        },
-                                        "images": {
-                                            "smallIcon": cosmetic["icons"]["icon"],
-                                            "featured": cosmetic["icons"]["featured"],
-                                            "icon": cosmetic["icons"]["icon"],
-                                            "other": cosmetic["icons"]["icon"],
-                                        }
-                                    } for cosmetic in newbenleaks["items"]]
-                                }
-                            }
-                            await (await aiofiles.open('Cache/data/benleaks.json', mode='w+')).write(
-                                json.dumps(newbenleaks, indent=2))
-                            await generateleaks(data=globaldata, client=client)
+
     async with aiohttp.ClientSession() as ses:
         async with ses.get(f"https://fortnite-api.com/v2/cosmetics/br/new",
                            headers={"x-api-key": "0efed31895736f6cb95f9ef7742bf2891f7d155d"}) as responsefn:
@@ -167,29 +104,39 @@ async def check_20():
                 except:
                     traceback.print_exc()
                 if oldfnleaks != newfnleaks:
-                    if json.loads(await (await aiofiles.open(f'Cache/data/versioncache.json', mode='r')).read()) \
-                            ["version"] != newfnleaks["data"]["build"]:
-                        print("FN API updated")
-                        await (await aiofiles.open('Cache/data/versioncache.json', mode='w+')).write(
-                            json.dumps({"version": newfnleaks["data"]["build"]}, indent=2))
-                        globaldata = {
-                            "status": 200,
-                            "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
-                            "data": {
-                                "items": [
-                                ]
-                            }
+                    print("FN API updated")
+                    globaldata = {
+                        "status": 200,
+                        "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
+                        "data": {
+                            "items": [
+                            ]
                         }
-                        for cosmetic in newfnleaks["data"]["items"]:
-                            cosmetic["rarity"] = {
-                                "value": cosmetic["rarity"]["value"],
-                                "displayValue": cosmetic["rarity"]["displayValue"],
-                                "backendValue": cosmetic["rarity"]["backendValue"]
-                            }
+                    }
+                    for cosmetic in newfnleaks["data"]["items"]:
+                        cosmetic["rarity"] = {
+                            "value": cosmetic["rarity"]["value"],
+                            "displayValue": cosmetic["rarity"]["displayValue"],
+                            "backendValue": cosmetic["rarity"]["backendValue"]
+                        }
+                        ist = False
+                        for tempcosmetic in oldfnleaks["data"]["items"]:
+                            if tempcosmetic['id'] == cosmetic['id']:
+                                ist = True
+                        if ist is False:
                             globaldata["data"]["items"].append(cosmetic)
-                        await (await aiofiles.open('Cache/data/fnleaks.json', mode='w+')).write(
-                            json.dumps(newfnleaks, indent=2))
-                        await generateleaks(data=globaldata, client=client)
+                    await (await aiofiles.open('Cache/data/fnleaks.json', mode='w+')).write(
+                        json.dumps(newfnleaks, indent=2))
+                    await generateleaks(data=globaldata, client=client)
+    async with aiohttp.ClientSession() as ses:
+        async with ses.get("https://fortnite-api.com/v1/shop/br") as responseshop:
+            if responseshop.status != 200:
+                return
+            else:
+                newshop = await responseshop.json()
+                oldshop = json.loads(await (await aiofiles.open(f'Cache/data/shop.json', mode='r')).read())
+                if newshop != oldshop:
+                    await generateshop(newshop, client)
 
 
 @tasks.loop(seconds=120)

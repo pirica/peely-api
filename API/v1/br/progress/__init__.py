@@ -1,18 +1,19 @@
-import io
 import traceback
-
-import aiofiles
-from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
+
 import dateutil.parser as dp
 import sanic
 import sanic.response
-import random
-import modules.stats
-import PIL
+from PIL import Image, ImageDraw, ImageFont
+
 
 async def handler(req):
-    await modules.stats.updatestats(req)
+    lang = 'en'
+    for i in req.query_args:
+        if i[0] == 'lang':
+            lang = str(i[1]).lower()
+            if lang != "es-419":
+                lang = "en"
     color = (255, 255, 0)
     seasonend="2020-11-30T13:00:00Z"
     seasonstart="2020-08-27T13:00:00Z"
@@ -32,21 +33,17 @@ async def handler(req):
 
     try:
         draw = ImageDraw.Draw(finalim)
-        text = f"{int((seasonlen/100) * daysgone)}"
 
-
-        if len(text) >= 3:
-            BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 40)
-            textWidth = BurbankBigCondensed.getsize(text)[0]
-            Middle = int((finalim.width - textWidth) / 2)
-            draw.text((Middle + 95, 15), text, color,
-                      font=BurbankBigCondensed)
+        if lang == "es-419":
+            text = f"Temporada 4 de Fortnite - {int((daysgone / 100) * seasonlen)}% pasado"
         else:
-            BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45)
-            textWidth = BurbankBigCondensed.getsize(text)[0]
-            Middle = int((finalim.width - textWidth) / 2)
-            draw.text((Middle + 100, 13), text, color,
-                      font=BurbankBigCondensed)
+            text = f"Fortnite Season 4 - {int((daysgone / 100) * seasonlen)}% over"
+
+        BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45)
+        textWidth = BurbankBigCondensed.getsize(text)[0]
+        Middle = int((finalim.width - textWidth) / 2)
+        draw.text((Middle, 13), text, color,
+                  font=BurbankBigCondensed)
     except:
         traceback.print_exc()
 

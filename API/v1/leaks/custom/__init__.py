@@ -8,11 +8,9 @@ import sanic
 import sanic.response
 
 from modules import customleaks
-from modules.stats import updatestats
 
 
 async def handler(req):
-    await updatestats(req)
     background = "https://peely.de/api/background.jpg"
     text = "Fortnite Leaks"
     lang = "en"

@@ -4,11 +4,8 @@ import dateutil.parser as dp
 import sanic
 import sanic.response
 
-import modules.stats
-
 
 async def handler(req):
-    await modules.stats.updatestats(req)
 
     seasonend="2020-11-30T13:00:00Z"
     seasonstart="2020-08-27T13:00:00Z"
