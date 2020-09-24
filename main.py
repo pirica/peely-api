@@ -1,5 +1,7 @@
 import asyncio
 import json
+import subprocess
+import sys
 import traceback
 
 import aiofiles
@@ -7,6 +9,7 @@ import aiohttp
 import sanic
 import sanic.response
 from discord.ext import commands, tasks
+from datetime import datetime
 
 from API.cdn import handler as cdn
 from API.v1.blogposts.competitive import handler as competitiveblogposts
@@ -85,9 +88,48 @@ async def on_ready():
         check_3600.start()
 
 
+async def restart():
+    try:
+        await asyncio.create_subprocess_shell("service peely restart", stdout=subprocess.PIPE,
+                                              stderr=subprocess.PIPE)
+    except:
+        pass
+    try:
+        await asyncio.create_subprocess_shell("service api restart", stdout=subprocess.PIPE,
+                                              stderr=subprocess.PIPE)
+    except:
+        pass
+    exit()
+
+
 @tasks.loop(seconds=3)
 async def check_3():
-    return
+    time = str((int(datetime.utcnow().__format__('%H')) + 2)) + ":" + str((int(datetime.utcnow().__format__('%M'))))
+    if time.startswith("01:5"):
+        cache = json.loads(await (await aiofiles.open(f'Cache/data/shop.json', mode='r')).read())
+        cachedate = cache['data']['date']
+        print(cachedate)
+        await asyncio.sleep(1500)
+        try:
+            async with aiohttp.ClientSession() as ses:
+                async with ses.get("https://fortnite-api.com/v1/shop/br") as responseshop:
+                    if responseshop.status != 200:
+                        print(responseshop.status)
+                        await restart()
+                    else:
+                        newshop = await responseshop.json()
+                        print(newshop['data']['date'])
+                        print(newshop['data']['date'] != cachedate)
+                        if newshop['data']['date'] == cachedate:
+                            print("restart")
+                            await restart()
+
+                        else:
+                            print("Geändert")
+                            return
+
+        except:
+            await restart()
 
 
 @tasks.loop(seconds=20)
@@ -197,7 +239,8 @@ async def check_120():
 async def check_3600():
     async with aiohttp.ClientSession() as cs:
         headers = {"Authorization": "2fce9bf4-dcb28a26-d7e48ccf-a12cccee"}
-        langs = ["en", "ar", "de", "es", "es-419", "fr", "it", "ja", "ko," "pl", "pt-BR", "ru", "tr", "zh-CN", "zh-Hant"]
+        langs = ["en", "ar", "de", "es", "es-419", "fr", "it", "ja", "ko," "pl", "pt-BR", "ru", "tr", "zh-CN",
+                 "zh-Hant"]
         for lang in langs:
             async with cs.get(
                     f'https://fortniteapi.io/v1/game/modes?lang={lang}',

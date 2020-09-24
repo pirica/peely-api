@@ -1,7 +1,7 @@
 {
   "status": 200,
   "data": {
-    "build": "++Fortnite+Release-14.20-CL-14354056-Windows",
+    "build": "++Fortnite+Release-14.20-CL-14375974-Windows",
     "previousBuild": "++Fortnite+Release-14.10-CL-14312695-Windows",
     "hash": "21f9a2813ce5fd3de9274bcf0c6f842adc48c1c6",
     "date": "2020-09-23T08:28:55Z",
@@ -651,7 +651,9 @@
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamChorus",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-24T00:00:00Z"
+        ]
       },
       {
         "id": "EID_KeeperDreamGlowstick",
@@ -723,12 +725,14 @@
           "Cosmetics.Source.ItemShop",
           "Cosmetics.Filter.Season.14"
         ],
-        "showcaseVideo": "XsEWL_TsW-E",
+        "showcaseVideo": "vl5vGTmIn9U",
         "displayAssetPath": null,
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamHook",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-24T00:00:00Z"
+        ]
       },
       {
         "id": "EID_RaceStart",
