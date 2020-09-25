@@ -35,7 +35,7 @@ async def handler(req):
         draw = ImageDraw.Draw(finalim)
 
         if lang == "es-419":
-            text = f"Temporada 4 de Fortnite - {int((daysgone / 100) * seasonlen)}% pasado"
+            text = f"Progreso Temporada 4 de Fortnite: {int((daysgone / 100 * seasonlen))}"
         else:
             text = f"Fortnite Season 4 - {int((daysgone / 100) * seasonlen)}% over"
 
