@@ -170,7 +170,7 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     size -= 15
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", size)
     Middle = GetMiddle(Background.width, BurbankBigCondensed.getsize(text)[0])
-    Draw.text((Middle, 50), text, (255, 255, 255), font=BurbankBigCondensed)
+    Draw.text((Middle, (375 - BurbankBigCondensed.getsize(text)[1])/2), text, (255, 255, 255), font=BurbankBigCondensed)
 
     return Background
 
