@@ -150,10 +150,6 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
             pass
 
         currentWidth += 300
-        print(f"D_Width: {D_Width}")
-        print(f"currentWidth: {currentWidth}")
-        print(f"currentHeight: {currentHeight}")
-        print(f"Check: {D_Width == currentWidth}")
         if D_Width == currentWidth:
             currentWidth = dailyStarts
             currentHeight += 545
@@ -165,9 +161,16 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     Draw.text((DMiddle + dailyStarts, 350), Store['daily']['name'], (255, 255, 255), font=Burbank)
 
     # Draw Fortnite Item Shop
-    BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 200)
+    size = 300
+    BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", size)
+
+    while Background.width <= BurbankBigCondensed.getsize(text)[0]:
+        size -= 1
+        BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", size)
+    size -= 15
+    BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", size)
     Middle = GetMiddle(Background.width, BurbankBigCondensed.getsize(text)[0])
-    Draw.text((Middle, 0), text, (255, 255, 255), font=BurbankBigCondensed)
+    Draw.text((Middle, 50), text, (255, 255, 255), font=BurbankBigCondensed)
 
     return Background
 
