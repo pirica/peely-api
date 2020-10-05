@@ -3,7 +3,7 @@
    "_title": "Fortnite Game",
    "jcr:baseVersion": "a7ca237317f1e7883b3279-c38f-4aa7-a325-e099e4bf71e5",
    "_activeDate": "2017-08-30T03:20:48.050Z",
-   "lastModified": "2020-09-15T15:14:37.757Z",
+   "lastModified": "2020-09-28T11:10:33.118Z",
    "_locale": "en-US",
    "subgameinfo": {
       "battleroyale": {
@@ -273,31 +273,30 @@
          "_type": "Battle Royale News",
          "messages": [
             {
-               "playlistId": "",
-               "image": "https://cdn2.unrealengine.com/stw-samuraiscrapper-social-motd-1024x512-1024x512-891232646.jpg",
-               "hidden": false,
-               "_type": "CommonUI Simple Message Base",
-               "adspace": "New Pack",
-               "title": "Samurai Scrapper Bundle",
-               "body": "Grab the Samurai Scrapper Pack to unlock a new Hero, the Scrapper Spear weapon schematic, Scrapper Sashimono Back Bling, and the Samurai Scrapper Challenges. These exclusive Save the World challenges will earn you 1,000 V-Bucks and 1000 X-Ray Tickets.\n\n",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/11stw-swampknight-motd-1024x512-890962742.jpg",
-               "hidden": false,
-               "_type": "CommonUI Simple Message Base",
-               "adspace": "SEASONAL EVENT",
-               "title": "Swamp Knight",
-               "body": "A mysterious hero whose Unearthly Treat perk gives him an edge against the Mist Monsters. ",
-               "spotlight": false
-            },
-            {
-               "image": "https://cdn2.unrealengine.com/stw05-social-mythic-outlander-ragnarok-1024x512-1024x512-926318429.png",
+               "image": "https://cdn2.unrealengine.com/11stw-blackmetalpistol-motd-1024x512-890962710.jpg",
                "hidden": false,
                "_type": "CommonUI Simple Message Base",
                "adspace": "EVENT STORE",
-               "title": "Ragnarok",
-               "body": "The cold harbinger of fate returns! Grab this Hero to unlock the \"Slow Your Roll\" Team Perk and slow down enemies.",
+               "title": "Dirge Song",
+               "body": "Wield the power of Clip\u2019s favorite creation, the Dirge Song! Fires Light Ammo in 9 round bursts dealing moderate damage and heavy impact with moderate recoil.",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/11stw-blackmetalaxe-motd-1024x512-890962688.jpg",
+               "hidden": false,
+               "_type": "CommonUI Simple Message Base",
+               "adspace": "EVENT STORE",
+               "title": "Husk Grinder",
+               "body": "Sharpen up your Black Metal weapon set with the darkest metal axe around, the Husk Grinder. Deals moderate damage with heavy impact that harbors a devastating Maelstrom attack.",
+               "spotlight": false
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/11stw-hauntedhotel-motd-hauntedhotel-1024x512-950332363.jpg",
+               "hidden": false,
+               "_type": "CommonUI Simple Message Base",
+               "adspace": "SEASONAL QUEST ",
+               "title": "The Door to Darkness",
+               "body": "Make a reservation for terror! Join the Homebase crew for a nightmarish stay at legendary Oakdirge Lodge, Stoneplankentwine\u2019s third most haunted hotel. ",
                "spotlight": false
             }
          ]
@@ -306,14 +305,240 @@
       "_title": "SaveTheWorldNews",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e7119dbdd2-7587-489c-96a2-9b7760042827",
+      "jcr:baseVersion": "a7ca237317f1e722756447-8d7f-417f-8157-29757b349cc4",
       "_activeDate": "2020-01-22T00:00:00.000Z",
-      "lastModified": "2020-09-14T19:36:34.245Z",
+      "lastModified": "2020-09-26T05:19:36.964Z",
       "_locale": "en-US"
    },
    "playersurvey": {
       "s": {
          "s": [
+            {
+               "rt": false,
+               "pr": {
+                  "_type": "Player Survey - Message"
+               },
+               "c": [
+                  {
+                     "cg": {
+                        "_type": "Player Survey - Condition - Condition Group",
+                        "id": "FNBR_Heartbeats_30dCD_SplitAt20_V_Switch"
+                     },
+                     "_type": "Player Survey - Condition Container"
+                  }
+               ],
+               "hidden": false,
+               "e": false,
+               "_type": "Player Survey - Survey",
+               "cm": {
+                  "_type": "Player Survey - Message"
+               },
+               "q": [
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Too Weak",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Too Strong",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "Do you feel <keyword>Wolverine's Claws</> are (1) Too Weak, (3) Just Right, or (5) Too Strong?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  },
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Too Low",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Too High",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "In your games, is your chance of finding <keyword>Wolverine's Claws</> (1) Too Low, (3) Just Right, or (5) Too High?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  },
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Very Negative",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Very Positive",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "Overall, how do you feel about <keyword>Wolverine's Claws</> in Fortnite Battle Royale?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  }
+               ],
+               "r": "rm",
+               "t": "We want your feedback!",
+               "sg": [
+                  "a"
+               ],
+               "id": "200923_ITEMDC_Wolverines Claws_FNBR",
+               "po": {
+                  "_type": "Player Survey - Message"
+               }
+            },
+            {
+               "rt": false,
+               "pr": {
+                  "_type": "Player Survey - Message"
+               },
+               "c": [
+                  {
+                     "cg": {
+                        "_type": "Player Survey - Condition - Condition Group",
+                        "id": "FNBR_Heartbeats_30dCD_SplitAt20_V_Switch"
+                     },
+                     "_type": "Player Survey - Condition Container"
+                  }
+               ],
+               "hidden": false,
+               "e": false,
+               "_type": "Player Survey - Survey",
+               "cm": {
+                  "_type": "Player Survey - Message"
+               },
+               "q": [
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Too Weak",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Too Strong",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "Do you feel <keyword>Storm's Whirlwind Blast</> is (1) Too Weak, (3) Just Right, or (5) Too Strong?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  },
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Too Low",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Too High",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "In your games, is your chance of finding <keyword>Storm's Whirlwind Blast</> (1) Too Low, (3) Just Right, or (5) Too High?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  },
+                  {
+                     "mc": {
+                        "s": "rating",
+                        "c": [
+                           {
+                              "t": "Very Negative",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           },
+                           {
+                              "t": "Very Positive",
+                              "_type": "Player Survey - Multiple Choice Question Choice"
+                           }
+                        ],
+                        "t": "Overall, how do you feel about <keyword>Storm's Whirlwind Blast</> in Fortnite Battle Royale?",
+                        "_type": "Player Survey - Multiple Choice Question"
+                     },
+                     "_type": "Player Survey - Question Container"
+                  }
+               ],
+               "r": "rm",
+               "t": "We want your feedback!",
+               "sg": [
+                  "a"
+               ],
+               "id": "200923_ITEMDC_Storms Whirlwind Blast_FNBR",
+               "po": {
+                  "_type": "Player Survey - Message"
+               }
+            },
             {
                "q": [
                   {
@@ -348,10 +573,10 @@
                   "_type": "Player Survey - Message"
                },
                "hidden": false,
+               "t": "Complex Text Question",
                "sg": [
                   "a"
                ],
-               "t": "Complex Text Question",
                "e": false,
                "_type": "Player Survey - Survey",
                "cm": {
@@ -2838,119 +3063,6 @@
                   "a"
                ],
                "id": "200826_ITEMDC_Dr Dooms Mystical Bomb_FNBR",
-               "po": {
-                  "_type": "Player Survey - Message"
-               }
-            },
-            {
-               "rt": false,
-               "pr": {
-                  "_type": "Player Survey - Message"
-               },
-               "c": [
-                  {
-                     "cg": {
-                        "_type": "Player Survey - Condition - Condition Group",
-                        "id": "FNBR_Heartbeats_30dCD_SplitAt20_V_Switch"
-                     },
-                     "_type": "Player Survey - Condition Container"
-                  }
-               ],
-               "hidden": false,
-               "e": false,
-               "_type": "Player Survey - Survey",
-               "cm": {
-                  "_type": "Player Survey - Message"
-               },
-               "q": [
-                  {
-                     "mc": {
-                        "s": "rating",
-                        "c": [
-                           {
-                              "t": "Too Weak",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "t": "Too Strong",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           }
-                        ],
-                        "t": "Do you feel <keyword>Silver Surfer's Board</> is (1) Too Weak, (3) Just Right, or (5) Too Strong?",
-                        "_type": "Player Survey - Multiple Choice Question"
-                     },
-                     "_type": "Player Survey - Question Container"
-                  },
-                  {
-                     "mc": {
-                        "s": "rating",
-                        "c": [
-                           {
-                              "t": "Too Low",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "t": "Too High",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           }
-                        ],
-                        "t": "In your games, is your chance of finding <keyword>Silver Surfer's Board</> (1) Too Low, (3) Just Right, or (5) Too High?",
-                        "_type": "Player Survey - Multiple Choice Question"
-                     },
-                     "_type": "Player Survey - Question Container"
-                  },
-                  {
-                     "mc": {
-                        "s": "rating",
-                        "c": [
-                           {
-                              "t": "Very Negative",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           },
-                           {
-                              "t": "Very Positive",
-                              "_type": "Player Survey - Multiple Choice Question Choice"
-                           }
-                        ],
-                        "t": "Overall, how do you feel about <keyword>Silver Surfer's Board</> in Fortnite Battle Royale?",
-                        "_type": "Player Survey - Multiple Choice Question"
-                     },
-                     "_type": "Player Survey - Question Container"
-                  }
-               ],
-               "r": "rm",
-               "t": "We want your feedback!",
-               "sg": [
-                  "a"
-               ],
-               "id": "200826_ITEMDC_Silver Surfers Board_FNBR",
                "po": {
                   "_type": "Player Survey - Message"
                }
@@ -10399,9 +10511,9 @@
       "jcr:isCheckedOut": true,
       "_title": "playersurvey",
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e7efaeb2f6-8566-4710-9427-130ab93643ee",
+      "jcr:baseVersion": "a7ca237317f1e7cc3d0627-6479-4f0e-aa05-52dd9be75a96",
       "_activeDate": "2019-10-15T07:50:00.000Z",
-      "lastModified": "2020-09-10T17:23:09.140Z",
+      "lastModified": "2020-09-23T18:01:39.771Z",
       "_locale": "en-US"
    },
    "battlepassaboutmessages": {
@@ -10444,21 +10556,7 @@
    },
    "emergencynotice": {
       "news": {
-         "platform_messages": [
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message Platform",
-               "message": {
-                  "hidden": false,
-                  "_type": "CommonUI Simple Message Base",
-                  "subgame": "br",
-                  "title": "Marvel Knockout LTM",
-                  "body": "As we address stability, the Marvel Knockout playlist options are currently disabled on Nintendo Switch.\n",
-                  "spotlight": false
-               },
-               "platform": "switch"
-            }
-         ],
+         "platform_messages": [],
          "_type": "Battle Royale News",
          "messages": [],
          "region_messages": [
@@ -10493,9 +10591,9 @@
       "_title": "emergencynotice",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e78d14f2a1-4fc9-4700-a88d-b7b9f3509db5",
+      "jcr:baseVersion": "a7ca237317f1e75d1a3b52-7e7b-4180-8024-d94683c3a407",
       "_activeDate": "2018-08-06T19:00:26.217Z",
-      "lastModified": "2020-09-13T17:31:19.204Z",
+      "lastModified": "2020-09-27T03:47:18.915Z",
       "_locale": "en-US"
    },
    "koreancafe": {
@@ -10625,11 +10723,19 @@
       "jcr:isCheckedOut": true,
       "show_ad_violator": false,
       "_title": "playlistinformation",
-      "frontend_matchmaking_header_text_description": " Live Show @ Main Stage",
-      "frontend_matchmaking_header_text": "Party Royale",
+      "frontend_matchmaking_header_text_description": "Now Available",
+      "frontend_matchmaking_header_text": "NEW MARVEL MODE!",
       "playlist_info": {
          "_type": "Playlist Information",
          "playlists": [
+            {
+               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlistinformation/v12/partyroyaleupdated/EN_12PR_In-Game_Launch_ModeTile-1024x512-13cf734f07363d61f6fec3a2f5486a3550035c32.jpg",
+               "playlist_name": "Playlist_Papaya",
+               "hidden": false,
+               "violator": "",
+               "_type": "FortPlaylistInfo",
+               "description": "Welcome to Party Royale, a new experimental and evolving space. Leave your weapons and mats behind and hang out with friends, play games and enjoy live entertainment. Catch live shows. Race around obstacle courses by land or sea. Go fishing with friends, perfect your skydive, and get up close and connect with some of your favorite artists. Hop on the party bus and enjoy the ride."
+            },
             {
                "image": "https://cdn2.unrealengine.com/14br-marvelknockout-mystique-ltm-tile-1024x512-969813783.jpg",
                "playlist_name": "Playlist_Cobalt_HT_Duos",
@@ -10651,12 +10757,44 @@
                "display_name": ""
             },
             {
-               "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlistinformation/v12/partyroyaleupdated/EN_12PR_In-Game_Launch_ModeTile-1024x512-13cf734f07363d61f6fec3a2f5486a3550035c32.jpg",
-               "playlist_name": "Playlist_Papaya",
+               "image": "https://cdn2.unrealengine.com/marvel-standoff-1024x512-010756809.jpg",
+               "playlist_name": "Playlist_hightower",
+               "violator": "",
+               "hidden": false,
+               "_type": "FortPlaylistInfo",
+               "description": "",
+               "display_subname": "",
+               "display_name": ""
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/marvel-standoff-1024x512-010756809.jpg",
+               "playlist_name": "Playlist_hightower_12",
                "hidden": false,
                "violator": "",
                "_type": "FortPlaylistInfo",
-               "description": "Welcome to Party Royale, a new experimental and evolving space. Leave your weapons and mats behind and hang out with friends, play games and enjoy live entertainment. Catch live shows. Race around obstacle courses by land or sea. Go fishing with friends, perfect your skydive, and get up close and connect with some of your favorite artists. Hop on the party bus and enjoy the ride."
+               "description": "",
+               "display_subname": "",
+               "display_name": ""
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-marveltakeoverltm-playlisttile-1024x512-1024x512-081336658.jpg",
+               "playlist_name": "Playlist_HighTower_Hydro",
+               "hidden": false,
+               "violator": "",
+               "_type": "FortPlaylistInfo",
+               "description": "",
+               "display_subname": "",
+               "display_name": ""
+            },
+            {
+               "image": "https://cdn2.unrealengine.com/14br-marveltakeoverltm-playlisttile-1024x512-1024x512-081332895.jpg",
+               "playlist_name": "Playlist_HighTower_Hydro_12v12",
+               "violator": "",
+               "hidden": false,
+               "_type": "FortPlaylistInfo",
+               "description": "",
+               "display_subname": "",
+               "display_name": "Marvel Takeover"
             },
             {
                "image": "https://cdn2.unrealengine.com/14br-tiltedtaxi-motd-1024x512-1024x512-890727217.jpg",
@@ -11886,9 +12024,9 @@
          ]
       },
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e7175e9bdc-6d3d-4f12-a5b0-05dac9938f98",
+      "jcr:baseVersion": "a7ca237317f1e7dfa0a9b1-73ec-4cf0-a5da-18a3267d6238",
       "_activeDate": "2018-04-25T15:05:39.956Z",
-      "lastModified": "2020-09-04T18:40:23.768Z",
+      "lastModified": "2020-09-25T17:37:39.027Z",
       "_locale": "en-US"
    },
    "creativeFeatures": {
@@ -11906,6 +12044,520 @@
       "jcr:isCheckedOut": true,
       "tournament_info": {
          "tournaments": [
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-modetile-1024x512-097528772.jpg",
+               "background_text_color": "FFFFFF",
+               "background_right_color": "FF0BA6",
+               "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_fncs_week3",
+               "highlight_color": "FF03A3",
+               "schedule_info": "October 22nd - 25th",
+               "primary_color": "FF03A3",
+               "flavor_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+               "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-poster-front-750x1080-097515678.jpg",
+               "short_format_title": "Trios Tournament",
+               "title_line_2": "WEEK 3",
+               "title_line_1": "FNCS",
+               "shadow_color": "010031",
+               "details_description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+               "background_left_color": "06035C",
+               "long_format_title": "Fortnite Champion Series",
+               "poster_fade_color": "03014C",
+               "secondary_color": "03014C",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week3-modetile-1024x512-097528772.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week4-modetile-1024x512-097541529.jpg",
+               "background_text_color": "FFFFFF",
+               "background_right_color": "FF0BA6",
+               "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_fncs_week2",
+               "highlight_color": "FF03A3",
+               "schedule_info": "October 15th - 18th",
+               "primary_color": "FF03A3",
+               "flavor_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+               "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week4-poster-front-750x1080-097528911.jpg",
+               "short_format_title": "Trios Tournament",
+               "title_line_2": "WEEK 2",
+               "title_line_1": "FNCS",
+               "shadow_color": "010031",
+               "details_description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+               "background_left_color": "06035C",
+               "long_format_title": "Fortnite Champion Series",
+               "poster_fade_color": "03014C",
+               "secondary_color": "03014C",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week4-modetile-1024x512-097541529.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week2-modetile-1024x512-097528786.jpg",
+               "background_text_color": "FFFFFF",
+               "background_right_color": "FF0BA6",
+               "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_fncs_week1",
+               "highlight_color": "FF03A3",
+               "schedule_info": "October 8th - 11th",
+               "primary_color": "FF03A3",
+               "flavor_description": "Compete in the Fortnite Champion Series: Chapter 2 - Season 4 for a share of the $5,000,000 total prize pool.",
+               "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week2-poster-front-750x1080-097515678.jpg",
+               "short_format_title": "Trios Tournament",
+               "title_line_2": "WEEK 1",
+               "title_line_1": "FNCS",
+               "shadow_color": "010031",
+               "details_description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. The top teams from Round Three in each region will advance to the Season Finals. Teams will also accumulate Series Points based on each Week's results, and top performers will also be invited to the Season Finals. Full rules and advancements for each round can be found at fortnite.com/competitive",
+               "background_left_color": "06035C",
+               "long_format_title": "Fortnite Champion Series",
+               "poster_fade_color": "03014C",
+               "secondary_color": "03014C",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-week2-modetile-1024x512-097528786.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_eu_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 22nd",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_naw_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 8th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_nae_finals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 15th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-2-750x1080-319776257.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top players from Stage 2 will battle it out in this finale! For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-2-1024x512-319765874.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_eu_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 22nd",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_naw_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 8th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_nae_semifinals",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 15th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-1-750x1080-319779191.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Semi Finals",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 100 players will advance to Stage 3. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-1-1024x512-319768275.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_eu_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 19th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_naw_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 5th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "background_text_color": "000000",
+               "background_right_color": "FF4B0A",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-back-750x1080-319770605.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_dreamhack2_nae_heats",
+               "highlight_color": "FFED27",
+               "schedule_info": "October 12th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "This community focused tournament features a $250,000 prize pool up for grabs. Best of luck!",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-poster-front-3-750x1080-319773361.jpg",
+               "short_format_title": "SOLO TOURNAMENT",
+               "title_line_2": "Heats",
+               "title_line_1": "DreamHack Online Open",
+               "shadow_color": "000000",
+               "details_description": "This is a tournament for registered players only. The top 750 players will advance to Stage 2. For assistance and contact with the tournament admins, please use this discord link: discord.gg/dreamhack. You can also check out the event details here: https://dreamhack.com/fortnite/#format - Best of luck!",
+               "background_left_color": "F50249",
+               "long_format_title": "DreamHack Online Open Featuring Fortnite",
+               "poster_fade_color": "FF4B0A",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-dreamhackopen-modetile-3-1024x512-319763319.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_ModeTile-1024x512-b6da7350cd4a5552d597cf047973f8c767ef90f8.jpg",
+               "background_text_color": "FFF7AC",
+               "background_right_color": "000000",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_Poster_Back-750x1080-ded5a2a14617e6586f9db2d2ab29fde400ce81a7.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_comp_duos",
+               "schedule_info": "September 26th",
+               "primary_color": "DCBD4B",
+               "flavor_description": "Grab your partner, hop in, and give it your all!",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_Poster_Front-750x1080-3fcd795f59a70c0f1104d7b91428c333ae0de719.jpg",
+               "short_format_title": "Duos Tournament",
+               "title_line_2": "FAMILY CUP",
+               "title_line_1": "COMPETITIVE",
+               "shadow_color": "1F1E1C",
+               "details_description": "Sign up via your email form to unlock this event.",
+               "background_left_color": "171615",
+               "long_format_title": "Competitive Family Cup",
+               "poster_fade_color": "000000",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_ModeTile-1024x512-b6da7350cd4a5552d597cf047973f8c767ef90f8.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_ModeTile-1024x512-b6da7350cd4a5552d597cf047973f8c767ef90f8.jpg",
+               "background_text_color": "FFF7AC",
+               "background_right_color": "000000",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_Poster_Back-750x1080-ded5a2a14617e6586f9db2d2ab29fde400ce81a7.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_comp_solo",
+               "schedule_info": "September 25th",
+               "primary_color": "DCBD4B",
+               "flavor_description": "Hop in and give it your all!",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_Poster_Front-750x1080-3fcd795f59a70c0f1104d7b91428c333ae0de719.jpg",
+               "short_format_title": "Solo Tournament",
+               "title_line_2": "SOLO CUP",
+               "title_line_1": "COMPETITIVE",
+               "shadow_color": "1F1E1C",
+               "details_description": "Sign up via your email form to unlock this event.",
+               "background_left_color": "171615",
+               "long_format_title": "Competitive Solo Cup",
+               "poster_fade_color": "000000",
+               "secondary_color": "000000",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/TEST_12BR_Competitive_In-Game_FNCS_ModeTile-1024x512-b6da7350cd4a5552d597cf047973f8c767ef90f8.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-modetile-1024x512-088996529.jpg",
+               "background_text_color": "FFFFFF",
+               "background_right_color": "FF0BA6",
+               "poster_back_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-poster-back-all-750x1080-088996393.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_fncs_warmup",
+               "highlight_color": "FF03A3",
+               "schedule_info": "September 24th - 27th",
+               "primary_color": "FF03A3",
+               "flavor_description": "Grab your trio and warm up for the upcoming Fortnite Champion Series!",
+               "poster_front_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-poster-front-750x1080-088996367.jpg",
+               "short_format_title": "Trios Tournament",
+               "title_line_2": "WARMUP",
+               "title_line_1": "FNCS",
+               "shadow_color": "010031",
+               "details_description": "Reach Champion League in Arena mode to unlock this event. This tournament occurs across three rounds - Round One (Opens), Round Two (Top 1000 trios EU/NAE, Top 700 trios NAW/BR, Top 350 trios ASIA/OCE/ME) and Round Three (Top 33 trios per region). Round Three adds scores from each session across two days. This event is a practice tournament and has no cash prizes.",
+               "background_left_color": "06035C",
+               "long_format_title": "Fortnite Champion Series Warmup",
+               "poster_fade_color": "03014C",
+               "secondary_color": "03014C",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/14br-in-game-competitive-fncs-finals-modetile-1024x512-088996529.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "FFFFFF",
+               "loading_screen_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-green-modetile-1024x512-241566120.jpg",
+               "background_text_color": "0450A6",
+               "background_right_color": "8DFBA5",
+               "poster_back_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-green-poster-back-750x1080-241449768.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_gamersclub",
+               "highlight_color": "F7FF00",
+               "schedule_info": "September 24th",
+               "primary_color": "FFFFFF",
+               "flavor_description": "Welcome to the first official Gamers Club Fortnite Tournament! ",
+               "poster_front_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-green-poster-front-750x1080-241440075.jpg",
+               "short_format_title": "Trios Tournament",
+               "title_line_2": "Trios Cup",
+               "title_line_1": "Gamers Club",
+               "shadow_color": "EE2071",
+               "details_description": "Assemble your trio and battle for a chance to win amazing prizes! This tournament occurs across two rounds. The top 500 teams during Round 1 will advance to Round 2. More details at https://www.epicgames.com/fortnite/competitive",
+               "background_left_color": "09CCF8",
+               "long_format_title": "Gamers Club Cup",
+               "poster_fade_color": "9CFCB1",
+               "secondary_color": "0450A6",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/13br-competitive-in-game-evergreen-green-modetile-1024x512-241566120.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "54FFDC",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "background_text_color": "1C26FD",
+               "background_right_color": "E23125",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/BackPoster_Generic4-750x1080-19c50d6e423b6346280fc6c74975d67bee561ada.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_cdf_midwest",
+               "schedule_info": "September 26th - 27th",
+               "primary_color": "54FFDC",
+               "flavor_description": "Welcome players from Midwest Region.",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/Front_Duo_Generic4-750x1080-83955889e0b7bf8ff01e4108da39382d967ce466.jpg",
+               "short_format_title": "Solo Tournament",
+               "title_line_2": "MIDWEST REGION",
+               "title_line_1": "CDF",
+               "shadow_color": "F4514B",
+               "details_description": "This tournament will advance the top 100 players from the first round into the second round. The top 25 players from the second round will be invited to a future event.",
+               "background_left_color": "FD9B38",
+               "long_format_title": "CDF - Midwest Region",
+               "poster_fade_color": "FD9B38",
+               "secondary_color": "1047CE",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "54FFDC",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "background_text_color": "1C26FD",
+               "background_right_color": "E23125",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/BackPoster_Generic4-750x1080-19c50d6e423b6346280fc6c74975d67bee561ada.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_cdf_southeast",
+               "schedule_info": "September 19th - 20th",
+               "primary_color": "54FFDC",
+               "flavor_description": "Welcome players from Southeast Region.",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/Front_Duo_Generic4-750x1080-83955889e0b7bf8ff01e4108da39382d967ce466.jpg",
+               "short_format_title": "Solo Tournament",
+               "title_line_2": "SOUTHEAST REGION",
+               "title_line_1": "CDF",
+               "shadow_color": "F4514B",
+               "details_description": "This tournament will advance the top 100 players from the first round into the second round. The top 25 players from the second round will be invited to a future event.",
+               "background_left_color": "FD9B38",
+               "long_format_title": "CDF - Southeast Region",
+               "poster_fade_color": "FD9B38",
+               "secondary_color": "1047CE",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "54FFDC",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "background_text_color": "1C26FD",
+               "background_right_color": "E23125",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/BackPoster_Generic4-750x1080-19c50d6e423b6346280fc6c74975d67bee561ada.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_cdf_north",
+               "schedule_info": "September 26th - 27th",
+               "primary_color": "54FFDC",
+               "flavor_description": "Welcome players from North and Northeast Region.",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/Front_Duo_Generic4-750x1080-83955889e0b7bf8ff01e4108da39382d967ce466.jpg",
+               "short_format_title": "Solo Tournament",
+               "title_line_2": "NORTH/NORTHEAST REGION",
+               "title_line_1": "CDF",
+               "shadow_color": "F4514B",
+               "details_description": "This tournament will advance the top 100 players from the first round into the second round. The top 25 players from the second round will be invited to a future event.",
+               "background_left_color": "FD9B38",
+               "long_format_title": "CDF - North and Northeast Region",
+               "poster_fade_color": "FD9B38",
+               "secondary_color": "1047CE",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "base_color": "FFFFFF"
+            },
+            {
+               "title_color": "54FFDC",
+               "loading_screen_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "background_text_color": "1C26FD",
+               "background_right_color": "E23125",
+               "poster_back_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/BackPoster_Generic4-750x1080-19c50d6e423b6346280fc6c74975d67bee561ada.jpg",
+               "_type": "Tournament Display Info",
+               "pin_earned_text": "Winner!",
+               "tournament_display_id": "s14_cdf_south",
+               "schedule_info": "September 19th - 20th",
+               "primary_color": "54FFDC",
+               "flavor_description": "Welcome players from South Region.",
+               "poster_front_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/Front_Duo_Generic4-750x1080-83955889e0b7bf8ff01e4108da39382d967ce466.jpg",
+               "short_format_title": "Solo Tournament",
+               "title_line_2": "SOUTH REGION",
+               "title_line_1": "CDF",
+               "shadow_color": "F4514B",
+               "details_description": "This tournament will advance the top 100 players from the first round into the second round. The top 25 players from the second round will be invited to a future event.",
+               "background_left_color": "FD9B38",
+               "long_format_title": "CDF - South Region",
+               "poster_fade_color": "FD9B38",
+               "secondary_color": "1047CE",
+               "playlist_tile_image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/tournamentinformation/ModeTile_Duo_Generic4-1024x512-30204e68c7b713372d4cd5305b1c0652d6410279.jpg",
+               "base_color": "FFFFFF"
+            },
             {
                "title_color": "FFFFFF",
                "loading_screen_image": "https://cdn2.unrealengine.com/14br-competitive-in-game-hypenite-modetile-1024x512-975101170.jpg",
@@ -19500,9 +20152,9 @@
       },
       "_title": "tournamentinformation",
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e7c9787d0a-6ecc-41b5-9722-54fb49ebf777",
+      "jcr:baseVersion": "a7ca237317f1e7da10a2f3-a50c-4f2a-b509-24d28002d691",
       "_activeDate": "2018-11-13T22:32:47.734Z",
-      "lastModified": "2020-09-10T15:25:50.062Z",
+      "lastModified": "2020-09-24T19:27:27.882Z",
       "_locale": "en-US"
    },
    "creativeAds": {
@@ -19577,7 +20229,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 51,
+               "landingPriority": 49,
                "sectionId": "Featured2",
                "bShowTimer": false,
                "bShowIneligibleOffers": true
@@ -19592,7 +20244,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 60,
+               "landingPriority": 40,
                "sectionId": "Daily",
                "bShowTimer": true,
                "sectionDisplayName": "Daily",
@@ -19606,7 +20258,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 61,
+               "landingPriority": 39,
                "sectionId": "Daily2",
                "bShowTimer": true,
                "bShowIneligibleOffers": true
@@ -19621,7 +20273,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 40,
+               "landingPriority": 60,
                "sectionId": "Special",
                "bShowTimer": true,
                "sectionDisplayName": "Special Offers",
@@ -19635,7 +20287,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 41,
+               "landingPriority": 59,
                "sectionId": "Special2",
                "bShowTimer": true,
                "bShowIneligibleOffers": true
@@ -19650,7 +20302,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 65,
                "sectionId": "StarWars",
                "bShowTimer": true,
                "sectionDisplayName": "Star Wars",
@@ -19664,7 +20316,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 65,
                "sectionId": "StartParty",
                "bShowTimer": true,
                "sectionDisplayName": "Start the Party!",
@@ -19678,7 +20330,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 36,
+               "landingPriority": 64,
                "sectionId": "PartyGear",
                "bShowTimer": true,
                "sectionDisplayName": "Party Gear",
@@ -19692,10 +20344,24 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 64,
+               "sectionId": "TurnMusicUp",
+               "bShowTimer": true,
+               "sectionDisplayName": "Turn The Music Up!",
+               "bShowIneligibleOffers": true
+            },
+            {
+               "bSortOffersByOwnership": false,
+               "bShowIneligibleOffersIfGiftable": false,
+               "bEnableToastNotification": true,
+               "background": {
+                  "_type": "DynamicBackground"
+               },
+               "_type": "ShopSection",
+               "landingPriority": 65,
                "sectionId": "SpookyOffers",
                "bShowTimer": true,
-               "sectionDisplayName": "SpookyOffers",
+               "sectionDisplayName": "Spooky Offers",
                "bShowIneligibleOffers": true
             },
             {
@@ -19708,7 +20374,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 65,
                "sectionId": "Fortnitemares",
                "bShowTimer": true,
                "sectionDisplayName": "Fortnitemares",
@@ -19722,7 +20388,7 @@
                   "_type": "DynamicBackground"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 65,
                "sectionId": "CustomizeHero",
                "bShowTimer": true,
                "sectionDisplayName": "Customize Your Hero!",
@@ -19738,7 +20404,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 36,
+               "landingPriority": 64,
                "sectionId": "HeroGear",
                "bShowTimer": true,
                "sectionDisplayName": "Hero Gear",
@@ -19754,7 +20420,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 30,
+               "landingPriority": 70,
                "sectionId": "Marvel",
                "bShowTimer": true,
                "sectionDisplayName": "Marvel",
@@ -19770,7 +20436,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 35,
+               "landingPriority": 65,
                "sectionId": "BannerBrigade",
                "bShowTimer": true,
                "sectionDisplayName": "Banner Brigade",
@@ -19786,7 +20452,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 36,
+               "landingPriority": 64,
                "sectionId": "BannerGear",
                "bShowTimer": true,
                "sectionDisplayName": "Banner Gear",
@@ -19847,7 +20513,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 180,
+               "landingPriority": 0,
                "sectionId": "Pickaxes",
                "bShowTimer": true,
                "sectionDisplayName": "Harvesting Tools",
@@ -19908,7 +20574,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 20,
+               "landingPriority": 80,
                "sectionId": "LimitedTime",
                "bShowTimer": false,
                "sectionDisplayName": "Limited Time",
@@ -19924,7 +20590,7 @@
                   "key": "vault"
                },
                "_type": "ShopSection",
-               "landingPriority": 10,
+               "landingPriority": 90,
                "sectionId": "Battlepass",
                "bShowTimer": false,
                "sectionDisplayName": "Battle Pass",
@@ -19933,47 +20599,70 @@
          ]
       },
       "_noIndex": false,
-      "jcr:baseVersion": "a7ca237317f1e7a9709d2b-cca8-44f0-8c0c-25a739ac4e0d",
+      "jcr:baseVersion": "a7ca237317f1e79f223bab-26b2-4022-a145-78176adf660a",
       "_activeDate": "2020-09-15T00:00:00.000Z",
-      "lastModified": "2020-09-15T14:14:31.935Z",
+      "lastModified": "2020-09-25T18:53:08.786Z",
       "_locale": "en-US"
    },
    "battleroyalenewsv2": {
       "news": {
          "motds": [
             {
-               "entryType": "Text",
-               "image": "https://cdn2.unrealengine.com/14pr-andersonpaak-motd-1920x1080-1920x1080-017955924.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14pr-andersonpaak-motd-1024x512-1024x512-017955923.jpg",
-               "tabTitleOverride": "Live in Party Royale ",
-               "hidden": false,
+               "entryType": "NavigateToTab",
+               "image": "https://cdn2.unrealengine.com/14br-venturion-1920x1080-1920x1080-105914968.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-venturion-1024x512-1024x512-105914963.jpg",
+               "navigateToTabValue": "ShowAthenaItemShop",
                "videoMute": false,
+               "hidden": false,
+               "tabTitleOverride": "New Styles",
                "_type": "CommonUI Simple Message MOTD",
-               "title": "Spotlight Series: Anderson .Paak",
-               "body": "Heating up the stage, please welcome multi-talented artist and Grammy award winner Anderson .Paak. Join us on Saturday, September 19 at 5 PM EDT at the Main Stage.",
+               "title": "Venture Set",
+               "body": "When good heroes go bad.",
                "videoLoop": false,
                "videoStreamingEnabled": false,
-               "sortingPriority": 60,
-               "id": "Anderson Paak Announce",
+               "sortingPriority": 70,
+               "buttonTextOverride": "Grab It ",
+               "id": "Venture Set links to Item Shop",
                "videoAutoplay": false,
                "videoFullscreen": false,
                "spotlight": false
             },
             {
-               "entryType": "NavigateToTab",
-               "image": "https://cdn2.unrealengine.com/motd-1920x1080-1920x1080-624318529.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/motd-1024x512-1024x512-624318524.jpg",
-               "navigateToTabValue": "ShowAthenaItemShop",
+               "entryType": "Challenge",
+               "image": "https://cdn2.unrealengine.com/14br-birthdaybash-challengerewards-motd-1920x1080-1920x1080-106803817.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-birthdaybash-challengerewards-motd-1024x512-1024x512-106803809.jpg",
+               "tabTitleOverride": "Birthday Bash",
                "hidden": false,
                "videoMute": false,
                "_type": "CommonUI Simple Message MOTD",
-               "title": "Galaxy Pack",
-               "body": "Take a journey through the galaxy towards the victory that lies in the light of the stars!",
+               "title": "Fortnite\u2019s 3rd Birthday Bash",
+               "body": "Welcome to Fortnite\u2019s 3rd Birthday Bash! Celebrate with sweet treats and complete Birthday Challenges to unlock rewards.",
                "videoLoop": false,
                "videoStreamingEnabled": false,
-               "buttonTextOverride": "Get It Now",
-               "offerId": "70",
-               "id": "Galaxy Pack links to Item Shop",
+               "sortingPriority": 30,
+               "buttonTextOverride": "View Challenges",
+               "id": "Fortnite\u2019s 3rd Birthday Bash",
+               "videoAutoplay": false,
+               "videoFullscreen": false,
+               "challengeCategoryTag": "QuestBundle_Birthday2020_BR",
+               "spotlight": false
+            },
+            {
+               "playlistId": "Playlist_HighTower_Hydro",
+               "entryType": "Playlist",
+               "image": "https://cdn2.unrealengine.com/14br-marveltakeoverltm-motd-1920x1080-1920x1080-081805854.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-marveltakeoverltm-motd-1024x512-1024x512-081805854.jpg",
+               "videoMute": false,
+               "hidden": false,
+               "tabTitleOverride": "New Marvel LTM",
+               "_type": "CommonUI Simple Message MOTD",
+               "title": "Marvel Takeover",
+               "body": "Team up and use your super-powers to capture and defend outposts in a mighty battle for control of the Island.",
+               "videoLoop": false,
+               "videoStreamingEnabled": false,
+               "sortingPriority": 10,
+               "buttonTextOverride": "Play Now",
+               "id": "Marvel Takeover links to Playlist_HighTower_Hydro",
                "videoAutoplay": false,
                "videoFullscreen": false,
                "spotlight": false
@@ -19996,46 +20685,19 @@
                "hidden": false,
                "_type": "CommonUI Simple Message MOTD Platform",
                "message": {
-                  "entryType": "Website",
-                  "image": "https://cdn2.unrealengine.com/fn-swsquadron-motd-1920x1080-1920x1080-009253643.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/fn-swsquadron-motd-1024x512-1024x512-010372227.jpg",
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1920x1080-1920x1080-083258016.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1024x512-1024x512-083258016.jpg",
                   "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
+                  "hidden": false,
+                  "tabTitleOverride": "Fortnite x Rocket League ",
                   "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Grab the Vanguard Squadron X-wing Glider in the Item Shop now. Or, grab STAR WARS\u2122: Squadrons on the Epic Games Store and get the Glider as a free bonus!",
+                  "title": "Llama-Rama Event",
+                  "body": "Fortnite is celebrating Rocket League\u2019s move to Free to Play. Complete challenges in Rocket League to unlock rewards for both Rocket League and Fortnite.",
                   "videoLoop": false,
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "websiteURL": "com.epicgames.launcher://store/product/star-wars-squadrons/home ",
-                  "buttonTextOverride": "Check Out The Game",
-                  "id": "X-wing Glider links to EGS Page",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "windows"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004902612.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004919595.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
+                  "sortingPriority": 40,
+                  "id": "Llama-Rama Event Fortnite x Rocket League ",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -20046,21 +20708,45 @@
                "hidden": false,
                "_type": "CommonUI Simple Message MOTD Platform",
                "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004902612.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004919595.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "entryType": "Website",
+                  "image": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1920x1080-1920x1080-083258016.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1024x512-1024x512-083258016.jpg",
+                  "hidden": false,
                   "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
+                  "tabTitleOverride": "Fortnite x Rocket League ",
                   "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
+                  "title": "Llama-Rama Event",
+                  "body": "Fortnite is celebrating Rocket League\u2019s move to Free to Play. Complete challenges in Rocket League to unlock rewards for both Rocket League and Fortnite.",
+                  "videoLoop": false,
+                  "websiteButtonText": "Download Rocket League",
+                  "videoStreamingEnabled": false,
+                  "sortingPriority": 40,
+                  "websiteURL": "com.epicgames.launcher://store/product/rocket-league/home",
+                  "buttonTextOverride": "",
+                  "id": "Llama-Rama Event Fortnite x Rocket League ",
+                  "videoAutoplay": false,
+                  "videoFullscreen": false,
+                  "spotlight": false
+               },
+               "platform": "windows"
+            },
+            {
+               "hidden": false,
+               "_type": "CommonUI Simple Message MOTD Platform",
+               "message": {
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1920x1080-1920x1080-083258016.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1024x512-1024x512-083258016.jpg",
+                  "videoMute": false,
+                  "hidden": false,
+                  "tabTitleOverride": "Fortnite x Rocket League ",
+                  "_type": "CommonUI Simple Message MOTD",
+                  "title": "Llama-Rama Event",
+                  "body": "Fortnite is celebrating Rocket League\u2019s move to Free to Play. Complete challenges in Rocket League to unlock rewards for both Rocket League and Fortnite.",
                   "videoLoop": false,
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
+                  "sortingPriority": 40,
+                  "id": "Llama-Rama Event Fortnite x Rocket League ",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -20071,21 +20757,21 @@
                "hidden": false,
                "_type": "CommonUI Simple Message MOTD Platform",
                "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004902612.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004919595.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "entryType": "Website",
+                  "image": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1920x1080-1920x1080-083258016.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1024x512-1024x512-083258016.jpg",
                   "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
+                  "hidden": false,
+                  "tabTitleOverride": "Fortnite x Rocket League ",
                   "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
+                  "title": "Llama-Rama Event",
+                  "body": "Fortnite is celebrating Rocket League\u2019s move to Free to Play. Complete challenges in Rocket League to unlock rewards for both Rocket League and Fortnite.",
                   "videoLoop": false,
+                  "websiteButtonText": "Download Rocket League",
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
+                  "sortingPriority": 40,
+                  "websiteURL": "ms-windows-store://pdp/?ProductId=c125w9bg2k0v",
+                  "id": "Llama-Rama Event Fortnite x Rocket League ",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -20096,21 +20782,20 @@
                "hidden": false,
                "_type": "CommonUI Simple Message MOTD Platform",
                "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004902612.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004919595.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
+                  "entryType": "Text",
+                  "image": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1920x1080-1920x1080-083258016.jpg",
+                  "tileImage": "https://cdn2.unrealengine.com/14br-rocketleague-llama-rama-rewards-v2-motd-1024x512-1024x512-083258016.jpg",
                   "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
+                  "hidden": false,
+                  "tabTitleOverride": "Fortnite x Rocket League ",
                   "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
+                  "title": "Llama-Rama Event",
+                  "body": "Fortnite is celebrating Rocket League\u2019s move to Free to Play. Complete challenges in Rocket League to unlock rewards for both Rocket League and Fortnite.",
                   "videoLoop": false,
+                  "websiteButtonText": "",
                   "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
+                  "sortingPriority": 40,
+                  "id": "Llama-Rama Event Fortnite x Rocket League ",
                   "videoAutoplay": false,
                   "videoFullscreen": false,
                   "spotlight": false
@@ -20125,9 +20810,9 @@
       "style": "None",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e7cbef8393-abca-44c0-ab2a-f44d56d3d665",
+      "jcr:baseVersion": "a7ca237317f1e7362bb205-f218-4c9c-85f3-328ef26b55f8",
       "_activeDate": "2020-01-21T14:00:00.000Z",
-      "lastModified": "2020-09-15T14:19:55.096Z",
+      "lastModified": "2020-09-27T20:26:09.807Z",
       "_locale": "en-US"
    },
    "creativenewsv2": {
@@ -20135,37 +20820,37 @@
          "motds": [
             {
                "entryType": "Text",
-               "image": "https://cdn2.unrealengine.com/14-1-07-50lvlescape-1920x1080-1920x1080-005848053.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/14-1-07-50lvlescape-1024x512-1024x512-005848047.jpg",
+               "image": "https://cdn2.unrealengine.com/14-2-08-rodeorumble-1920x1080-1920x1080-106271381.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14-2-08-rodeorumble-1024x512-1024x512-106271373.jpg",
                "tabTitleOverride": "New Featured Island",
                "hidden": false,
                "videoMute": false,
                "_type": "CommonUI Simple Message MOTD",
-               "title": "50 Level Default Escape",
-               "body": "Escape, Parkour, Puzzle\nGo play the community made Featured Island by TREE FITTYY",
+               "title": "Rodeo Rumble",
+               "body": "1v1, Action, Mini Games, Party Game\nGo play the community made Featured Island by FB Boss_YMS",
                "videoLoop": false,
                "videoStreamingEnabled": false,
-               "sortingPriority": 80,
-               "id": "50 Level Default Escape New Featured Island",
+               "id": "Rodeo Rumble New Featured Island",
                "videoAutoplay": false,
                "videoFullscreen": false,
                "spotlight": false
             },
             {
                "entryType": "NavigateToTab",
-               "image": "https://cdn2.unrealengine.com/motd-1920x1080-1920x1080-624318529.jpg",
-               "tileImage": "https://cdn2.unrealengine.com/motd-1024x512-1024x512-624318524.jpg",
+               "image": "https://cdn2.unrealengine.com/14br-venturion-1920x1080-1920x1080-105914968.jpg",
+               "tileImage": "https://cdn2.unrealengine.com/14br-venturion-1024x512-1024x512-105914963.jpg",
                "navigateToTabValue": "ShowAthenaItemShop",
-               "hidden": false,
                "videoMute": false,
+               "hidden": false,
+               "tabTitleOverride": "New Styles",
                "_type": "CommonUI Simple Message MOTD",
-               "title": "Galaxy Pack",
-               "body": "Take a journey through the galaxy towards the victory that lies in the light of the stars!",
+               "title": "Venture Set",
+               "body": "When good heroes go bad.",
                "videoLoop": false,
                "videoStreamingEnabled": false,
-               "buttonTextOverride": "Get It Now",
-               "offerId": "70",
-               "id": "Galaxy Pack links to Item Shop",
+               "sortingPriority": 70,
+               "buttonTextOverride": "Grab It ",
+               "id": "Venture Set links to Item Shop",
                "videoAutoplay": false,
                "videoFullscreen": false,
                "spotlight": false
@@ -20182,133 +20867,6 @@
                "body": "Avoid scam sites offering free V-Bucks. Epic will never ask for your password. Enable Two-Factor Authentication to help stay secure!",
                "spotlight": false
             }
-         ],
-         "platform_motds": [
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "Website",
-                  "image": "https://cdn2.unrealengine.com/fn-swsquadron-motd-1920x1080-1920x1080-009303466.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/fn-swsquadron-motd-1024x512-1024x512-010394285.jpg",
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "hidden": true,
-                  "videoMute": false,
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Grab the Vanguard Squadron X-wing Glider in the Item Shop now. Or, grab STAR WARS\u2122: Squadrons on the Epic Games Store and get the Glider as a free bonus!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "websiteURL": "com.epicgames.launcher://store/product/star-wars-squadrons/home ",
-                  "buttonTextOverride": "Check Out The Game",
-                  "id": "X-wing Glider links to EGS Page",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "windows"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004956720.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004956683.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "switch"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004956720.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004956683.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "android"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004956720.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004956683.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "XBoxOne"
-            },
-            {
-               "hidden": false,
-               "_type": "CommonUI Simple Message MOTD Platform",
-               "message": {
-                  "entryType": "NavigateToTab",
-                  "image": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1920x1080-1920x1080-004956720.jpg",
-                  "tileImage": "https://cdn2.unrealengine.com/14br-social-xwing-motd-1024x512-1024x512-004956683.jpg",
-                  "navigateToTabValue": "ShowAthenaItemShop",
-                  "videoMute": false,
-                  "hidden": true,
-                  "tabTitleOverride": "S-Foils in Attack Position",
-                  "_type": "CommonUI Simple Message MOTD",
-                  "title": "X-wing Glider",
-                  "body": "Run a full system check and get ready for light-speed!",
-                  "videoLoop": false,
-                  "videoStreamingEnabled": false,
-                  "sortingPriority": 80,
-                  "buttonTextOverride": "Get it Now",
-                  "id": "X-wing Glider links Item Shop",
-                  "videoAutoplay": false,
-                  "videoFullscreen": false,
-                  "spotlight": false
-               },
-               "platform": "PS4"
-            }
          ]
       },
       "jcr:isCheckedOut": true,
@@ -20317,9 +20875,32 @@
       "style": "None",
       "_noIndex": false,
       "alwaysShow": false,
-      "jcr:baseVersion": "a7ca237317f1e711a7b687-8892-4d1c-a010-f59f4c73e1cd",
+      "jcr:baseVersion": "a7ca237317f1e72b433b5a-fcfc-4690-9de2-2ba88d5ff00b",
       "_activeDate": "2020-01-22T00:00:00.000Z",
-      "lastModified": "2020-09-15T15:14:37.757Z",
+      "lastModified": "2020-09-28T11:10:33.118Z",
+      "_locale": "en-US"
+   },
+   "shopCarousel": {
+      "jcr:isCheckedOut": true,
+      "itemsList": {
+         "_type": "ShopCarouselItemList",
+         "items": [
+            {
+               "fullTitle": "Courageous Era Set",
+               "tileImage": "https://cdn2.unrealengine.com/14br-courageouseraset-motd-1920x1080-1920x1080-106044817.jpg",
+               "_type": "ShopCarouselItem",
+               "landingPriority": 100,
+               "action": "None",
+               "bHidden": true,
+               "title": "Courageous Era Set"
+            }
+         ]
+      },
+      "_title": "shop-carousel",
+      "_noIndex": false,
+      "jcr:baseVersion": "a7ca237317f1e77b689d14-bea4-4a19-9860-8bbe413cfc5d",
+      "_activeDate": "2020-09-25T12:00:00.000Z",
+      "lastModified": "2020-09-27T20:33:58.079Z",
       "_locale": "en-US"
    },
    "_suggestedPrefetch": []

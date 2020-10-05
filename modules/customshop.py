@@ -15,7 +15,7 @@ def GetBlendColor(Rarity):
     elif Rarity == "lava":
         blendColor = (234, 141, 35)
     elif Rarity == "legendary":
-        blendColor = (211, 120, 65)
+        blendColor = (255, 255, 255)
     elif Rarity == "dark":
         blendColor = (251, 34, 223)
     elif Rarity == "starwars":
@@ -45,18 +45,16 @@ def GetBlendColor(Rarity):
 
 
 async def GenerateShopImage(Store: dict, background_user: str = "https://peely.de/api/background.jpg",
-                            text: str = "Fortnite Item Shop", featured: str="Featured", daily: str="Daily"):
+                            text: str = "Fortnite Item Shop"):
     # Featured items
-    FeaturedItems = [Item for Item in Store["featured"] for Item in Item["items"]]
-    FeaturedIDs = [ID["id"] for ID in FeaturedItems]
-    FeaturedItemsCount = len(Store["featured"])
+    FeaturedItemsCount = len(Store["featured"]['entries'])
 
     F_Lines = 1
     F_Height = (545 * F_Lines) + 20
     F_Width = (300 * FeaturedItemsCount) + 20
     while F_Width > F_Height:
         F_Lines += 1
-        F_ImagesPerLine = round(((FeaturedItemsCount) / F_Lines) + 0.49)
+        F_ImagesPerLine = round((FeaturedItemsCount / F_Lines) + 0.49)
         F_Height = (545 * F_Lines) + 20
         F_Width = (300 * F_ImagesPerLine) + 20
     while ((F_Lines * F_ImagesPerLine) - FeaturedItemsCount) > F_ImagesPerLine or (
@@ -66,9 +64,7 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
         F_Width = (300 * F_ImagesPerLine) + 20
 
     # Daily items
-    DailyItems = [Item for Item in Store["daily"] for Item in Item["items"]]
-    DailyIDs = [ID["id"] for ID in DailyItems]
-    DailyItemsCount = len(Store["daily"])
+    DailyItemsCount = len(Store["daily"]['entries'])
 
     D_Lines = 1
     D_Height = (545 * D_Lines)
@@ -83,12 +79,7 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     while ((D_Lines * D_ImagesPerLine) - DailyItemsCount) > D_ImagesPerLine or (
             (D_Lines * D_ImagesPerLine) - DailyItemsCount) == D_ImagesPerLine:
         D_Lines -= 1
-        D_Height = (545 * D_Lines)
         D_Width = (300 * D_ImagesPerLine)
-
-    # Count free items
-    FreeItems = len([Item["finalPrice"] for Item in Store["featured"] if Item["finalPrice"] == 0]) + len(
-        [Item["finalPrice"] for Item in Store["daily"] if Item["finalPrice"] == 0])
 
     # Open Background
     async with aiohttp.ClientSession() as session:
@@ -131,46 +122,48 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     Price = 0
 
     # Paste Featured
-    for Item in Store["featured"]:
+    for Item in Store["featured"]['entries']:
         card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
         Price += Item["finalPrice"]
-        if Item["banner"]:
-            Adspace(currentWidth, currentHeight, Item["banner"])
+        try:
+            if Item["banner"]:
+                Adspace(currentWidth, currentHeight, Item["banner"]['value'])
+        except KeyError:
+            pass
         currentWidth += 300
         if F_Width == currentWidth:
             currentWidth = 20
             currentHeight += 545
 
     dailyStarts = F_Width + 50
-    D_Width = Background.width - 20
     currentWidth = dailyStarts
     currentHeight = 510
     # Paste Daily
-    for Item in Store["daily"]:
+    for Item in Store["daily"]['entries']:
         card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
         Price += Item["finalPrice"]
-        if Item["banner"]:
-            Adspace(currentWidth, currentHeight, Item["banner"])
+        try:
+            if Item["banner"]:
+                Adspace(currentWidth, currentHeight, Item["banner"]['value'])
+        except KeyError:
+            pass
         currentWidth += 300
-        if D_Width == currentWidth:
-            currentWidth = dailyStarts
+        if F_Width == currentWidth:
+            currentWidth = 20
             currentHeight += 545
 
     # Draw Featured and Daily
-    FMiddle = GetMiddle(F_Width, Burbank.getsize(featured)[0])
-    Draw.text((FMiddle + 20, 350), featured, (255, 255, 255), font=Burbank)
-    DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize(daily)[0])
-    Draw.text((DMiddle + dailyStarts, 350), daily, (255, 255, 255), font=Burbank)
-    # # Draw date
-    # now = datetime.now().strftime('%A %d %B %Y')
-    # Middle = GetMiddle(Background.width, Burbank.getsize(now)[0])
-    # Draw.text((Middle, 190), now, (255, 255, 255), font=Burbank)
+    FMiddle = GetMiddle(F_Width, Burbank.getsize(Store['featured']['name'])[0])
+    Draw.text((FMiddle + 20, 350), Store['featured']['name'], (255, 255, 255), font=Burbank)
+    DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize(Store['daily']['name'])[0])
+    Draw.text((DMiddle + dailyStarts, 350), Store['daily']['name'], (255, 255, 255), font=Burbank)
+
     # Draw Fortnite Item Shop
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 200)
-    Middle = GetMiddle(Background.width, BurbankBigCondensed.getsize(str(text))[0])
-    Draw.text((Middle, 125), str(text), (255, 255, 255), font=BurbankBigCondensed)
+    Middle = GetMiddle(Background.width, BurbankBigCondensed.getsize(text)[0])
+    Draw.text((Middle, 0), text, (255, 255, 255), font=BurbankBigCondensed)
 
     return Background
 
@@ -178,16 +171,17 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
 async def GenerateCard(Item):
     card = Image.new("RGBA", (300, 545))
     Draw = ImageDraw.Draw(card)
+
     Name = Item["name"]
-    Rarity = Item["rarity"]
-    blendColor = GetBlendColor(Rarity)
-    Category = Item["type"]
+    Rarity = Item["rarity"]['value']
+    blendColor = GetBlendColor(Rarity.lower())
+    Category = Item["type"]['value']
     if Item["images"]["featured"]:
-        Icon = Item["images"]["featured"]["url"]
+        Icon = Item["images"]["featured"]
     elif Item["images"]["icon"]:
-        Icon = Item["images"]["icon"]["url"]
+        Icon = Item["images"]["icon"]
     elif Item["images"]["smallIcon"]:
-        Icon = Item["images"]["smallIcon"]["url"]
+        Icon = Item["images"]["smallIcon"]
     else:
         print(Item["name"] + " Image not found!")
         return card
@@ -215,6 +209,7 @@ async def GenerateCard(Item):
     else:
         ratio = max(310 / Icon.width, 390 / Icon.height)
     Icon = Icon.resize((int(Icon.width * ratio), int(Icon.height * ratio)), Image.ANTIALIAS)
+    Icon = Icon.convert("RGBA")
     Middle = int((card.width - Icon.width) / 2)  # Get the middle of card and icon
     # Paste the image
     if (Category == "outfit") or (Category == "emote"):
@@ -232,22 +227,12 @@ async def GenerateCard(Item):
         card.paste(layer, layer)
     except:
         pass
-    try:
-        layer = Image.open(
-            io.BytesIO(await (await aiofiles.open(f"assets/Images/card_bottom_{Rarity}.png", mode='rb')).read()))
-    except:
-        layer = Image.open(
-            io.BytesIO(await (await aiofiles.open("assets/Images/card_bottom_common.png", mode='rb')).read()))
-    try:
-        card.paste(layer, layer)
-    except:
-        pass
 
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{Item['shortDescription']}")[0]
+    textWidth = BurbankBigCondensed.getsize(f"{Item['type']['displayValue']}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 385), f"{Item['shortDescription']}", blendColor, font=BurbankBigCondensed)
+    Draw.text((Middle, 385), f"{Item['type']['displayValue']}", blendColor, font=BurbankBigCondensed)
 
     FontSize = 56
     while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(Name)[0] > 265:
@@ -267,7 +252,6 @@ async def GenerateCard(Item):
 async def GenerateStoreCard(Item):
     card = await GenerateCard(Item["items"][0])
     Draw = ImageDraw.Draw(card)
-    blendColor = GetBlendColor(Item["items"][0]["rarity"])
     Name = Item["items"][0]["name"]
 
     if len(Item["items"]) > 1:
@@ -276,7 +260,7 @@ async def GenerateStoreCard(Item):
         for extra in Item["items"][1:]:
             try:
                 extraRarity = extra["rarity"]
-                extraIcon = extra["images"]["smallIcon"]["url"]
+                extraIcon = extra["images"]["smallIcon"]
             except:
                 pass
 
@@ -305,6 +289,7 @@ async def GenerateStoreCard(Item):
             except:
                 layer = Image.open(
                     io.BytesIO(await (await aiofiles.open("assets/Images/box_faceplate_common.png", mode='rb')).read()))
+            extraIcon = extraIcon.convert("RGBA")
             card.paste(extraIcon, ((card.width - (layer.width + 9)), (9 + ((i // 1) * (extraIcon.height))),), extraIcon)
             card.paste(layer, ((card.width - (layer.width + 9)), (9 + ((i // 1) * (layer.height)))), layer)
             i += 1

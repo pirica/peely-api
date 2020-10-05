@@ -1,11 +1,11 @@
 {
   "status": 200,
   "data": {
-    "build": "++Fortnite+Release-14.20-CL-14375974-Windows",
+    "build": "++Fortnite+Release-14.20-CL-14384759-Windows",
     "previousBuild": "++Fortnite+Release-14.10-CL-14312695-Windows",
-    "hash": "21f9a2813ce5fd3de9274bcf0c6f842adc48c1c6",
+    "hash": "a8044b605322417ed0656cfcea49f256d1366db4",
     "date": "2020-09-23T08:28:55Z",
-    "lastAddition": "2020-09-23T08:28:55Z",
+    "lastAddition": "2020-09-25T00:00:00Z",
     "items": [
       {
         "id": "BID_613_MythFemale",
@@ -70,7 +70,9 @@
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_613_MythFemale",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       },
       {
         "id": "BID_614_Myth",
@@ -135,7 +137,63 @@
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_614_Myth",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
+      },
+      {
+        "id": "BID_615_Backspin_KA0K2",
+        "name": "Sword of the Daywalker",
+        "description": "Look, but don't touch.",
+        "type": {
+          "value": "backpack",
+          "displayValue": "Back Bling",
+          "backendValue": "AthenaBackpack"
+        },
+        "rarity": {
+          "value": "marvel",
+          "displayValue": "MARVEL SERIES",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "MARVEL SERIES",
+          "image": null,
+          "backendValue": "MarvelSeries"
+        },
+        "set": {
+          "value": "Blade",
+          "text": "Part of the Blade set.",
+          "backendValue": "SweetMeaning"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_615_backspin_ka0k2/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/bid_615_backspin_ka0k2/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.SweetMeaning"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_615_Backspin_KA0K2",
+        "added": "2020-09-25T00:00:00Z",
+        "shopHistory": [
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z",
+          "2020-09-27T00:00:00Z",
+          "2020-09-28T00:00:00Z"
+        ]
       },
       {
         "id": "BID_616_Cavalry",
@@ -220,7 +278,11 @@
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_617_StreetFashionGarnet",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-10-02T00:00:00Z",
+          "2020-10-03T00:00:00Z",
+          "2020-10-04T00:00:00Z"
+        ]
       },
       {
         "id": "BID_618_Birthday03",
@@ -390,7 +452,9 @@
         "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_866_Athena_Commando_F_Myth",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_866_Athena_Commando_F_Myth",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       },
       {
         "id": "CID_867_Athena_Commando_M_Myth",
@@ -450,12 +514,89 @@
           "Cosmetics.UserFacingFlags.HasVariants",
           "Cosmetics.Set.BraveryTime"
         ],
-        "showcaseVideo": "l1FjWucOf1I",
+        "showcaseVideo": "QfJ7Nawp-8o",
         "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_867_Athena_Commando_M_Myth",
         "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_867_Athena_Commando_M_Myth",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_867_Athena_Commando_M_Myth",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
+      },
+      {
+        "id": "CID_868_Athena_Commando_M_Backspin_3U6CA",
+        "name": "Blade",
+        "description": "Eric Brooks: The Daywalker.",
+        "type": {
+          "value": "outfit",
+          "displayValue": "Outfit",
+          "backendValue": "AthenaCharacter"
+        },
+        "rarity": {
+          "value": "marvel",
+          "displayValue": "MARVEL SERIES",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "MARVEL SERIES",
+          "image": null,
+          "backendValue": "MarvelSeries"
+        },
+        "set": {
+          "value": "Blade",
+          "text": "Part of the Blade set.",
+          "backendValue": "SweetMeaning"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_868_athena_commando_m_backspin_3u6ca/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/cid_868_athena_commando_m_backspin_3u6ca/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/cid_868_athena_commando_m_backspin_3u6ca/featured.png",
+          "other": null
+        },
+        "variants": [
+          {
+            "channel": "Parts",
+            "type": "STYLE",
+            "options": [
+              {
+                "tag": "Stage1",
+                "name": "DEFAULT",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_868_athena_commando_m_backspin_3u6ca/variants/parts/stage1.png"
+              },
+              {
+                "tag": "Stage2",
+                "name": "JACKET",
+                "unlockRequirements": null,
+                "image": "https://fortnite-api.com/images/cosmetics/br/cid_868_athena_commando_m_backspin_3u6ca/variants/parts/stage2.png"
+              }
+            ]
+          }
+        ],
+        "gameplayTags": [
+          "Cosmetics.QuestsMetaData.Outfit.Backspin",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.UserFacingFlags.HasVariants",
+          "Cosmetics.Set.SweetMeaning"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_868_Athena_Commando_M_Backspin_3U6CA",
+        "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_868_Athena_Commando_M_Backspin",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_868_Athena_Commando_M_Backspin_3U6CA",
+        "added": "2020-09-25T00:00:00Z",
+        "shopHistory": [
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z",
+          "2020-09-27T00:00:00Z",
+          "2020-09-28T00:00:00Z"
+        ]
       },
       {
         "id": "CID_869_Athena_Commando_F_Cavalry",
@@ -565,7 +706,66 @@
         "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_871_Athena_Commando_F_StreetFashionGarnet",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_871_Athena_Commando_F_StreetFashionGarnet",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-10-02T00:00:00Z",
+          "2020-10-03T00:00:00Z",
+          "2020-10-04T00:00:00Z"
+        ]
+      },
+      {
+        "id": "EID_Backspin_R3NAI",
+        "name": "Daywalker's Kata",
+        "description": "Bloodsuckers beware.",
+        "type": {
+          "value": "emote",
+          "displayValue": "Emote",
+          "backendValue": "AthenaDance"
+        },
+        "rarity": {
+          "value": "marvel",
+          "displayValue": "MARVEL SERIES",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "MARVEL SERIES",
+          "image": null,
+          "backendValue": "MarvelSeries"
+        },
+        "set": {
+          "value": "Blade",
+          "text": "Part of the Blade set.",
+          "backendValue": "SweetMeaning"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_backspin_r3nai/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/eid_backspin_r3nai/icon.png",
+          "featured": null,
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.EmoteType.Dance",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Set.SweetMeaning"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": null,
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_Backspin_R3NAI",
+        "added": "2020-09-25T00:00:00Z",
+        "shopHistory": [
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z",
+          "2020-09-27T00:00:00Z",
+          "2020-09-28T00:00:00Z"
+        ]
       },
       {
         "id": "EID_HappyBirthday",
@@ -652,7 +852,9 @@
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamChorus",
         "added": "2020-09-23T08:28:55Z",
         "shopHistory": [
-          "2020-09-24T00:00:00Z"
+          "2020-09-24T00:00:00Z",
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z"
         ]
       },
       {
@@ -731,7 +933,9 @@
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamHook",
         "added": "2020-09-23T08:28:55Z",
         "shopHistory": [
-          "2020-09-24T00:00:00Z"
+          "2020-09-24T00:00:00Z",
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z"
         ]
       },
       {
@@ -902,6 +1106,60 @@
         "shopHistory": null
       },
       {
+        "id": "Glider_ID_241_BackspinMale_97LM4",
+        "name": "Dayflier",
+        "description": "A Whistler Original.",
+        "type": {
+          "value": "glider",
+          "displayValue": "Glider",
+          "backendValue": "AthenaGlider"
+        },
+        "rarity": {
+          "value": "marvel",
+          "displayValue": "MARVEL SERIES",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "MARVEL SERIES",
+          "image": null,
+          "backendValue": "MarvelSeries"
+        },
+        "set": {
+          "value": "Blade",
+          "text": "Part of the Blade set.",
+          "backendValue": "SweetMeaning"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_241_backspinmale_97lm4/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_241_backspinmale_97lm4/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_241_backspinmale_97lm4/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.SweetMeaning"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_241_BackspinMale_97LM4",
+        "definitionPath": null,
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_241_BackspinMale_97LM4",
+        "added": "2020-09-25T00:00:00Z",
+        "shopHistory": [
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z",
+          "2020-09-27T00:00:00Z",
+          "2020-09-28T00:00:00Z"
+        ]
+      },
+      {
         "id": "Glider_ID_243_Myth",
         "name": "Dawn's Promise",
         "description": "Chart a course for a new world.",
@@ -959,12 +1217,14 @@
           "Cosmetics.Source.ItemShop",
           "Cosmetics.Set.BraveryTime"
         ],
-        "showcaseVideo": "bCA5nuYBb3Q",
+        "showcaseVideo": "3hbJTd-IcQc",
         "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_243_Myth",
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_243_Myth",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       },
       {
         "id": "MusicPack_061_RLxFN",
@@ -1007,6 +1267,62 @@
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_061_RLxFN",
         "added": "2020-09-23T08:28:55Z",
         "shopHistory": null
+      },
+      {
+        "id": "Pickaxe_ID_465_BackspinMale1H_R40E7",
+        "name": "Sword of the Daywalker",
+        "description": "Blade's blade.",
+        "type": {
+          "value": "pickaxe",
+          "displayValue": "Harvesting Tool",
+          "backendValue": "AthenaPickaxe"
+        },
+        "rarity": {
+          "value": "marvel",
+          "displayValue": "MARVEL SERIES",
+          "backendValue": "EFortRarity::Epic"
+        },
+        "series": {
+          "value": "MARVEL SERIES",
+          "image": null,
+          "backendValue": "MarvelSeries"
+        },
+        "set": {
+          "value": "Blade",
+          "text": "Part of the Blade set.",
+          "backendValue": "SweetMeaning"
+        },
+        "introduction": {
+          "chapter": "2",
+          "season": "4",
+          "text": "Introduced in Chapter 2, Season 4.",
+          "backendValue": 14
+        },
+        "images": {
+          "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_465_backspinmale1h_r40e7/smallicon.png",
+          "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_465_backspinmale1h_r40e7/icon.png",
+          "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_465_backspinmale1h_r40e7/featured.png",
+          "other": null
+        },
+        "variants": null,
+        "gameplayTags": [
+          "Cosmetics.Pickaxe.DualWield",
+          "Cosmetics.Filter.Season.14",
+          "Cosmetics.Source.ItemShop",
+          "Cosmetics.Set.SweetMeaning",
+          "Cosmetics.UserFacingFlags.Reactive"
+        ],
+        "showcaseVideo": null,
+        "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_465_BackspinMale1H_R40E7",
+        "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_BackspinMale1H",
+        "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_465_BackspinMale1H_R40E7",
+        "added": "2020-09-25T00:00:00Z",
+        "shopHistory": [
+          "2020-09-25T00:00:00Z",
+          "2020-09-26T00:00:00Z",
+          "2020-09-27T00:00:00Z",
+          "2020-09-28T00:00:00Z"
+        ]
       },
       {
         "id": "Pickaxe_ID_466_CavalryFemale1H",
@@ -1112,12 +1428,14 @@
           "Cosmetics.Source.ItemShop",
           "Cosmetics.Set.BraveryTime"
         ],
-        "showcaseVideo": "idMqzSClPB0",
+        "showcaseVideo": "Zzj_2jA4mUc",
         "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_469_MythFemale",
         "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MythFemale",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_469_MythFemale",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       },
       {
         "id": "Pickaxe_ID_470_MythMale1H",
@@ -1183,7 +1501,9 @@
         "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MythMale1H",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_470_MythMale1H",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       },
       {
         "id": "Pickaxe_ID_471_StreetFashionGarnetFemale",
@@ -1228,7 +1548,11 @@
         "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_StreetFashionGarnetFemale",
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_471_StreetFashionGarnetFemale",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-10-02T00:00:00Z",
+          "2020-10-03T00:00:00Z",
+          "2020-10-04T00:00:00Z"
+        ]
       },
       {
         "id": "SPID_227_3rdBirthday",
@@ -1488,12 +1812,14 @@
           "Cosmetics.UserFacingFlags.Wrap.Animated",
           "Cosmetics.UserFacingFlags.Reactive"
         ],
-        "showcaseVideo": "qMkVhYR8scg",
+        "showcaseVideo": "nFLAbKgps40",
         "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_286_Muzak",
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_286_Muzak",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-26T00:00:00Z"
+        ]
       },
       {
         "id": "Wrap_287_MythToon",
@@ -1533,12 +1859,14 @@
           "Cosmetics.Source.ItemShop",
           "Cosmetics.Set.BraveryTime"
         ],
-        "showcaseVideo": "d7IOKi-JUkM",
+        "showcaseVideo": "XZMEeyx2Fq0",
         "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_287_MythToon",
         "definitionPath": null,
         "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_287_MythToon",
         "added": "2020-09-23T08:28:55Z",
-        "shopHistory": null
+        "shopHistory": [
+          "2020-09-27T00:00:00Z"
+        ]
       }
     ]
   }

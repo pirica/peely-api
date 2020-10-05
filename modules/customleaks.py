@@ -93,6 +93,7 @@ async def GenerateCard(Item):
     else:
         ratio = max(310 / Icon.width, 390 / Icon.height)
     Icon = Icon.resize((int(Icon.width * ratio), int(Icon.height * ratio)), Image.ANTIALIAS)
+    Icon = Icon.convert("RGBA")
     Middle = int((card.width - Icon.width) / 2)  # Get the middle of card and icon
     # Paste the image
     if (Category == "outfit") or (Category == "emote"):
@@ -110,7 +111,6 @@ async def GenerateCard(Item):
         layer = Image.open(
             io.BytesIO(await (await aiofiles.open("assets/Images/card_faceplate_common.png", mode='rb')).read()))
         card.paste(layer, layer)
-
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
     textWidth = BurbankBigCondensed.getsize(f"{displayCategory.capitalize()}")[0]
 
@@ -143,8 +143,8 @@ async def generate(Leaks: dict, background: str = "http://peely.de/api/backgroun
             continue
     if not files:
         return
-    result = Image.new("RGBA", (
-        round(math.sqrt(len(files)) + 0.45) * 305 - 5, (round(math.sqrt(len(files)) + 0.45) * 550 - 5)))
+    result = Image.new("RGB", (
+        round(math.sqrt(len(files)) + 0.45) * 305 - 5, (round(math.sqrt(len(files)) + 0.45) * 550 - 5)+375))
 
     async with aiohttp.ClientSession() as session:
         async with session.get(background) as resp:
@@ -156,7 +156,7 @@ async def generate(Leaks: dict, background: str = "http://peely.de/api/backgroun
                     io.BytesIO(await (
                         await aiofiles.open("assets/cache/temp.png", mode='rb')).read())).resize((int(
                     round(math.sqrt(len(files)) + 0.45) * 305 - 5), int(
-                    (round(math.sqrt(len(files)) + 0.45) * 550 - 5))), Image.ANTIALIAS)
+                    (round(math.sqrt(len(files)) + 0.45) * 550 - 5)+375)), Image.ANTIALIAS)
 
     result.paste(Background)
     Draw = ImageDraw.Draw(result)
@@ -169,6 +169,7 @@ async def generate(Leaks: dict, background: str = "http://peely.de/api/backgroun
     for img in files:
         try:
             img.thumbnail((305, 550), Image.ANTIALIAS)
+            img.convert("RGB")
             w, h = img.size
             if count >= round(math.sqrt(len(files)) + 0.45):
                 y += 550

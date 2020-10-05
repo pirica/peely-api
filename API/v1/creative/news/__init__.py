@@ -94,7 +94,7 @@ async def handler(req):
         img.save(fp=f"cdn/current/creativenews_{lang}.gif", format='GIF', append_images=imgs, save_all=True,
                  duration=4500,
                  loop=0)
-        response['data']['br']['image'] = f"https://api.peely.de/cdn/current/creativenews_{lang}.gif"
+        response['data']['image'] = f"https://api.peely.de/cdn/current/creativenews_{lang}.gif"
     except:
         traceback.print_exc()
 

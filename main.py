@@ -165,13 +165,14 @@ async def check_20():
                         for tempcosmetic in oldfnleaks["data"]["items"]:
                             if tempcosmetic['id'] == cosmetic['id']:
                                 ist = True
+                                break
                         if ist is False:
                             globaldata["data"]["items"].append(cosmetic)
                     await (await aiofiles.open('Cache/data/fnleaks.json', mode='w+')).write(
                         json.dumps(newfnleaks, indent=2))
                     await generateleaks(data=globaldata, client=client)
     async with aiohttp.ClientSession() as ses:
-        async with ses.get("https://fortnite-api.com/v1/shop/br") as responseshop:
+        async with ses.get("https://fortnite-api.com/v2/shop/br/combined") as responseshop:
             if responseshop.status != 200:
                 return
             else:
@@ -250,6 +251,44 @@ async def check_3600():
                                              encoding="utf8") as file:
                         await file.write(str(await data.text()))
                 await asyncio.sleep(60)
+
+
+@client.command()
+async def test(ctx, base: str = "https://api.peely.de"):
+    errors = ""
+    result = ""
+
+    c = 0
+    urls = []
+    for t in app.router.routes_all.keys():
+        if str(t).endswith("/"):
+            continue
+        urls.append(t)
+    msg = await ctx.send(f"That can take a while (0/{len(urls) + 1})")
+    for url in urls:
+        c += 1
+        await msg.edit(content=f"That can take a while ({str(c)}/{len(urls) + 1})")
+        print(url + f" - {str(c)}/{str(len(app.router.routes_all.keys()) + 1)}")
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(base + url) as resp:
+                    if resp.status != 200:
+                        error = ""
+                        try:
+                            error += f"{(await resp.json())['status']}"
+                            error += f" - "
+                            error += f"{(await resp.json())['message']}"
+                        except:
+                            pass
+                        errors += f"An error with the ``{url}`` Endpoint.\n```{error}```\n\n"
+                        result += f"{url} - Bad"
+                    result += f"{url} - Good"
+        except:
+            errors += f"An error with the ``{url}`` Endpoint.\n\n"
+            result += f"{url} - Bad"
+    if not errors:
+        errors = "No Errors :D"
+    await ctx.send(f"Done with all urls\nHere is the result:\n\n{errors}")
 
 
 @app.route('/')

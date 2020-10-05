@@ -42,7 +42,7 @@ def GetBlendColor(Rarity):
 
 
 async def GenerateCard(Item):
-    card = Image.new("RGB", (300, 545))
+    card = Image.new("RGB", (300, 545)).convert("RGBA")
     Draw = ImageDraw.Draw(card)
     Name = Item["name"]
     if not Name:

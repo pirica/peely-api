@@ -1,1177 +1,2132 @@
 {
   "status": 200,
   "data": {
-    "hash": "d883c563a269e60a530a3bef428da858a112af56",
-    "date": "2020-09-24T00:00:00Z",
-    "featured": [
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -10,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "glider_id_133_bandageninja",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "legendary",
-            "displayRarity": "Legendary",
-            "backendRarity": "EFortRarity::Legendary",
-            "name": "Falcon",
-            "shortDescription": "Glider",
-            "description": "Soar on the wings of the fabled falcon.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_133_bandageninja/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_133_bandageninja/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_133_bandageninja/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_133_BandageNinja",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_133_BandageNinja",
-            "lastUpdate": "2019-11-20T12:48:02Z",
-            "added": "2019-11-20T12:48:02Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 1,
-        "sortPriority": -1,
-        "banner": "New!",
-        "items": [
-          {
-            "id": "eid_keeperdreamhook",
-            "type": "emote",
-            "backendType": "AthenaDance",
-            "rarity": "icon",
-            "displayRarity": "Icon Series",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "It's Dynamite!",
-            "shortDescription": "Emote",
-            "description": "Light it up!",
-            "set": null,
-            "setText": null,
-            "series": "Icon Series",
-            "backendSeries": "CreatorCollabSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamhook/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamhook/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.EmoteType.Dance",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.14"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamHook",
-            "lastUpdate": "2020-09-23T08:28:55Z",
-            "added": "2020-09-23T08:28:55Z"
+    "hash": "2b3544a99de605698407030f7921c43609c158e3",
+    "date": "2020-10-05T00:00:00Z",
+    "featured": {
+      "name": "Featured",
+      "entries": [
+        {
+          "regularPrice": 2000,
+          "finalPrice": 2000,
+          "bundle": null,
+          "banner": {
+            "value": "Selectable Styles!",
+            "backendValue": "SelectableStyles"
           },
-          {
-            "id": "eid_keeperdreamchorus",
-            "type": "emote",
-            "backendType": "AthenaDance",
-            "rarity": "icon",
-            "displayRarity": "Icon Series",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "I'm Diamond",
-            "shortDescription": "Emote",
-            "description": "You know I glow up.",
-            "set": null,
-            "setText": null,
-            "series": "Icon Series",
-            "backendSeries": "CreatorCollabSeries",
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamchorus/smallicon.png"
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -4,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Raptor, 1 x Raptor Satchel for 2000 MtxCurrency",
+          "offerId": "v2:/325babceb5da51bd7d755c8cb372dccaa07011071d435ad4b8a3f8e1fbc6c4e7",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_SMaleHID031",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_031_M_Retro",
+          "items": [
+            {
+              "id": "CID_031_Athena_Commando_M_Retro",
+              "name": "Raptor",
+              "description": "Royale Air Force test pilot.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_keeperdreamchorus/icon.png"
+              "rarity": {
+                "value": "legendary",
+                "displayValue": "Legendary",
+                "backendValue": "EFortRarity::Legendary"
               },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.EmoteType.Dance",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.14"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_KeeperDreamChorus",
-            "lastUpdate": "2020-09-23T08:28:55Z",
-            "added": "2020-09-23T08:28:55Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -7,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_361_athena_commando_m_bandageninja",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Kenji",
-            "shortDescription": "Outfit",
-            "description": "Strike from the shadows.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_361_athena_commando_m_bandageninja/smallicon.png"
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "1",
+                "season": "1",
+                "text": "Introduced in Chapter 1, Season 1.",
+                "backendValue": 1
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_361_athena_commando_m_bandageninja/icon.png"
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/featured.png",
+                "other": null
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_361_athena_commando_m_bandageninja/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_361_Athena_Commando_M_BandageNinja",
-            "definition": "hid_361_athena_commando_m_bandageninja",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_361_Athena_Commando_M_BandageNinja",
-            "lastUpdate": "2019-11-20T12:50:04Z",
-            "added": "2019-11-20T12:50:04Z"
-          },
-          {
-            "id": "bid_225_bandageninjamale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Katana & Kunai",
-            "shortDescription": "Back Bling",
-            "description": "Blades of choice.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_225_bandageninjamale/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_225_bandageninjamale/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_225_BandageNinjaMale",
-            "lastUpdate": "2019-11-20T12:50:35Z",
-            "added": "2019-11-20T12:50:35Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -6,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_362_athena_commando_f_bandageninja",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Kuno",
-            "shortDescription": "Outfit",
-            "description": "Master the art of deception.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_362_athena_commando_f_bandageninja/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_362_athena_commando_f_bandageninja/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_362_athena_commando_f_bandageninja/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_362_Athena_Commando_F_BandageNinja",
-            "definition": "hid_362_athena_commando_f_bandageninja",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_362_Athena_Commando_F_BandageNinja",
-            "lastUpdate": "2019-11-20T12:50:04Z",
-            "added": "2019-11-20T12:50:04Z"
-          },
-          {
-            "id": "bid_226_bandageninjafemale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Dual Kama",
-            "shortDescription": "Back Bling",
-            "description": "Goes hand in hand with victory.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_226_bandageninjafemale/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_226_bandageninjafemale/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_226_BandageNinjaFemale",
-            "lastUpdate": "2019-11-20T12:50:35Z",
-            "added": "2019-11-20T12:50:35Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -2,
-        "banner": "Reactive!",
-        "items": [
-          {
-            "id": "cid_822_athena_commando_f_angler",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Mariana",
-            "shortDescription": "Outfit",
-            "description": "Champion of the ocean's light.",
-            "set": "Sea Glow",
-            "setText": "Part of the Sea Glow set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.Set.OceanLight",
-              "Cosmetics.UserFacingFlags.Reactive"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_822_Athena_Commando_F_Angler",
-            "definition": "hid_822_athena_commando_f_angler",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_822_Athena_Commando_F_Angler",
-            "lastUpdate": "2020-08-05T08:09:19Z",
-            "added": "2020-08-05T08:09:19Z"
-          },
-          {
-            "id": "bid_575_anglerfemale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Moon Jelly",
-            "shortDescription": "Back Bling",
-            "description": "It's cute, but don't touch the tentacles.",
-            "set": "Sea Glow",
-            "setText": "Part of the Sea Glow set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_575_anglerfemale/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_575_anglerfemale/icon.png"
-              },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.UserFacingFlags.Reactive",
-              "Cosmetics.Set.OceanLight"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_575_AnglerFemale",
-            "lastUpdate": "2020-08-05T08:09:19Z",
-            "added": "2020-08-05T08:09:19Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 1200,
-        "finalPrice": 1200,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -3,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "glider_id_229_angler",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Sky Ray",
-            "shortDescription": "Glider",
-            "description": "Swim through the skies.",
-            "set": "Sea Glow",
-            "setText": "Part of the Sea Glow set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.Source.RMT.SummerSplash",
-              "Cosmetics.Set.OceanLight"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_229_Angler",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_229_Angler",
-            "lastUpdate": "2020-08-05T08:09:19Z",
-            "added": "2020-08-05T08:09:19Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -9,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "pickaxe_id_219_bandageninja1h",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Talons",
-            "shortDescription": "Harvesting Tool",
-            "description": "Claw your way to the top.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_219_bandageninja1h/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_219_bandageninja1h/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_219_bandageninja1h/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Pickaxe.DualWield",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_219_BandageNinja1H",
-            "definition": "wid_harvest_pickaxe_bandageninja1h",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_219_BandageNinja1H",
-            "lastUpdate": "2019-11-20T12:50:48Z",
-            "added": "2019-11-20T12:50:48Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -4,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "pickaxe_id_436_anglerfemale1h",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Trench Blades",
-            "shortDescription": "Harvesting Tool",
-            "description": "Wield the murky might of the ocean's deep.",
-            "set": "Sea Glow",
-            "setText": "Part of the Sea Glow set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.Pickaxe.DualWield",
-              "Cosmetics.Source.RMT.SummerSplash",
-              "Cosmetics.Set.OceanLight"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_436_AnglerFemale1H",
-            "definition": "wid_harvest_pickaxe_anglerfemale1h",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_436_AnglerFemale1H",
-            "lastUpdate": "2020-08-05T08:09:19Z",
-            "added": "2020-08-05T08:09:19Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 500,
-        "finalPrice": 500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -5,
-        "banner": "Animated!",
-        "items": [
-          {
-            "id": "wrap_262_angler",
-            "type": "wrap",
-            "backendType": "AthenaItemWrap",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Salty Glow",
-            "shortDescription": "Wrap",
-            "description": "Deep sea shine.",
-            "set": "Sea Glow",
-            "setText": "Part of the Sea Glow set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.13",
-              "Cosmetics.Source.RMT.SummerSplash",
-              "Cosmetics.Set.OceanLight",
-              "Cosmetics.UserFacingFlags.Wrap.Animated"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_262_Angler",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_262_Angler",
-            "lastUpdate": "2020-08-05T08:09:19Z",
-            "added": "2020-08-05T08:09:19Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 500,
-        "finalPrice": 500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -8,
-        "banner": "Collect the Set!",
-        "items": [
-          {
-            "id": "pickaxe_id_172_bandageninja",
-            "type": "pickaxe",
-            "backendType": "AthenaPickaxe",
-            "rarity": "uncommon",
-            "displayRarity": "Uncommon",
-            "backendRarity": "EFortRarity::Uncommon",
-            "name": "Quickstrike",
-            "shortDescription": "Harvesting Tool",
-            "description": "Sharpened in the shadows.",
-            "set": "Falcon Clan",
-            "setText": "Part of the Falcon Clan set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_172_bandageninja/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_172_bandageninja/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_172_bandageninja/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.BandageNinja",
-              "Cosmetics.Filter.Season.8"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_172_BandageNinja",
-            "definition": "wid_harvest_pickaxe_bandageninja",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_172_BandageNinja",
-            "lastUpdate": "2019-11-20T12:50:50Z",
-            "added": "2019-11-20T12:50:50Z"
-          }
-        ]
-      }
-    ],
-    "daily": [
-      {
-        "regularPrice": 1500,
-        "finalPrice": 1500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 1,
-        "sortPriority": -1,
-        "banner": "Selectable Styles!",
-        "items": [
-          {
-            "id": "cid_177_athena_commando_m_streetracercobra",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Maverick",
-            "shortDescription": "Outfit",
-            "description": "Just drive.",
-            "set": "Cobra Crew",
-            "setText": "Part of the Cobra Crew set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/smallicon.png"
-              },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/icon.png"
-              },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/featured.png"
-              },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "type": "STYLE",
-                "options": [
-                  {
-                    "tag": "Stage1",
-                    "name": "DEFAULT",
-                    "image": {
-                      "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/variants/parts/stage1.png"
+              "variants": [
+                {
+                  "channel": "Material",
+                  "type": "STYLE",
+                  "options": [
+                    {
+                      "tag": "Mat1",
+                      "name": "DEFAULT",
+                      "unlockRequirements": null,
+                      "image": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/variants/material/mat1.png"
+                    },
+                    {
+                      "tag": "Mat2",
+                      "name": "GLOW",
+                      "unlockRequirements": null,
+                      "image": "https://fortnite-api.com/images/cosmetics/br/cid_031_athena_commando_m_retro/variants/material/mat2.png"
                     }
-                  },
-                  {
-                    "tag": "Stage2",
-                    "name": "HELMET",
-                    "image": {
-                      "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/variants/parts/stage2.png"
-                    }
-                  },
-                  {
-                    "tag": "Stage3",
-                    "name": "NO HELMET",
-                    "image": {
-                      "hash": "",
-                      "url": "https://fortnite-api.com/images/cosmetics/br/cid_177_athena_commando_m_streetracercobra/variants/parts/stage3.png"
-                    }
-                  }
-                ]
-              }
-            ],
-            "gameplayTags": [
-              "Cosmetics.Set.StreetRacerCobra",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.UserFacingFlags.HasVariants",
-              "Cosmetics.Filter.Season.5"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_177_Athena_Commando_M_StreetRacerCobra",
-            "definition": "hid_177_athena_commando_m_streetracercobra",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_177_Athena_Commando_M_StreetRacerCobra",
-            "lastUpdate": "2019-11-20T12:48:07Z",
-            "added": "2019-11-20T12:48:07Z"
+                  ]
+                }
+              ],
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.UserFacingFlags.HasVariants",
+                "Cosmetics.Filter.Season.1"
+              ],
+              "showcaseVideo": "4owEW4-8h74",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_SMaleHID031",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_031_Athena_Commando_M_Retro",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_031_Athena_Commando_M_Retro",
+              "added": "2019-11-20T12:50:30Z",
+              "shopHistory": [
+                "2018-01-14T00:00:00Z",
+                "2018-01-15T00:00:00Z",
+                "2018-01-16T00:00:00Z",
+                "2018-01-17T00:00:00Z",
+                "2018-01-18T00:00:00Z",
+                "2018-01-19T00:00:00Z",
+                "2018-01-20T00:00:00Z",
+                "2018-02-07T00:00:00Z",
+                "2018-02-08T00:00:00Z",
+                "2018-03-07T00:00:00Z",
+                "2018-03-08T00:00:00Z",
+                "2018-04-04T00:00:00Z",
+                "2018-06-14T00:00:00Z",
+                "2018-07-18T00:00:00Z",
+                "2018-08-22T00:00:00Z",
+                "2018-10-04T00:00:00Z",
+                "2018-11-22T00:00:00Z",
+                "2019-01-15T00:00:00Z",
+                "2019-03-11T00:00:00Z",
+                "2019-04-06T00:00:00Z",
+                "2019-04-25T00:00:00Z",
+                "2019-05-12T00:00:00Z",
+                "2019-05-13T00:00:00Z",
+                "2019-06-27T00:00:00Z",
+                "2019-08-14T00:00:00Z",
+                "2019-09-15T00:00:00Z",
+                "2019-10-29T00:00:00Z",
+                "2019-12-03T00:00:00Z",
+                "2020-01-08T00:00:00Z",
+                "2020-02-29T00:00:00Z",
+                "2020-04-01T00:00:00Z",
+                "2020-05-05T00:00:00Z",
+                "2020-05-30T00:00:00Z",
+                "2020-06-29T00:00:00Z",
+                "2020-07-29T00:00:00Z",
+                "2020-09-01T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            },
+            {
+              "id": "BID_005_Raptor",
+              "name": "Raptor Satchel",
+              "description": "Royale Air Force standard issue.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
+              },
+              "rarity": {
+                "value": "legendary",
+                "displayValue": "Legendary",
+                "backendValue": "EFortRarity::Legendary"
+              },
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "1",
+                "season": "3",
+                "text": "Introduced in Chapter 1, Season 3.",
+                "backendValue": 3
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_005_raptor/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_005_raptor/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.3"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_005_Raptor",
+              "added": "2019-11-20T12:48:04Z",
+              "shopHistory": [
+                "2020-05-05T00:00:00Z",
+                "2020-05-30T00:00:00Z",
+                "2020-06-29T00:00:00Z",
+                "2020-07-29T00:00:00Z",
+                "2020-09-01T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 1500,
+          "finalPrice": 1500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -9,
+          "categories": [
+            "Panel 4"
+          ],
+          "devName": "[VIRTUAL]1 x Big Mouth, 1 x Council of Frogs for 1500 MtxCurrency",
+          "offerId": "v2:/7f677657c674018106985fae505bd6980159cbace45b226ea845550dffcbb21a",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_597_Athena_Commando_M_Freak",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_597M_Freak",
+          "items": [
+            {
+              "id": "CID_597_Athena_Commando_M_Freak",
+              "name": "Big Mouth",
+              "description": "Seeking victory, breath mints, and souls.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Fearsome Freaks",
+                "text": "Part of the Fearsome Freaks set.",
+                "backendValue": "FrighteningOddity"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_597_athena_commando_m_freak/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_597_athena_commando_m_freak/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_597_athena_commando_m_freak/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.FrighteningOddity",
+                "Cosmetics.Filter.Season.11",
+                "Phoebe.Cosmetic.Minus.Zone2"
+              ],
+              "showcaseVideo": "8jXoCyP5vEI",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_597_Athena_Commando_M_Freak",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_597_Athena_Commando_M_Freak",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_597_Athena_Commando_M_Freak",
+              "added": "2019-11-20T12:51:17Z",
+              "shopHistory": [
+                "2019-10-28T00:00:00Z",
+                "2019-11-04T00:00:00Z",
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            },
+            {
+              "id": "BID_392_Freak",
+              "name": "Council of Frogs",
+              "description": "Grant us wisdom.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Fearsome Freaks",
+                "text": "Part of the Fearsome Freaks set.",
+                "backendValue": "FrighteningOddity"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_392_freak/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_392_freak/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.FrighteningOddity",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_392_Freak",
+              "added": "2019-11-20T12:51:14Z",
+              "shopHistory": [
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 1500,
+          "finalPrice": 1500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -7,
+          "categories": [
+            "Panel 3"
+          ],
+          "devName": "[VIRTUAL]1 x Delirium, 1 x Illusion Rune for 1500 MtxCurrency",
+          "offerId": "v2:/e7d0a2e641ee9feea80b5b3dbfb61c39f826f66aa5b93bc544c769c9910f8937",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_588_Athena_Commando_M_GoatRobe",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_588_M_Goatrobe",
+          "items": [
+            {
+              "id": "CID_588_Athena_Commando_M_GoatRobe",
+              "name": "Delirium",
+              "description": "Don't worry, it's only a nightmare...",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Arcane Arts",
+                "text": "Part of the Arcane Arts set.",
+                "backendValue": "Witch"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_588_athena_commando_m_goatrobe/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_588_athena_commando_m_goatrobe/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_588_athena_commando_m_goatrobe/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.Witch",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "BgebMzIJQVY",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_588_Athena_Commando_M_GoatRobe",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_588_Athena_Commando_M_GoatRobe",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_588_Athena_Commando_M_GoatRobe",
+              "added": "2019-11-20T12:51:16Z",
+              "shopHistory": [
+                "2019-10-26T00:00:00Z",
+                "2019-10-27T00:00:00Z",
+                "2019-11-03T00:00:00Z",
+                "2019-11-04T00:00:00Z",
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            },
+            {
+              "id": "BID_389_GoatRobe",
+              "name": "Illusion Rune",
+              "description": "Make them see.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Arcane Arts",
+                "text": "Part of the Arcane Arts set.",
+                "backendValue": "Witch"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_389_goatrobe/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_389_goatrobe/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.Witch",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_389_GoatRobe",
+              "added": "2019-11-20T12:51:14Z",
+              "shopHistory": [
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 1500,
+          "finalPrice": 1500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -3,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Teef, 1 x Nosh for 1500 MtxCurrency",
+          "offerId": "v2:/513e3d54d0c419bf87e6f47e42bb0e9d6beb48029713663d3df8502629a417de",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_584_Athena_Commando_M_Nosh",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_584_M_Nosh",
+          "items": [
+            {
+              "id": "CID_584_Athena_Commando_M_Nosh",
+              "name": "Teef",
+              "description": "Life's chewy when you're born to chomp.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_584_athena_commando_m_nosh/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_584_athena_commando_m_nosh/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_584_athena_commando_m_nosh/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "Sd4GesTDswQ",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_584_Athena_Commando_M_Nosh",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_584_Athena_Commando_M_Nosh",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_584_Athena_Commando_M_Nosh",
+              "added": "2019-11-20T12:51:16Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            },
+            {
+              "id": "BID_385_Nosh",
+              "name": "Nosh",
+              "description": "The snack that bites back.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
+              },
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_385_nosh/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_385_nosh/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_385_Nosh",
+              "added": "2019-11-20T12:51:15Z",
+              "shopHistory": [
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 600,
+          "finalPrice": 600,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
           },
-          {
-            "id": "bid_080_streetracercobramale",
-            "type": "backpack",
-            "backendType": "AthenaBackpack",
-            "rarity": "epic",
-            "displayRarity": "Epic",
-            "backendRarity": "EFortRarity::Epic",
-            "name": "Bat Attitude",
-            "shortDescription": "Back Bling",
-            "description": "Carry a grudge.",
-            "set": "Cobra Crew",
-            "setText": "Part of the Cobra Crew set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_080_streetracercobramale/smallicon.png"
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -5,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Back-o-lantern for 600 MtxCurrency",
+          "offerId": "v2:/15d624620964e726647f634ebc5597ffef502dd08509bf22e28a3e42f26ab73e",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_BID_396_RaptorGlow",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_BID_396_RaptorGlow",
+          "items": [
+            {
+              "id": "BID_396_RaptorGlow",
+              "name": "Back-o-lantern",
+              "description": "Share a spooky smile.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/bid_080_streetracercobramale/icon.png"
+              "rarity": {
+                "value": "epic",
+                "displayValue": "Epic",
+                "backendValue": "EFortRarity::Epic"
               },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_396_raptorglow/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_396_raptorglow/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/bid_396_raptorglow/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "oEiaeumy8AM",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_BID_396_RaptorGlow",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_396_RaptorGlow",
+              "added": "2019-11-20T12:51:15Z",
+              "shopHistory": [
+                "2019-10-29T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 1200,
+          "finalPrice": 1200,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -1,
+          "categories": [
+            "Panel 1"
+          ],
+          "devName": "[VIRTUAL]1 x Jawbreaker, 1 x Containment Unit for 1200 MtxCurrency",
+          "offerId": "v2:/43f8544511433322e6541f749c64aca1576c6ed2868971a6250951457f969a15",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_583_Athena_Commando_F_NoshHunter",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_583_F_NoshHunter",
+          "items": [
+            {
+              "id": "CID_583_Athena_Commando_F_NoshHunter",
+              "name": "Jawbreaker",
+              "description": "She's playing the most delicious game.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_583_athena_commando_f_noshhunter/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_583_athena_commando_f_noshhunter/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_583_athena_commando_f_noshhunter/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "zfsVWg0eJq8",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_583_Athena_Commando_F_NoshHunter",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_583_Athena_Commando_F_NoshHunter",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_583_Athena_Commando_F_NoshHunter",
+              "added": "2019-11-20T12:51:16Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
             },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Set.StreetRacerCobra",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.5"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_080_StreetRacerCobraMale",
-            "lastUpdate": "2019-11-20T12:50:39Z",
-            "added": "2019-11-20T12:50:39Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 3,
-        "sortPriority": -3,
-        "banner": null,
-        "items": [
-          {
-            "id": "glider_id_104_math",
-            "type": "glider",
-            "backendType": "AthenaGlider",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Paper Plane",
-            "shortDescription": "Glider",
-            "description": "Finely folded flyer.",
-            "set": "Calculator Crew",
-            "setText": "Part of the Calculator Crew set.",
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_104_math/smallicon.png"
+            {
+              "id": "BID_384_NoshHunter",
+              "name": "Containment Unit",
+              "description": "Perfectly stabilized for Nosh entrapment.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_104_math/icon.png"
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/glider_id_104_math/featured.png"
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
               },
-              "background": null,
-              "coverArt": null,
-              "decal": null
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_384_noshhunter/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_384_noshhunter/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_384_NoshHunter",
+              "added": "2019-11-20T12:51:14Z",
+              "shopHistory": [
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 1200,
+          "finalPrice": 1200,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -1,
+          "categories": [
+            "Panel 1"
+          ],
+          "devName": "[VIRTUAL]1 x Snuggs, 1 x Broken Heart for 1200 MtxCurrency",
+          "offerId": "v2:/445ba8e260be4ed3b2de9c08d338c55882f0d8aebb667d58d0d3c75512dca354",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_580_Athena_Commando_M_CuddleTeamDark",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_580_M_CuddleTeamDark",
+          "items": [
+            {
+              "id": "CID_580_Athena_Commando_M_CuddleTeamDark",
+              "name": "Snuggs",
+              "description": "One broken bear.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Royale Hearts",
+                "text": "Part of the Royale Hearts set.",
+                "backendValue": "RoyaleHearts"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_580_athena_commando_m_cuddleteamdark/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_580_athena_commando_m_cuddleteamdark/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_580_athena_commando_m_cuddleteamdark/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.RoyaleHearts",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "Up8QQyCXwx0",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_580_Athena_Commando_M_CuddleTeamDark",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_580_Athena_Commando_M_CuddleTeamDark",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_580_Athena_Commando_M_CuddleTeamDark",
+              "added": "2019-11-20T12:48:10Z",
+              "shopHistory": [
+                "2019-10-19T00:00:00Z",
+                "2019-10-31T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
             },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Set.Math",
-              "Cosmetics.Filter.Season.7"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_104_Math",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_104_Math",
-            "lastUpdate": "2019-11-20T12:51:05Z",
-            "added": "2019-11-20T12:51:05Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 500,
-        "finalPrice": 500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 4,
-        "sortPriority": -4,
-        "banner": "Animated!",
-        "items": [
-          {
-            "id": "wrap_230_glacier",
-            "type": "wrap",
-            "backendType": "AthenaItemWrap",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Frosty Glow",
-            "shortDescription": "Wrap",
-            "description": "Show your style.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_230_glacier/smallicon.png"
+            {
+              "id": "BID_380_CuddleTeamDark",
+              "name": "Broken Heart",
+              "description": "Stuffed with sadness.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_230_glacier/icon.png"
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/wrap_230_glacier/featured.png"
+              "series": null,
+              "set": {
+                "value": "Royale Hearts",
+                "text": "Part of the Royale Hearts set.",
+                "backendValue": "RoyaleHearts"
               },
-              "background": null,
-              "coverArt": null,
-              "decal": null
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_380_cuddleteamdark/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_380_cuddleteamdark/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.RoyaleHearts",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_380_CuddleTeamDark",
+              "added": "2019-11-20T12:50:31Z",
+              "shopHistory": [
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -4,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Globber for 800 MtxCurrency",
+          "offerId": "v2:/81f767865db128ef01c5a5c1ce3f9bd5b54c368ba35953f36b686f58ffa6fbd2",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_303_Nosh",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_303_Nosh",
+          "items": [
+            {
+              "id": "Pickaxe_ID_303_Nosh",
+              "name": "Globber",
+              "description": "Set your globber to clobber.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_303_nosh/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_303_nosh/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_303_nosh/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "hofItqmqUds",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_303_Nosh",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_Nosh",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_303_Nosh",
+              "added": "2019-11-20T12:51:25Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -10,
+          "categories": [
+            "Panel 4"
+          ],
+          "devName": "[VIRTUAL]1 x Gnashers for 800 MtxCurrency",
+          "offerId": "v2:/58b810e8163d6c9e5a8f83be09733638d76d299712b2db4d58e8fe4bd3939f23",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_298_Freak1H",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_298_Freak1H",
+          "items": [
+            {
+              "id": "Pickaxe_ID_298_Freak1H",
+              "name": "Gnashers",
+              "description": "Careful. They bite.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Fearsome Freaks",
+                "text": "Part of the Fearsome Freaks set.",
+                "backendValue": "FrighteningOddity"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_298_freak1h/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_298_freak1h/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_298_freak1h/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Pickaxe.DualWield",
+                "Cosmetics.Set.FrighteningOddity",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "T2zNgDgoHnA",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_298_Freak1H",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_Freak1H",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_298_Freak1H",
+              "added": "2019-11-20T12:51:25Z",
+              "shopHistory": [
+                "2019-10-28T00:00:00Z",
+                "2019-11-04T00:00:00Z",
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -5,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Goo Glider for 800 MtxCurrency",
+          "offerId": "v2:/41b5207c6dca3ab70d303ec5cf78af179d5ee8d1d2075b8c1a0d642c0c72ed41",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_185_Nosh",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Glider_ID_185_Nosh",
+          "items": [
+            {
+              "id": "Glider_ID_185_Nosh",
+              "name": "Goo Glider",
+              "description": "Soar with gummy goodness.",
+              "type": {
+                "value": "glider",
+                "displayValue": "Glider",
+                "backendValue": "AthenaGlider"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_185_nosh/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_185_nosh/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_185_nosh/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "RECsVUoI46I",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_185_Nosh",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_185_Nosh",
+              "added": "2019-11-20T12:51:19Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -8,
+          "categories": [
+            "Panel 3"
+          ],
+          "devName": "[VIRTUAL]1 x Spellbound Staff for 800 MtxCurrency",
+          "offerId": "v2:/94fd9aea38f3e10a2f512bdcb32973c3ecb36ad4b54957f00cf24f2078bda1da",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_299_GoatRobe",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_299_Goatrobe",
+          "items": [
+            {
+              "id": "Pickaxe_ID_299_GoatRobe",
+              "name": "Spellbound Staff",
+              "description": "Bend reality to your will.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Arcane Arts",
+                "text": "Part of the Arcane Arts set.",
+                "backendValue": "Witch"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_299_goatrobe/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_299_goatrobe/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_299_goatrobe/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.Witch",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "3ki3aj3-uSI",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_299_GoatRobe",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_GoatRobe",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_299_GoatRobe",
+              "added": "2019-11-20T12:51:25Z",
+              "shopHistory": [
+                "2019-10-26T00:00:00Z",
+                "2019-10-27T00:00:00Z",
+                "2019-11-03T00:00:00Z",
+                "2019-11-04T00:00:00Z",
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -2,
+          "categories": [
+            "Panel 1"
+          ],
+          "devName": "[VIRTUAL]1 x Stickers for 800 MtxCurrency",
+          "offerId": "v2:/8f8b619a88f9a895f78549154e7d011d99ddcb3c33da16bfacb9643e49cb9a1e",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_304_NoshHunter1H",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_304_NoshHunter1h",
+          "items": [
+            {
+              "id": "Pickaxe_ID_304_NoshHunter1H",
+              "name": "Stickers",
+              "description": "Sharp and sticky.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_304_noshhunter1h/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_304_noshhunter1h/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_304_noshhunter1h/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Pickaxe.DualWield",
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "qE-k86vokvY",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_304_NoshHunter1H",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_NoshHunter1H",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_304_NoshHunter1H",
+              "added": "2019-11-20T12:51:25Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2019-11-01T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -6,
+          "categories": [
+            "Panel 3"
+          ],
+          "devName": "[VIRTUAL]1 x Say So for 500 MtxCurrency",
+          "offerId": "v2:/d7c742742dff742ce7fad7644d8a58b60ec1ced8278b820f2f76332065b2d862",
+          "displayAssetPath": null,
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_EID_HotPink",
+          "items": [
+            {
+              "id": "EID_HotPink",
+              "name": "Say So",
+              "description": "Roll with the changes.",
+              "type": {
+                "value": "emote",
+                "displayValue": "Emote",
+                "backendValue": "AthenaDance"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "2",
+                "season": "4",
+                "text": "Introduced in Chapter 2, Season 4.",
+                "backendValue": 14
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_hotpink/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hotpink/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.EmoteType.Dance",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.14"
+              ],
+              "showcaseVideo": "ekUxGBc-z5A",
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_HotPink",
+              "added": "2020-08-27T06:07:50Z",
+              "shopHistory": [
+                "2020-09-05T00:00:00Z",
+                "2020-09-06T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": {
+            "value": "Animated!",
+            "backendValue": "Animated"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -3,
+          "categories": [
+            "Panel 1"
+          ],
+          "devName": "[VIRTUAL]1 x Snuggs Shine for 500 MtxCurrency",
+          "offerId": "v2:/c9e7de7c052a4add301c764aa887413cd3d055f1546443aa07add5bde09d8fbf",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_157_CuddleTeamDark",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Wrap_157_CuddleTeamDark",
+          "items": [
+            {
+              "id": "Wrap_157_CuddleTeamDark",
+              "name": "Snuggs Shine",
+              "description": "Show your style.",
+              "type": {
+                "value": "wrap",
+                "displayValue": "Wrap",
+                "backendValue": "AthenaItemWrap"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Royale Hearts",
+                "text": "Part of the Royale Hearts set.",
+                "backendValue": "RoyaleHearts"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_157_cuddleteamdark/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_157_cuddleteamdark/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_157_cuddleteamdark/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.UserFacingFlags.Wrap.Animated",
+                "Cosmetics.Set.RoyaleHearts",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "ygLOhG6_bV4",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_157_CuddleTeamDark",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_157_CuddleTeamDark",
+              "added": "2019-11-20T12:48:19Z",
+              "shopHistory": [
+                "2019-10-19T00:00:00Z",
+                "2019-10-31T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": {
+            "value": "Animated!",
+            "backendValue": "Animated"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -11,
+          "categories": [
+            "Panel 4"
+          ],
+          "devName": "[VIRTUAL]1 x Toothsome for 500 MtxCurrency",
+          "offerId": "v2:/953766322194e12b203a073651b03716701dfc657e2bd23331f2789915fe0ab6",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_159_Freak",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Wrap_159_Freak",
+          "items": [
+            {
+              "id": "Wrap_159_Freak",
+              "name": "Toothsome",
+              "description": "Show your style.",
+              "type": {
+                "value": "wrap",
+                "displayValue": "Wrap",
+                "backendValue": "AthenaItemWrap"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Fearsome Freaks",
+                "text": "Part of the Fearsome Freaks set.",
+                "backendValue": "FrighteningOddity"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_159_freak/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_159_freak/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_159_freak/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.FrighteningOddity",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.UserFacingFlags.Wrap.Animated",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "N6NZxwuIUsU",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_159_Freak",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_159_Freak",
+              "added": "2019-11-20T12:51:21Z",
+              "shopHistory": [
+                "2019-10-28T00:00:00Z",
+                "2019-11-04T00:00:00Z",
+                "2020-10-03T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -7,
+          "categories": [
+            "Panel 4"
+          ],
+          "devName": "[VIRTUAL]1 x Scarlet Commander for 800 MtxCurrency",
+          "offerId": "v2:/09256e608ee2b021ac0f4667bdb59f7d34c9ddfd1bd9f83dd96c86fdb7660638",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_734_Athena_Commando_F_BannerRed",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_734_F_BannerRed",
+          "items": [
+            {
+              "id": "CID_734_Athena_Commando_F_BannerRed",
+              "name": "Scarlet Commander",
+              "description": "Unknown and unforgettable.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": {
+                "value": "Nightfire",
+                "text": "Part of the Nightfire set.",
+                "backendValue": "LateShot"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "2",
+                "text": "Introduced in Chapter 2, Season 2.",
+                "backendValue": 12
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.12",
+                "Cosmetics.Set.LateShot"
+              ],
+              "showcaseVideo": "VOMv1eEXdoM",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_734_Athena_Commando_F_BannerRed",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_734_Athena_Commando_F_BannerRed",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_734_Athena_Commando_F_BannerRed",
+              "added": "2020-03-17T11:00:47Z",
+              "shopHistory": [
+                "2020-03-22T00:00:00Z",
+                "2020-03-23T00:00:00Z",
+                "2020-04-26T00:00:00Z",
+                "2020-05-25T00:00:00Z",
+                "2020-06-26T00:00:00Z",
+                "2020-07-28T00:00:00Z",
+                "2020-09-01T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -2,
+          "categories": [
+            "Panel 1"
+          ],
+          "devName": "[VIRTUAL]1 x Snuggle Swiper for 500 MtxCurrency",
+          "offerId": "v2:/28f0b464f70b0b048ed6b0a5a6038a43a57a5ab81cefad3cd7c07b2bda74fef6",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_285_CuddleTeamDark",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_285_CuddleTeamDark",
+          "items": [
+            {
+              "id": "Pickaxe_ID_285_CuddleTeamDark",
+              "name": "Snuggle Swiper",
+              "description": "Love 'em to pieces.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": {
+                "value": "Royale Hearts",
+                "text": "Part of the Royale Hearts set.",
+                "backendValue": "RoyaleHearts"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_285_cuddleteamdark/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_285_cuddleteamdark/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_285_cuddleteamdark/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.RoyaleHearts",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "1mUevnGXNxM",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_285_CuddleTeamDark",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_CuddleTeamDark",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_285_CuddleTeamDark",
+              "added": "2019-11-20T12:50:42Z",
+              "shopHistory": [
+                "2019-10-19T00:00:00Z",
+                "2019-10-31T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 300,
+          "finalPrice": 300,
+          "bundle": null,
+          "banner": {
+            "value": "Collect the Set!",
+            "backendValue": "CollectTheSet"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -6,
+          "categories": [
+            "Panel 2"
+          ],
+          "devName": "[VIRTUAL]1 x Noshy for 300 MtxCurrency",
+          "offerId": "v2:/6791e0bc3d2832ec97203f90ca6e88879ab6f08ac0c2bd272195b32e0c94cb92",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_161_Nosh",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Wrap_161_Nosh",
+          "items": [
+            {
+              "id": "Wrap_161_Nosh",
+              "name": "Noshy",
+              "description": "Show your style.",
+              "type": {
+                "value": "wrap",
+                "displayValue": "Wrap",
+                "backendValue": "AthenaItemWrap"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": {
+                "value": "Final Reckoning",
+                "text": "Part of the Final Reckoning set.",
+                "backendValue": "GardenBones"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "1",
+                "text": "Introduced in Chapter 2, Season 1.",
+                "backendValue": 11
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_161_nosh/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_161_nosh/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_161_nosh/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.GardenBones",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.11"
+              ],
+              "showcaseVideo": "hnuHKn0tO1Q",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_161_Nosh",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_161_Nosh",
+              "added": "2019-11-20T12:51:21Z",
+              "shopHistory": [
+                "2019-10-24T00:00:00Z",
+                "2020-10-04T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "daily": {
+      "name": "Daily",
+      "entries": [
+        {
+          "regularPrice": 1200,
+          "finalPrice": 1200,
+          "bundle": null,
+          "banner": {
+            "value": "Selectable Styles!",
+            "backendValue": "SelectableStyles"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -1,
+          "categories": [
+            "Daily 1"
+          ],
+          "devName": "[VIRTUAL]1 x Bachii, 1 x Mochi for 1200 MtxCurrency",
+          "offerId": "v2:/8dc3c61b5c5b40798d5fbf63668b484d20ec9cfd8b0811e49503367c60b00284",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_471_Athena_Commando_F_Bani",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_471_f_bani",
+          "items": [
+            {
+              "id": "CID_471_Athena_Commando_F_Bani",
+              "name": "Bachii",
+              "description": "Adorably mysterious.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": {
+                "value": "Battle Bun",
+                "text": "Part of the Battle Bun set.",
+                "backendValue": "Bani"
+              },
+              "introduction": {
+                "chapter": "1",
+                "season": "9",
+                "text": "Introduced in Chapter 1, Season 9.",
+                "backendValue": 9
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/featured.png",
+                "other": null
+              },
+              "variants": [
+                {
+                  "channel": "Material",
+                  "type": "STYLE",
+                  "options": [
+                    {
+                      "tag": "Mat1",
+                      "name": "DEFAULT",
+                      "unlockRequirements": null,
+                      "image": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/variants/material/mat1.png"
+                    },
+                    {
+                      "tag": "Mat2",
+                      "name": "SPY",
+                      "unlockRequirements": null,
+                      "image": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/variants/material/mat2.png"
+                    }
+                  ]
+                }
+              ],
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.Bani",
+                "Cosmetics.Filter.Season.9",
+                "Cosmetics.UserFacingFlags.HasVariants"
+              ],
+              "showcaseVideo": "fXmcGFWDn4g",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_471_Athena_Commando_F_Bani",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_471_Athena_Commando_F_Bani",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_471_Athena_Commando_F_Bani",
+              "added": "2019-11-20T12:49:55Z",
+              "shopHistory": [
+                "2019-07-30T00:00:00Z",
+                "2019-07-31T00:00:00Z",
+                "2020-06-02T00:00:00Z",
+                "2020-07-07T00:00:00Z",
+                "2020-08-12T00:00:00Z",
+                "2020-09-13T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
             },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Filter.Season.12",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.UserFacingFlags.Wrap.Animated"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_230_Glacier",
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_230_Glacier",
-            "lastUpdate": "2020-04-15T06:13:43Z",
-            "added": "2020-04-15T06:13:43Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 500,
-        "finalPrice": 500,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 5,
-        "sortPriority": -5,
-        "banner": null,
-        "items": [
-          {
-            "id": "eid_makeitplantain",
-            "type": "emote",
-            "backendType": "AthenaDance",
-            "rarity": "rare",
-            "displayRarity": "Rare",
-            "backendRarity": "EFortRarity::Rare",
-            "name": "Make It Plantain",
-            "shortDescription": "Emote",
-            "description": "It's bananas.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_makeitplantain/smallicon.png"
+            {
+              "id": "BID_307_Bani",
+              "name": "Mochi",
+              "description": "So sweet.",
+              "type": {
+                "value": "backpack",
+                "displayValue": "Back Bling",
+                "backendValue": "AthenaBackpack"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_makeitplantain/icon.png"
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
               },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.EmoteType.Dance",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.9"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_MakeItPlantain",
-            "lastUpdate": "2019-11-20T12:49:43Z",
-            "added": "2019-11-20T12:49:43Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 800,
-        "finalPrice": 800,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 2,
-        "sortPriority": -2,
-        "banner": null,
-        "items": [
-          {
-            "id": "cid_725_athena_commando_f_agentx",
-            "type": "outfit",
-            "backendType": "AthenaCharacter",
-            "rarity": "uncommon",
-            "displayRarity": "Uncommon",
-            "backendRarity": "EFortRarity::Uncommon",
-            "name": "Envoy",
-            "shortDescription": "Outfit",
-            "description": "There is no such thing as second best.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_725_athena_commando_f_agentx/smallicon.png"
+              "series": null,
+              "set": {
+                "value": "Battle Bun",
+                "text": "Part of the Battle Bun set.",
+                "backendValue": "Bani"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_725_athena_commando_f_agentx/icon.png"
+              "introduction": {
+                "chapter": "1",
+                "season": "9",
+                "text": "Introduced in Chapter 1, Season 9.",
+                "backendValue": 9
               },
-              "featured": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/cid_725_athena_commando_f_agentx/featured.png"
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_307_bani/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/bid_307_bani/icon.png",
+                "featured": null,
+                "other": null
               },
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.12"
-            ],
-            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_725_Athena_Commando_F_AgentX",
-            "definition": "hid_725_athena_commando_f_agentx",
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_725_Athena_Commando_F_AgentX",
-            "lastUpdate": "2020-03-17T11:00:47Z",
-            "added": "2020-03-17T11:00:47Z"
-          }
-        ]
-      },
-      {
-        "regularPrice": 200,
-        "finalPrice": 200,
-        "isBundle": false,
-        "isSpecial": false,
-        "giftable": true,
-        "refundable": true,
-        "panel": 6,
-        "sortPriority": -6,
-        "banner": null,
-        "items": [
-          {
-            "id": "eid_tennispaddle",
-            "type": "emote",
-            "backendType": "AthenaDance",
-            "rarity": "uncommon",
-            "displayRarity": "Uncommon",
-            "backendRarity": "EFortRarity::Uncommon",
-            "name": "Paddle Royale",
-            "shortDescription": "Emote",
-            "description": "Hop on the paddle bus.",
-            "set": null,
-            "setText": null,
-            "series": null,
-            "backendSeries": null,
-            "images": {
-              "smallIcon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_tennispaddle/smallicon.png"
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Set.Bani",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.9"
+              ],
+              "showcaseVideo": null,
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_307_Bani",
+              "added": "2019-11-20T12:50:33Z",
+              "shopHistory": [
+                "2020-06-02T00:00:00Z",
+                "2020-07-07T00:00:00Z",
+                "2020-08-12T00:00:00Z",
+                "2020-09-13T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -5,
+          "categories": [
+            "Daily 5"
+          ],
+          "devName": "[VIRTUAL]1 x Criss Cross for 500 MtxCurrency",
+          "offerId": "v2:/4cbee9c6eca478c4695a1560e3aafa6985016291f36922664a2f75f3bec31d53",
+          "displayAssetPath": null,
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_EID_CrissCross",
+          "items": [
+            {
+              "id": "EID_CrissCross",
+              "name": "Criss Cross",
+              "description": "Get your point across.",
+              "type": {
+                "value": "emote",
+                "displayValue": "Emote",
+                "backendValue": "AthenaDance"
               },
-              "icon": {
-                "hash": "",
-                "url": "https://fortnite-api.com/images/cosmetics/br/eid_tennispaddle/icon.png"
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
               },
-              "featured": null,
-              "background": null,
-              "coverArt": null,
-              "decal": null
-            },
-            "variants": null,
-            "gameplayTags": [
-              "Cosmetics.EmoteType.Dance",
-              "Cosmetics.Source.ItemShop",
-              "Cosmetics.Filter.Season.13"
-            ],
-            "displayAssetPath": null,
-            "definition": null,
-            "requiredItemId": null,
-            "builtInEmoteId": null,
-            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TennisPaddle",
-            "lastUpdate": "2020-06-17T08:48:17Z",
-            "added": "2020-06-17T08:48:17Z"
-          }
-        ]
-      }
-    ],
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "1",
+                "season": "6",
+                "text": "Introduced in Chapter 1, Season 6.",
+                "backendValue": 6
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_crisscross/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/eid_crisscross/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.EmoteType.Dance",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Filter.Season.6"
+              ],
+              "showcaseVideo": "oSryzOTMZKk",
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_CrissCross",
+              "added": "2019-11-20T12:48:10Z",
+              "shopHistory": [
+                "2018-11-03T00:00:00Z",
+                "2018-12-03T00:00:00Z",
+                "2019-01-09T00:00:00Z",
+                "2019-03-09T00:00:00Z",
+                "2019-04-11T00:00:00Z",
+                "2019-08-06T00:00:00Z",
+                "2019-11-07T00:00:00Z",
+                "2019-12-08T00:00:00Z",
+                "2020-01-15T00:00:00Z",
+                "2020-04-07T00:00:00Z",
+                "2020-06-15T00:00:00Z",
+                "2020-07-22T00:00:00Z",
+                "2020-08-15T00:00:00Z",
+                "2020-09-15T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": {
+            "value": "Animated!",
+            "backendValue": "Animated"
+          },
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -3,
+          "categories": [
+            "Daily 3"
+          ],
+          "devName": "[VIRTUAL]1 x Prismatic Edge for 500 MtxCurrency",
+          "offerId": "v2:/f1abe493af6bf41223f490d96bc0ec25a94aa7968888a8e76337f0f2abcd692c",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_139_Prismatic",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Wrap_139_Prismatic",
+          "items": [
+            {
+              "id": "Wrap_139_Prismatic",
+              "name": "Prismatic Edge",
+              "description": "Show your style.",
+              "type": {
+                "value": "wrap",
+                "displayValue": "Wrap",
+                "backendValue": "AthenaItemWrap"
+              },
+              "rarity": {
+                "value": "rare",
+                "displayValue": "Rare",
+                "backendValue": "EFortRarity::Rare"
+              },
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "1",
+                "season": "X",
+                "text": "Introduced in Chapter 1, Season X.",
+                "backendValue": 10
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_139_prismatic/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_139_prismatic/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_139_prismatic/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.UserFacingFlags.Wrap.Animated",
+                "Cosmetics.Filter.Season.10"
+              ],
+              "showcaseVideo": "052Vr3kxkN4",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_139_Prismatic",
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_139_Prismatic",
+              "added": "2019-11-20T12:48:20Z",
+              "shopHistory": [
+                "2019-09-24T00:00:00Z",
+                "2019-11-20T00:00:00Z",
+                "2020-01-01T00:00:00Z",
+                "2020-02-10T00:00:00Z",
+                "2020-04-01T00:00:00Z",
+                "2020-04-23T00:00:00Z",
+                "2020-08-09T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 800,
+          "finalPrice": 800,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -2,
+          "categories": [
+            "Daily 2"
+          ],
+          "devName": "[VIRTUAL]1 x Recon Ranger for 800 MtxCurrency",
+          "offerId": "v2:/6e30f9077ab7628f4c29e7a629360631dd4aaf2f88155c496ac62089db72c235",
+          "displayAssetPath": null,
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_CID_503_F_TacticalWoodlandFuture",
+          "items": [
+            {
+              "id": "CID_503_Athena_Commando_F_TacticalWoodlandFuture",
+              "name": "Recon Ranger",
+              "description": "Expert field intel ranger.",
+              "type": {
+                "value": "outfit",
+                "displayValue": "Outfit",
+                "backendValue": "AthenaCharacter"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": {
+                "value": "Advanced Forces",
+                "text": "Part of the Advanced Forces set.",
+                "backendValue": "AdvancedForces"
+              },
+              "introduction": {
+                "chapter": "1",
+                "season": "X",
+                "text": "Introduced in Chapter 1, Season X.",
+                "backendValue": 10
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_503_athena_commando_f_tacticalwoodlandfuture/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/cid_503_athena_commando_f_tacticalwoodlandfuture/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/cid_503_athena_commando_f_tacticalwoodlandfuture/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.AdvancedForces",
+                "Cosmetics.Filter.Season.10"
+              ],
+              "showcaseVideo": "w5BZPWGuAsU",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_503_Athena_Commando_F_TacticalWoodlandFuture",
+              "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_503_Athena_Commando_F_TacticalWoodlandFuture",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_503_Athena_Commando_F_TacticalWoodlandFuture",
+              "added": "2019-11-20T12:49:52Z",
+              "shopHistory": [
+                "2019-08-17T00:00:00Z",
+                "2019-09-14T00:00:00Z",
+                "2019-10-13T00:00:00Z",
+                "2019-11-20T00:00:00Z",
+                "2019-12-20T00:00:00Z",
+                "2020-01-07T00:00:00Z",
+                "2020-02-05T00:00:00Z",
+                "2020-02-21T00:00:00Z",
+                "2020-03-20T00:00:00Z",
+                "2020-04-18T00:00:00Z",
+                "2020-04-25T00:00:00Z",
+                "2020-05-20T00:00:00Z",
+                "2020-06-20T00:00:00Z",
+                "2020-07-09T00:00:00Z",
+                "2020-07-28T00:00:00Z",
+                "2020-08-18T00:00:00Z",
+                "2020-09-08T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 500,
+          "finalPrice": 500,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -4,
+          "categories": [
+            "Daily 4"
+          ],
+          "devName": "[VIRTUAL]1 x Bionic Synapse for 500 MtxCurrency",
+          "offerId": "v2:/b41257b23cb2348fcf6133474fb1d8764f11219def790d31217950aaeceda925",
+          "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_383_HandymanMale",
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_383_HandymanMale",
+          "items": [
+            {
+              "id": "Pickaxe_ID_383_HandymanMale",
+              "name": "Bionic Synapse",
+              "description": "Built for you and you alone.",
+              "type": {
+                "value": "pickaxe",
+                "displayValue": "Harvesting Tool",
+                "backendValue": "AthenaPickaxe"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": {
+                "value": "Revenge Redux",
+                "text": "Part of the Revenge Redux set.",
+                "backendValue": "RepaymentUpdate"
+              },
+              "introduction": {
+                "chapter": "2",
+                "season": "2",
+                "text": "Introduced in Chapter 2, Season 2.",
+                "backendValue": 12
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_383_handymanmale/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_383_handymanmale/icon.png",
+                "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_383_handymanmale/featured.png",
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.Filter.Season.12",
+                "Cosmetics.Source.ItemShop",
+                "Cosmetics.Set.RepaymentUpdate"
+              ],
+              "showcaseVideo": "Hu84yXUPoFI",
+              "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_383_HandymanMale",
+              "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_HandymanMale",
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_383_HandymanMale",
+              "added": "2020-03-31T06:11:29Z",
+              "shopHistory": [
+                "2020-04-07T00:00:00Z",
+                "2020-05-27T08:00:00Z",
+                "2020-07-03T00:00:00Z",
+                "2020-08-05T00:00:00Z",
+                "2020-09-12T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        },
+        {
+          "regularPrice": 200,
+          "finalPrice": 200,
+          "bundle": null,
+          "banner": null,
+          "giftable": true,
+          "refundable": true,
+          "sortPriority": -6,
+          "categories": [
+            "Daily 6"
+          ],
+          "devName": "[VIRTUAL]1 x Finger Wag for 200 MtxCurrency",
+          "offerId": "v2:/46960c7c54ec34dd996cbe48a5034d9f4abe3753717ebe6e6cb812eb09809ebc",
+          "displayAssetPath": null,
+          "newDisplayAssetPath": "FortniteGame/Content/Catalog/NewDisplayAssets/DAv2_EID_NotToday",
+          "items": [
+            {
+              "id": "EID_NotToday",
+              "name": "Finger Wag",
+              "description": "Not today, my friend.",
+              "type": {
+                "value": "emote",
+                "displayValue": "Emote",
+                "backendValue": "AthenaDance"
+              },
+              "rarity": {
+                "value": "uncommon",
+                "displayValue": "Uncommon",
+                "backendValue": "EFortRarity::Uncommon"
+              },
+              "series": null,
+              "set": null,
+              "introduction": {
+                "chapter": "1",
+                "season": "5",
+                "text": "Introduced in Chapter 1, Season 5.",
+                "backendValue": 5
+              },
+              "images": {
+                "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_nottoday/smallicon.png",
+                "icon": "https://fortnite-api.com/images/cosmetics/br/eid_nottoday/icon.png",
+                "featured": null,
+                "other": null
+              },
+              "variants": null,
+              "gameplayTags": [
+                "Cosmetics.EmoteType.Dance",
+                "Cosmetics.Source.ItemShop",
+                "Phoebe.Cosmetic.Minus.Zone2",
+                "Phoebe.Cosmetic.Minus.Zone1",
+                "Cosmetics.Filter.Season.5"
+              ],
+              "showcaseVideo": "oazT6lMcEx4",
+              "displayAssetPath": null,
+              "definitionPath": null,
+              "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_NotToday",
+              "added": "2019-11-20T12:49:42Z",
+              "shopHistory": [
+                "2018-07-28T00:00:00Z",
+                "2018-08-27T00:00:00Z",
+                "2018-11-09T00:00:00Z",
+                "2018-12-07T00:00:00Z",
+                "2019-10-17T00:00:00Z",
+                "2020-01-16T00:00:00Z",
+                "2020-03-18T00:00:00Z",
+                "2020-04-25T00:00:00Z",
+                "2020-05-29T00:00:00Z",
+                "2020-07-03T00:00:00Z",
+                "2020-07-28T00:00:00Z",
+                "2020-09-15T00:00:00Z",
+                "2020-10-05T00:00:00Z"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "votes": null,
     "voteWinners": null
   }
