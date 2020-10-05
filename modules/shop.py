@@ -131,7 +131,9 @@ async def GenerateShopImage(Store):
             currentWidth = 20
             currentHeight += 545
 
+
     dailyStarts = F_Width + 50
+    D_Width = Background.width - 20
     currentWidth = dailyStarts
     currentHeight = 510
     # Paste Daily
@@ -145,8 +147,8 @@ async def GenerateShopImage(Store):
         except KeyError:
             pass
         currentWidth += 300
-        if F_Width == currentWidth:
-            currentWidth = 20
+        if D_Width == currentWidth:
+            currentWidth = dailyStarts
             currentHeight += 545
 
     # Draw Featured and Daily
@@ -250,6 +252,7 @@ async def GenerateCard(Item):
 async def GenerateStoreCard(Item):
     card = await GenerateCard(Item["items"][0])
     Draw = ImageDraw.Draw(card)
+    blendColor = GetBlendColor(Item["items"][0]["rarity"])
     Name = Item["items"][0]["name"]
 
     if len(Item["items"]) > 1:

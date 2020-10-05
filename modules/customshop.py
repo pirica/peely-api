@@ -70,6 +70,7 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     D_Height = (545 * D_Lines)
     D_Width = (300 * DailyItemsCount)
 
+
     while D_Width > D_Height and D_Lines < F_Lines:
         D_Lines += 1
         D_ImagesPerLine = round(((DailyItemsCount) / D_Lines) + 0.49)
@@ -119,13 +120,11 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     # Pasting items
     currentHeight = 510
     currentWidth = 20
-    Price = 0
 
     # Paste Featured
     for Item in Store["featured"]['entries']:
         card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
-        Price += Item["finalPrice"]
         try:
             if Item["banner"]:
                 Adspace(currentWidth, currentHeight, Item["banner"]['value'])
@@ -136,6 +135,7 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
             currentWidth = 20
             currentHeight += 545
 
+    D_Width = Background.width - 20
     dailyStarts = F_Width + 50
     currentWidth = dailyStarts
     currentHeight = 510
@@ -143,15 +143,19 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     for Item in Store["daily"]['entries']:
         card = await GenerateStoreCard(Item)
         Background.paste(card, (currentWidth, currentHeight))
-        Price += Item["finalPrice"]
         try:
             if Item["banner"]:
                 Adspace(currentWidth, currentHeight, Item["banner"]['value'])
         except KeyError:
             pass
+
         currentWidth += 300
-        if F_Width == currentWidth:
-            currentWidth = 20
+        print(f"D_Width: {D_Width}")
+        print(f"currentWidth: {currentWidth}")
+        print(f"currentHeight: {currentHeight}")
+        print(f"Check: {D_Width == currentWidth}")
+        if D_Width == currentWidth:
+            currentWidth = dailyStarts
             currentHeight += 545
 
     # Draw Featured and Daily
