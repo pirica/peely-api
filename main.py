@@ -10,6 +10,7 @@ import sanic
 import sanic.response
 from discord.ext import commands, tasks
 from datetime import datetime
+import SECRET
 
 from API.cdn import handler as cdn
 from API.v1.blogposts.competitive import handler as competitiveblogposts
@@ -138,7 +139,7 @@ async def check_20():
 
     async with aiohttp.ClientSession() as ses:
         async with ses.get(f"https://fortnite-api.com/v2/cosmetics/br/new",
-                           headers={"x-api-key": "0efed31895736f6cb95f9ef7742bf2891f7d155d"}) as responsefn:
+                           headers={"x-api-key": SECRET.FORTNITE_API_TOKEN}) as responsefn:
             if responsefn.status == 200:
                 oldfnleaks = json.loads(await (await aiofiles.open(f'Cache/data/fnleaks.json', mode='r')).read())
                 try:
@@ -239,7 +240,7 @@ async def check_120():
 @tasks.loop(seconds=3600)
 async def check_3600():
     async with aiohttp.ClientSession() as cs:
-        headers = {"Authorization": "2fce9bf4-dcb28a26-d7e48ccf-a12cccee"}
+        headers = {"Authorization": SECRET.FORTNITE_IO_TOKEN}
         langs = ["en", "ar", "de", "es", "es-419", "fr", "it", "ja", "ko," "pl", "pt-BR", "ru", "tr", "zh-CN",
                  "zh-Hant"]
         for lang in langs:
@@ -303,7 +304,7 @@ async def favicon(req):
 
 loop = asyncio.get_event_loop()
 loop.create_task(app.create_server(host="0.0.0.0", port=1001, return_asyncio_server=True, access_log=False))
-loop.create_task(client.run("NzQ5NjI5MTM1ODQzODg1MDc3.X0uwiQ.s15nVHqKS34JLWulEdhZsWTKN14"))
+loop.create_task(client.run(SECRET.TOKEN))
 try:
     loop.run_forever()
 except:
