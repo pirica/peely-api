@@ -39,7 +39,7 @@ async def handler(req):
                         'image': playlist['image'],
                         'description': playlist['description'],
                     })
-                except:
+                except KeyError:
                     try:
                         response['data']['playlists'].append({
                             'playlist_name': '',
@@ -47,7 +47,7 @@ async def handler(req):
                             'image': playlist['image'],
                             'description': playlist['description'],
                         })
-                    except:
+                    except KeyError:
                         try:
                             response['data']['playlists'].append({
                                 'playlist_name': '',
@@ -55,7 +55,7 @@ async def handler(req):
                                 'image': playlist['image'],
                                 'description': ''
                             })
-                        except:
+                        except KeyError:
                             try:
                                 response['data']['playlists'].append({
                                     'playlist_name': '',
@@ -63,7 +63,7 @@ async def handler(req):
                                     'image': '',
                                     'description': ''
                                 })
-                            except:
+                            except KeyError:
                                 continue
     except KeyError as ex:
         print(ex)
