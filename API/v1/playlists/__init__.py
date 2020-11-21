@@ -42,6 +42,7 @@ async def handler(req):
                 except:
                     try:
                         response['data']['playlists'].append({
+                            'playlist_name': '',
                             'playlist_id': playlist['playlist_name'],
                             'image': playlist['image'],
                             'description': playlist['description'],
@@ -49,13 +50,18 @@ async def handler(req):
                     except:
                         try:
                             response['data']['playlists'].append({
+                                'playlist_name': '',
                                 'playlist_id': playlist['playlist_name'],
-                                'image': playlist['image']
+                                'image': playlist['image'],
+                                'description': ''
                             })
                         except:
                             try:
                                 response['data']['playlists'].append({
-                                    'playlist_id': playlist['playlist_name']
+                                    'playlist_name': '',
+                                    'playlist_id': playlist['playlist_name'],
+                                    'image': '',
+                                    'description': ''
                                 })
                             except:
                                 continue
