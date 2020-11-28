@@ -15,7 +15,7 @@ async def handler(req):
             if lang != "es-419":
                 lang = "en"
     color = (255, 255, 0)
-    seasonend="2020-12-01T13:00:00Z"
+    seasonend="2020-12-02T09:00:00Z"
     seasonstart="2020-08-27T13:00:00Z"
 
     # daysleft = int((dp.parse(seasonend).timestamp()-datetime.utcnow().timestamp())/86400)
