@@ -33,7 +33,6 @@ async def handler(req):
             'image': "error",
             'motds': [],
             'messages': [],
-            'ads': []
         }
     }
     try:
@@ -59,21 +58,6 @@ async def handler(req):
                     'body': message['body'],
                     'spotlight': message['spotlight']
                 })
-    except:
-        traceback.print_exc()
-
-    try:
-        if data['creativeAds']['ad_info']['ads']:
-            for ad in data['creativeAds']['ad_info']['ads']:
-                try:
-                    response['data']['ads'].append({
-                        'title': ad['header'],
-                        'description': ad['description'],
-                        'image': ad['image'],
-                        'hidden': ad['hidden'],
-                    })
-                except:
-                    continue
     except:
         traceback.print_exc()
 
