@@ -208,7 +208,7 @@ async def GenerateCard(Item):
                 Icon = Image.open(io.BytesIO(await data.read()))
     except Exception as ex:
         print("DOWNLOAD ITEM ICON ERROR", ex)
-        pass
+        continue
     if (Category == "outfit") or (Category == "emote"):
         ratio = max(285 / Icon.width, 365 / Icon.height)
     elif Category == "wrap":
