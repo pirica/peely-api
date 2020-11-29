@@ -21,13 +21,13 @@ async def handler(req):
 
 
 async def generateleaks(data: dict, client: commands.Bot):
-    await client.get_channel(735018804169670687).send(f"New Leaks detected")
     await (await aiofiles.open('Cache/data/leaks.json', mode='w+')).write(
         json.dumps(data, indent=2))
     start = time.time() + random.randint(1111, 9999)
     files = [await leaks.GenerateCard(i) for i in data["data"]["items"]]
     if not files:
         raise FileNotFoundError("No Images")
+    await client.get_channel(735018804169670687).send(f"New Leaks detected")
     result = Image.new("RGBA", (
         round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files))) * 550 - 5))
     result.paste(Image.open("assets/Images/Backgrounds/Background.png").resize(
