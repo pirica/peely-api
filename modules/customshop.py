@@ -64,7 +64,10 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
         F_Width = (300 * F_ImagesPerLine) + 20
 
     # Daily items
-    DailyItemsCount = len(Store["daily"]['entries'])
+    try:
+        DailyItemsCount = len(Store["daily"]['entries'])
+    except KeyError:
+        DailyItemsCount = 0
 
     D_Lines = 1
     D_Height = (545 * D_Lines)
@@ -139,27 +142,29 @@ async def GenerateShopImage(Store: dict, background_user: str = "https://peely.d
     dailyStarts = F_Width + 50
     currentWidth = dailyStarts
     currentHeight = 510
-    # Paste Daily
-    for Item in Store["daily"]['entries']:
-        card = await GenerateStoreCard(Item)
-        Background.paste(card, (currentWidth, currentHeight))
-        try:
-            if Item["banner"]:
-                Adspace(currentWidth, currentHeight, Item["banner"]['value'])
-        except KeyError:
-            pass
+    try:
+        # Paste Daily
+        for Item in Store["daily"]['entries']:
+            card = await GenerateStoreCard(Item)
+            Background.paste(card, (currentWidth, currentHeight))
+            try:
+                if Item["banner"]:
+                    Adspace(currentWidth, currentHeight, Item["banner"]['value'])
+            except KeyError:
+                pass
 
-        currentWidth += 300
-        if D_Width == currentWidth:
-            currentWidth = dailyStarts
-            currentHeight += 545
+            currentWidth += 300
+            if D_Width == currentWidth:
+                currentWidth = dailyStarts
+                currentHeight += 545
 
-    # Draw Featured and Daily
-    FMiddle = GetMiddle(F_Width, Burbank.getsize(Store['featured']['name'])[0])
-    Draw.text((FMiddle + 20, 350), Store['featured']['name'], (255, 255, 255), font=Burbank)
-    DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize(Store['daily']['name'])[0])
-    Draw.text((DMiddle + dailyStarts, 350), Store['daily']['name'], (255, 255, 255), font=Burbank)
-
+        # Draw Featured and Daily
+        FMiddle = GetMiddle(F_Width, Burbank.getsize(Store['featured']['name'])[0])
+        Draw.text((FMiddle + 20, 350), Store['featured']['name'], (255, 255, 255), font=Burbank)
+        DMiddle = GetMiddle(Background.width - 20 - dailyStarts, Burbank.getsize(Store['daily']['name'])[0])
+        Draw.text((DMiddle + dailyStarts, 350), Store['daily']['name'], (255, 255, 255), font=Burbank)
+    except KeyError:
+        pass
     # Draw Fortnite Item Shop
     size = 300
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", size)

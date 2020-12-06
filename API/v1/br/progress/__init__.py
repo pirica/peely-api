@@ -14,11 +14,10 @@ async def handler(req):
             lang = str(i[1]).lower()
             if lang != "es-419":
                 lang = "en"
-    color = (255, 255, 0)
-    seasonstart="2020-12-02T:00:00Z"
+    color = (235, 52, 204)
+    seasonstart="2020-12-02T10:00:00Z"
     seasonend="2021-03-15T10:00:00Z"
 
-    # daysleft = int((dp.parse(seasonend).timestamp()-datetime.utcnow().timestamp())/86400)
     daysgone = int((datetime.utcnow().timestamp()-dp.parse(seasonstart).timestamp())/86400)
     seasonlen= int((dp.parse(seasonend).timestamp()-dp.parse(seasonstart).timestamp())/86400)
 
@@ -35,9 +34,9 @@ async def handler(req):
         draw = ImageDraw.Draw(finalim)
 
         if lang == "es-419":
-            text = f"Progreso de la Temporada #14 de Fortnite: {int((daysgone / 100 * seasonlen))}% "
+            text = f"Progreso de la Temporada #5 de Fortnite: {int((daysgone / 100 * seasonlen))}% "
         else:
-            text = f"Fortnite Season 4 - {int((daysgone / 100) * seasonlen)}% over"
+            text = f"Fortnite Season 5 - {int((daysgone / 100) * seasonlen)}% over"
 
         BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 45)
         textWidth = BurbankBigCondensed.getsize(text)[0]

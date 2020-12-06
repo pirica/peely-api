@@ -90,6 +90,10 @@ async def on_ready():
 
 
 async def restart():
+    """
+    A method to restart the API
+    :return:
+    """
     try:
         await asyncio.create_subprocess_shell("service peely restart", stdout=subprocess.PIPE,
                                               stderr=subprocess.PIPE)
@@ -105,6 +109,9 @@ async def restart():
 
 @tasks.loop(seconds=3)
 async def check_3():
+    """
+    A loop that check if the shop was updated. If the Shop was not update he try to restart the API
+    """
     time = str((int(datetime.utcnow().__format__('%H')) + 2)) + ":" + str((int(datetime.utcnow().__format__('%M'))))
     if time.startswith("01:5"):
         cache = json.loads(await (await aiofiles.open(f'Cache/data/shop.json', mode='r')).read())
@@ -150,7 +157,6 @@ async def check_20():
                     print("FN API updated")
                     globaldata = {
                         "status": 200,
-                        "NOTE": "Some values can be different because the Data is compared. Use ID´s in your work",
                         "data": {
                             "items": [
                             ]
@@ -264,6 +270,10 @@ async def test(ctx, base: str = "https://api.peely.de"):
     for t in app.router.routes_all.keys():
         if str(t).endswith("/"):
             continue
+        if str(t).endswith(">"):
+            continue
+        if str(t).endswith("custom"):
+            continue
         urls.append(t)
     msg = await ctx.send(f"That can take a while (0/{len(urls) + 1})")
     for url in urls:
@@ -281,7 +291,7 @@ async def test(ctx, base: str = "https://api.peely.de"):
                             error += f"{(await resp.json())['message']}"
                         except:
                             pass
-                        errors += f"An error with the ``{url}`` Endpoint.\n```{error}```\n\n"
+                        errors += f"An error with the ``{url}`` Endpoint.\n``{error}``\n\n"
                         result += f"{url} - Bad"
                     result += f"{url} - Good"
         except:
@@ -294,7 +304,7 @@ async def test(ctx, base: str = "https://api.peely.de"):
 
 @app.route('/')
 async def home(req):
-    return sanic.response.redirect("https://docs.api.peely.de")
+    return sanic.response.redirect("https://app.gitbook.com/@taminoseiler04/s/peely-api/")
 
 
 @app.route('/favicon.ico')
