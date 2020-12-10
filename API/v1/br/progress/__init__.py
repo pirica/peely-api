@@ -27,7 +27,7 @@ async def handler(req):
         if i > im.height-5:
             continue
 
-        draw.line((5, i) + (int((754/100) * (seasonlen/100) * daysgone), i), fill=128)
+        draw.line((5, i) + (int((754/100) * (100/seasonlen) * daysgone), i), fill=128)
 
     finalim.paste(im, (int((finalim.width-im.width)/2), int((finalim.height-im.height)/2)+30))
     finalim.save('cdn/current/progress.png')
