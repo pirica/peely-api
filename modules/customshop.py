@@ -38,6 +38,8 @@ def GetBlendColor(Rarity):
         blendColor = (190, 190, 190)
     elif Rarity == "slurp":
         blendColor = (17, 189, 240)
+    elif Rarity == "gaminglegends":
+        blendColor = (84, 195, 246)    
     else:
         blendColor = (255, 255, 255)
 
