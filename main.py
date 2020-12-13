@@ -300,16 +300,9 @@ async def test(ctx, base: str = "https://api.peely.de"):
         errors = "No Errors :D"
     await ctx.send(f"Done with all urls\nHere is the result:\n\n{errors}")
 
-
 @app.route('/')
 async def home(req):
     return sanic.response.redirect("https://app.gitbook.com/@taminoseiler04/s/peely-api/")
-
-
-@app.route('/favicon.ico')
-async def favicon(req):
-    return await sanic.response.file('favicon.ico')
-
 
 loop = asyncio.get_event_loop()
 loop.create_task(app.create_server(host="0.0.0.0", port=1001, return_asyncio_server=True, access_log=False))
