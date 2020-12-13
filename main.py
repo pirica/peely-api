@@ -264,7 +264,6 @@ async def check_3600():
 async def test(ctx, base: str = "https://api.peely.de"):
     errors = ""
     result = ""
-
     c = 0
     urls = []
     for t in app.router.routes_all.keys():
@@ -279,7 +278,7 @@ async def test(ctx, base: str = "https://api.peely.de"):
     for url in urls:
         c += 1
         await msg.edit(content=f"That can take a while ({str(c)}/{len(urls) + 1})")
-        print(url + f" - {str(c)}/{str(len(app.router.routes_all.keys()) + 1)}")
+        print(url + f" - {str(c)}/{str(len(urls))}")
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(base + url) as resp:
