@@ -62,9 +62,9 @@ async def handler(req):
                       font=ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 20))
             imgs.append(img)
 
-        img.save(fp=f"cdn/unique/stwnews_{lang}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
+        img.save(fp=f"cdn/current/stwnews_{lang}.gif", format='GIF', append_images=imgs, save_all=True, duration=4500,
                  loop=0)
-        response['data']['image'] = f"https://api.peely.de/cdn/unique/stwnews_{lang}.gif"
+        response['data']['image'] = f"https://api.peely.de/cdn/current/stwnews_{lang}.gif"
     except:
         traceback.print_exc()
 
