@@ -39,6 +39,8 @@ def GetBlendColor(Rarity):
         blendColor = (190, 190, 190)
     elif Rarity == "slurp":
         blendColor = (17, 189, 240)
+    elif Rarity == "gaminglegends":
+        blendColor = (84, 195, 246)   
     else:
         blendColor = (255, 255, 255)
 
@@ -236,10 +238,10 @@ async def GenerateCard(Item):
         pass
 
     BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{Item['description']}")[0]
+    textWidth = BurbankBigCondensed.getsize(f"{Item['type']['displayValue']}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 385), f"{Item['description']}", blendColor, font=BurbankBigCondensed)
+    Draw.text((Middle, 385), f"{Item['type']['displayValue']}", blendColor, font=BurbankBigCondensed)
 
     FontSize = 56
     while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(Name)[0] > 265:
