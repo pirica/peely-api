@@ -23,7 +23,7 @@ async def handler(req):
 async def generateleaks(data: dict, client: commands.Bot):
     await (await aiofiles.open('Cache/data/leaks.json', mode='w+')).write(
         json.dumps(data, indent=2))
-    start = time.time() + random.randint(1111, 9999)
+    start = time.time()
     files = [await leaks.GenerateCard(i) for i in data["data"]["items"]]
     if not files:
         raise FileNotFoundError("No Images")
@@ -52,7 +52,7 @@ async def generateleaks(data: dict, client: commands.Bot):
         except:
             continue
     result.save("cdn/current/leaks.png", optimized=True)
-    uniqueimage = str(datetime.utcnow().__format__('%A, %B %d, %Y'))
+    uniqueimage = str(time.time())
     result.save(f"cdn/unique/leaks_{uniqueimage}.png", optimize=True)
     buffered = io.BytesIO()
     result.save(buffered, format="PNG")
@@ -62,7 +62,6 @@ async def generateleaks(data: dict, client: commands.Bot):
         "uniqueurl": f"https://api.peely.de/cdn/unique/leaks_{uniqueimage}.png",
         "time": str(datetime.utcnow().__format__('%A, %B %d, %Y'))
     }
-
     await (await aiofiles.open('Cache/data/resp_leaks.json', mode='w+')).write(
         json.dumps(data, indent=2))
     await client.get_channel(735018804169670687).send(
