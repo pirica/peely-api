@@ -63,40 +63,7 @@ async def generateleaks(data: dict, client: commands.Bot):
         "time": str(datetime.utcnow().__format__('%A, %B %d, %Y'))
     }
 
-    try:
-        file = discord.File(f"cdn/current/leaks.png")
-        msg = await client.get_channel(id=707854587297792051).send("New leaks generated", file=file)
-        if msg.attachments[0]:
-            discordsize = True
-            data['discordurl'] = str(msg.attachments[0].url)
-        else:
-            discordsize = False
-            data["discordurl"] = "Failed to upload the leaks Image to Discord. (?CDN Server down?)"
-    except:
-        traceback.print_exc()
-        discordsize = False
-        data["discordurl"] = "Failed to upload the leaks Image to Discord. (?CDN Server down?)"
-    if discordsize is False:
-        for tint in range(2, 11):
-            temp = Image.open("cdn/current/leaks.png")
-            x = int(round(temp.size[0] / tint))
-            y = int(round(temp.size[1] / tint))
-            temp = temp.resize((x, y), Image.ANTIALIAS)
-            temp.save("cdn/current/leaks.png", optimize=True, quality=int(round(100 / tint)))
-            temp.save(io.BytesIO(), format="PNG")
-            try:
-                try:
-                    file = discord.File(f"cdn/current/leaks.png")
-                    msg = await client.get_channel(id=707854587297792051).send("New leaks generated", file=file)
-                    if msg.attachments[0]:
-                        data["discordurl"] = str(msg.attachments[0].url)
-                        break
-                except:
-                    continue
-            except discord.HTTPException:
-                continue
-
-        await (await aiofiles.open('Cache/data/resp_leaks.json', mode='w+')).write(
-            json.dumps(data, indent=2))
-        await client.get_channel(735018804169670687).send(
-            f"Updated Leaks. Generating Image in {round(time.time() - start, 2)}sec")
+    await (await aiofiles.open('Cache/data/resp_leaks.json', mode='w+')).write(
+        json.dumps(data, indent=2))
+    await client.get_channel(735018804169670687).send(
+        f"Updated Leaks. Generating Image in {round(time.time() - start, 2)}sec")
