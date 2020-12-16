@@ -32,8 +32,8 @@ async def handler(req):
     }
 
     try:
-        if data["emergencynotice"]["news"]["messages"]:
-            for message in data["emergencynotice"]["news"]["messages"]:
+        if data["emergencynoticev2"]["news"]["messages"]:
+            for message in data["emergencynoticev2"]["news"]["messages"]:
                 response['data']['messages'].append({
                     'title': message['title'],
                     'body': message['body'],
@@ -42,10 +42,10 @@ async def handler(req):
         pass
 
     try:
-        if data["emergencynotice"]["news"]["region_messages"]:
-            for region in data["emergencynotice"]["news"]["region_messages"]:
+        if data["emergencynoticev2"]["news"]["region_messages"]:
+            for region in data["emergencynoticev2"]["news"]["region_messages"]:
                 response['data']['platform_messages'][region['region']] = []
-            for region_message in data["emergencynotice"]["news"]["region_messages"]:
+            for region_message in data["emergencynoticev2"]["news"]["region_messages"]:
                 response['data']['platform_messages'][region_message['region']].append({
                     'title': region_message['message']['title'],
                     'body': region_message['message']['body'],
@@ -57,11 +57,11 @@ async def handler(req):
         pass
 
     try:
-        if data["emergencynotice"]["news"]['platform_messages']:
-            for platform in data["emergencynotice"]["news"]['platform_messages']:
+        if data["emergencynoticev2"]["news"]['platform_messages']:
+            for platform in data["emergencynoticev2"]["news"]['platform_messages']:
                 response['data']['platform_messages'][platform['platform']] = []
 
-            for platform_message in data["emergencynotice"]["news"]['platform_messages']:
+            for platform_message in data["emergencynoticev2"]["news"]['platform_messages']:
                 response['data']['platform_messages'][platform_message['platform']].append({
                     'image': platform_message['message']['image'],
                     'tileImage': platform_message['message']['tileImage'],
