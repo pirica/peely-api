@@ -21,7 +21,7 @@ async def handler(req):
     daysgone = int((datetime.utcnow().timestamp()-dp.parse(seasonstart).timestamp())/86400)
     seasonlen= int((dp.parse(seasonend).timestamp()-dp.parse(seasonstart).timestamp())/86400)
 
-    finalim = Image.open("API/v1/br/progress/BarV2.png")
+    finalim = Image.open("API/v1/br/progress/FixedBar.png")
     im = Image.open('Cache/progress.png').convert('RGB')
     draw = ImageDraw.Draw(im)
 
