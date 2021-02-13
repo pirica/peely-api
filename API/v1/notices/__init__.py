@@ -26,6 +26,7 @@ async def handler(req):
         'message': 'Everything should work fine',
         'data': {
             'messages': [],
+            'messagesv2': [],
             'platform_messages': {},
             'region_messages': {}
         }
