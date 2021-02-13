@@ -45,7 +45,7 @@ async def handler(req):
     try:
         if data["battleroyalenewsv2"]["news"]["emergencynotices"]:
             for message in data["battleroyalenewsv2"]["news"]["emergencynotices"]:
-                response['data']['messagesv2'].append({
+                response['data']['messages'].append({
                     'title': message['title'],
                     'body': message['body'],
                 })
