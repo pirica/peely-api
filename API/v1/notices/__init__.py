@@ -42,6 +42,16 @@ async def handler(req):
         pass
 
     try:
+        if data["battleroyalenewsv2"]["news"]["emergencynotices"]:
+            for message in data["battleroyalenewsv2"]["news"]["emergencynotices"]:
+                response['data']['messagesv2'].append({
+                    'title': message['title'],
+                    'body': message['body'],
+                })
+    except:
+        pass
+    
+    try:
         if data["emergencynoticev2"]["news"]["region_messages"]:
             for region in data["emergencynoticev2"]["news"]["region_messages"]:
                 response['data']['platform_messages'][region['region']] = []
