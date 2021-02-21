@@ -8,8 +8,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 async def handler(req):
-    seasonstart="2020-12-01T08:00:00Z"
-    seasonend="2021-03-15T08:00:00Z"
+    seasonstart="2020-12-02T08:00:00Z"
+    seasonend="2021-03-16T08:00:00Z"
 
     daysgone = int((datetime.utcnow().timestamp()-dp.parse(seasonstart).timestamp())/86400)
     seasonlen= int((dp.parse(seasonend).timestamp()-dp.parse(seasonstart).timestamp())/86400)
