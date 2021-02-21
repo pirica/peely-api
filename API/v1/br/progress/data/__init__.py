@@ -8,7 +8,7 @@ import sanic.response
 async def handler(req):
 
     seasonstart="2020-12-02T08:00:00Z"
-    seasonend="2021-03-15T08:00:00Z"
+    seasonend="2021-03-16T08:00:00Z"
 
     response = {
         'status': 200,
